@@ -1,12 +1,7 @@
-/**
- * Site header
- */
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
   position: relative;
 }
 
@@ -100,11 +95,6 @@
   }
 }
 
-
-
-/**
- * Site footer
- */
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
@@ -166,15 +156,10 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
-
-
-/**
- * Page content
- */
 .page-content {
   padding: $spacing-unit 0;
 }
@@ -200,13 +185,9 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  margin-bottom: 3px;
 }
 
-
-
-/**
- * Posts
- */
 .post-header {
   margin-bottom: $spacing-unit;
 }
