@@ -17,6 +17,8 @@ What the engine does is it figures out in which square of the grid the player is
 
 ![image-title-here](/images/level1.gif){:class="img-responsive"} 
 
+s
+
 Now you might have noticed a few things. First, all the walls are vertical and at 90 degree angles. Second, there are no floors. Third, the player cannot look up or down. Number one is the consequence of the grid system in the above picture. The second and third points are actually quite interesting, and has to do with the technological limitations of the processor at the time. Doing mathematically correct perspective texture mapping would require two divides per pixel, so this would have been quite slow. However, vertical walls have a very interesting property — vertical lines on them are parallel to the screen, so you calculate where the texture starts and ends, and do linear interpolation in between (their Z coordinate is constant). This means, you just have to add a small delta for each pixel — no perspective correction needed.
 
 The enemies and objects are simply 2D pictures, called sprites.
