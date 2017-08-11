@@ -11,7 +11,7 @@ Another post from the “how it’s made” series. I chose to focus on Id Softw
 
 This game is considered by many the grand father of 3D shooters.
 
-<iframe width="700" height="400" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
+<iframe width="740" height="415" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
 
 The implementation is simple: the whole level is actually 2D, and it’s stored in a grid-like structure like this:
 
@@ -19,14 +19,14 @@ What the engine does is it figures out in which square of the grid the player is
 
 ![image-title-here](/images/level1.gif){:class="img-responsive"} 
 
-s
-
 Now you might have noticed a few things. First, all the walls are vertical and at 90 degree angles. Second, there are no floors. Third, the player cannot look up or down. Number one is the consequence of the grid system in the above picture. The second and third points are actually quite interesting, and has to do with the technological limitations of the processor at the time. Doing mathematically correct perspective texture mapping would require two divides per pixel, so this would have been quite slow. However, vertical walls have a very interesting property — vertical lines on them are parallel to the screen, so you calculate where the texture starts and ends, and do linear interpolation in between (their Z coordinate is constant). This means, you just have to add a small delta for each pixel — no perspective correction needed.
 
 The enemies and objects are simply 2D pictures, called sprites.
 
 ### Doom ###
 Now, Doom was really interesting when it came out. If you look at the game, it appears a lot more is happening than in Wolfenstein. You have floors, you have outdoor areas and you can see the sky. You have lighting, and the floors don’t even have to be at the same height — you can have stairs for example, and not just any stairs. You can have circular staircases, or odd angled staircases. It looks like a big step forward.
+
+<iframe width="740" height="415" src="https://www.youtube.com/embed/IhaNyOAjd2g" frameborder="0" allowfullscreen></iframe>
 
 Essentially, the maps in Doom are still 2D. They did away with the grid system however, and now the wall lines can be placed anywhere in space and at whatever angle to themselves. They still need to be vertical however, because of the same texture mapping limitation as in Wolf3D and also because the whole level is stored in 2D, not 3D. The map you just saw looks like this:
 
