@@ -10,6 +10,7 @@ Another post from the “how it’s made” series. I chose to focus on Id Softw
 ### Wolfenstein ###
 
 This game is considered by many the grand father of 3D shooters.
+because light exhibits all sorts of wave like effects such as interference etc. 
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
 
@@ -80,3 +81,4 @@ Texture mapping is also interesting. The rendering code is written in assembly a
 ![image-title-here](/images/quake2.png){:class="img-responsive"} 
 
 Unreal and Thief: The Dark Project also used BSP trees and precalculated lighting. Interestingly enough, Thief chose not to use a precalculated visibility solution, they actually saved the computed portals which were used real-time for determining what is visible and what is not. [Check it](http://nothings.org/gamedev/thief_rendering.html) out!
+
