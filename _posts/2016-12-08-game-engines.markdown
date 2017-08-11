@@ -11,7 +11,7 @@ Another post from the “how it’s made” series. I chose to focus on Id Softw
 
 This game is considered by many the grand father of 3D shooters.
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
+<iframe width="700" height="400" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
 
 The implementation is simple: the whole level is actually 2D, and it’s stored in a grid-like structure like this:
 
