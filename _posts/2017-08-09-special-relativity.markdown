@@ -28,7 +28,7 @@ And this is what the second observer sees, keeping in mind that light always mov
 
 To the first observer, the light bulbs appear to have been turned on at the same time. But to the second, it seems there is a delay. Simultaneity is relative! If the platform would have moved the other way, the order of events would have appeared to be different. At first look, it doesn't make sense, it doesn't seem logically consistent. So we have quite a bit of conudrum on our hands. Hendrick Lorentz tried to solve this inconsistency by postulating that moving objects contract slightly on their direction of movement and time slows down a little bit for them. No, it wasn't Einstein that came up with these!
 
-Here are the Lorentz transforms for space contraction and time dilation that we are so familiar with:
+Here are the Lorentz transforms for space contraction and time dilation that we are so familiar with.  Wikipedia has an extensive article on how to derive them, in case you are interested. 
 
 ![image-title-here](/images/lorentz.gif){:class="img-responsive"} 
 
