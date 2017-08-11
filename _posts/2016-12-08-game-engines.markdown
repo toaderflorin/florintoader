@@ -11,6 +11,8 @@ Another post from the “how it’s made” series. I chose to focus on Id Softw
 
 This game is considered by many the grand father of 3D shooters.
 
+<iframe width="800" height="450" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
+
 The implementation is simple: the whole level is actually 2D, and it’s stored in a grid-like structure like this:
 
 What the engine does is it figures out in which square of the grid the player is, and then for each vertical line on the screen, it traces a ray through this grid to see where it intersects something. So 320×200 screen resolution means 320 rays traced. When the ray hits a wall, it draws that section of the wall as a vertical line on the screen.
