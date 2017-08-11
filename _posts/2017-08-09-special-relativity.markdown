@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Special Relativity Explained To Really Dumb Dummies"
+title:  "Special Relativity Made REALLY Simple"
 description: "At the end of the 19th century, it was already known that light because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is an electromagnetic wave.
 "
 date:   2017-08-09 21:13:11 +0300
@@ -48,6 +48,8 @@ So acording to Einstein, time is just a position in a 4D space called Minkowski 
 ![image-title-here](/images/planes.png){:class="img-responsive"} 
 
 An observer's now would be just a slice in this simple 2D spacetime. But because observers moving at different speeds perceive different things to be simultaneous, what's in that slice differs based on the speed and the direction of the observer. The Lorentz transformations are just projections on various axes in this Minkowski spacetime. You can also see that the notion of one meter, or one second is meaningless because they are relative. Even the order of events which events happen is relative to the observer, so time the flow of time in the way we perceive it sort of an illusion. An interesting by product of this is that space time *just is*. Time is just a coordinate or position in space time. *Now* is not an absolute concept, it's just now *for me*, and just for this version of me who's 34 years and a couple of months old. For somebody else 5 years from now, *now" is different, because *now* is just a postion of spacetime.
+
+(We know for example that things in the future can affect things in the past, thanks to delayed choice quantum eraser experiments, but I'm not going to get into that here, because that's going to complicate things a great deal - so the concept of time is quite fuzzy)
 
 Is everything predestined?
 
