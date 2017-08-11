@@ -21,7 +21,7 @@ When light hits a wall, it is basically scattered in all directions, whereas whe
 
 Which means you get something like this:
 
-![image-title-here](/images/specular.png){:class="img-responsive"}  
+![image-title-here](/images/reflection.png){:class="img-responsive"}  
 
 Smooth objects reflect back in a small number of directions, whereas rough surfaces reflect back all over the place.
 
