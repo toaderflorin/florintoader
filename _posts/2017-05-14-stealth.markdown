@@ -17,15 +17,11 @@ Let’s first examine how different materials reflect light. A wall (for example
 
 ![image-title-here](/images/reflection1.gif){:class="img-responsive"}  
 
-When light hits a wall, it is basically scattered in all directions, whereas when light hit’s a mirror, it bounces off at the same angle it came in. And obviously, there are objects with intermediate roughness, which spread light, but only a little bit. 
-
-Which means you get something like this:
+When light hits a wall, it is basically scattered in all directions, whereas when light hit’s a mirror, it bounces off at the same angle it came in. And obviously, there are objects with intermediate roughness, which spread light, but only a little bit. Which means you get something like this:
 
 ![image-title-here](/images/reflection.png){:class="img-responsive"}  
 
-Smooth objects reflect back in a small number of directions, whereas rough surfaces reflect back all over the place.
-
-The roughness of the object surface determines how shiny or matte the object is. Shiny object appear darker, and they have bright spots where the angle of incoming light bounces off as such that it hits the camera or the eye of the observer, as you can see in this more extreme example.
+Smooth objects reflect back in a small number of directions, whereas rough surfaces reflect back all over the place. The roughness of the object surface determines how shiny or matte the object is. Shiny object appear darker, and they have bright spots where the angle of incoming light bounces off as such that it hits the camera or the eye of the observer, as you can see in this more extreme example.
 
 OK, enough for an introduction. In the case of radars, the emitter of “light” and the observer are the same. A typical radar would send a short pulse of electromagnetic energy (in the radio spectrum) in one direction of space, turn off the transmitter and “listen” for the incoming echo for a certain amount of time, and then rotate it’s antenna dish a little bit and scan in another direction, and so forth (modern aircraft usually use phased arrays to redirect the beam, not moving antennas, but that’s for another article). And here is the principle of stealth: if the object diffuses electromagnetic energy in all directions, there is a good chance that a portion of that will be emitted right back to the radar and be picked up.
 
