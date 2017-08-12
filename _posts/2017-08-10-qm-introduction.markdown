@@ -36,11 +36,11 @@ The phase refers to the angle of the segment and the amplitude refers to length 
 The amplitude of this wave (which is always a positive number) will give you the rough position of where the particle is located. 
 
 ### Heisenberg's Uncertainty Principle ###
-Here's an interesting by product of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (the first order derivative in relation to time and viceversa).
+Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (the first order derivative in relation to time) and viceversa.
 
 ![image-title-here](/images/schrodinger.png){:class="img-responsive"} 
 
-This can be easily derived out of the Schrödinger equation but I won't bother because nobody is going to read this. But it puts a limit on precisely we can measure the location and the speed of a particle at the same time:
+This can be easily derived out of the Schrödinger equation but I won't bother because nobody is going to read this. But it puts a limit on how precisely we can measure the location and the speed of a particle at the same time:
 
 ![image-title-here](/images/uncertainty.svg){:class="img-responsive"} 
 
