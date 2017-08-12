@@ -5,7 +5,7 @@ description: "When I was trying to learn guitar, the first thing that I learned 
 date: 2017-08-10 21:13:11 +0300
 categories: jekyll update
 ---
-The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time. I really hated writing this article because it's really dry and technical, but to get to the juicy and interesting stuff, you need a minimal understanding of some core concepts. I will probably end up refering back to it when I get to the cool and interesting concepts.
+The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time. I really hated writing this article because it's really dry and technical, but to get to the juicy and interesting stuff, you need a minimal understanding of some core concepts.
 
 ### The Double Split Experiment ###
 
