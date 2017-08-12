@@ -10,15 +10,15 @@ At the end of the 19th century, it was already known that light was a wave of *s
 
 ![image-title-here](/images/ether.png){:class="img-responsive"} 
 
-Michelson and Morley devised an interesting experiment where they tried to compare the speed of light in different (perpendicular) directions using a very sensitive interferometer, hoping they would find a difference that would allow them to infer Earth's speed. To their surprise, they found none. Surely the Earth couldn't have been stationary, mankind has given up on that idea a long time ago. Everybody was perplexed by the result, and try as they mind, they couldn't figure out what was wrong with the experiment.They improved the apparatus, but to no avail.
+Two scientists named Albert Michelson and Edward Morley devised an interesting experiment where they tried to compare the speed of light in different (perpendicular) directions using a very sensitive interferometer, hoping they would find a difference that would allow them to infer Earth's speed. To their surprise, they found none. Surely the Earth couldn't have been stationary, mankind has given up on that idea a long time ago. Everybody was perplexed by the result, and try as they mind, they couldn't figure out what was wrong with the experiment.They improved the apparatus, but to no avail.
 
-One person that wasn't surprised by the results of the experiment was Einstein. He was studying Maxwell's equations of electromagnetism and noticed something interesting - the speed which the electromagnetic wave propagates doesn't depend on the speed of the observer. Sure, an observer moving in the same of the direction of the lightbeam causes a shift in the observed frequency of the light (the waves appear compressed, this is called the Doppler shift), but not in the speed. Light can never stay still!
+One person that wasn't surprised by the results of the experiment was Einstein. He was studying Maxwell's equations of electromagnetism and noticed something interesting - the speed at which the electromagnetic wave propagates doesn't depend on the speed of the observer. Sure, an observer moving in the same of the direction of the lightbeam causes a shift in the observed frequency of the light (the waves appear compressed, this is called the Doppler shift), but not in the speed. Light can never stay still!
 
 *No matter how fast you are moving, even if you are moving at 99% the speed of light (in paralel to a beam), the wave still travels at 300 000 m/s as far as you're concerned.*
 
-Which is mind blowing. This is why special relativity is hard to comprehend for most people - one would assume that if you are travelling at 70% of the speed of something, you perceive the speed of that thing, whatever it might be to be 30% relative to you. This is how Newton described things, and this aproximation works at low speeds, say the speed of a rock or arrow flying towards you. Keep in mind that our brain evolved for millions of years to keep us alive (and the conditions back then were much different then they are now). This is why it's hard for you to picture what I'm talking about in your head, but trust me, you're not the only one. But let's not get side-tracked.
+Which is mind blowing. This is why special relativity is hard to comprehend for most people - one would assume that if you are travelling at 70% of the speed of some thing, you perceive the speed of that thing (whatever it might be) to be 30% relative to you. This is how Newton described things, and this aproximation works very well at low speeds, say the speed of a rock or arrow flying towards you. Keep in  however that our brain evolved for millions of years to keep us alive (and the conditions back then were much different then they are now), not to comprehend quantum mechanics or high energy physics. This is why it's hard for you to picture what I'm talking about in your head, but trust me, you're not the only one. But let's not get side-tracked.
 
-To figure out of the implications of a constant speed of light, Einstein came up with the following thought experiment: Imagine a moving platform. One observer is staying in on top of the platform, and the other one is standing on the side. Two light bulbs on the side on switch on. This is what the first observer sees: 
+To figure out of the implications of a constant speed of light, Einstein came up with the following thought experiment: Imagine a moving platform, and two (human or otherwise) observers. One observer is standing on the platform itself, and the other one is standing on the side. Two light bulbs on the side on switch on. This is what the first observer sees: 
 
 <img src="/images/simultaneity1.gif" width="650">
 
@@ -41,7 +41,7 @@ I will explain what that means in a minute, but first, think about this: in spac
 
 ![image-title-here](/images/up.jpg){:class="img-responsive"} 
 
-So acording to Einstein, time is just a position in a 4D space called Minkowski space. Here's what a Minkowski space with one time dimension and one spatial dimension would look like:
+So acording to Einstein, time is just a direction in a 4D spacetime (called Minkowski space). Here's what such a space with one time dimension and one spatial dimension would look like:
 
 ![image-title-here](/images/planes.png){:class="img-responsive"} 
 
