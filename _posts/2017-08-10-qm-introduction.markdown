@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Boring Introduction To Quantum Mechanics"
+title:  "Quantum Mechanics 101"
 description: "When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale..."
 date: 2017-08-10 21:13:11 +0300
 categories: jekyll update
