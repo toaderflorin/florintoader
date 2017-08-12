@@ -11,6 +11,8 @@ The thing people find most confusing about quantum mechanics is the *wave-partic
 
  To showcase wave particle duality, let's look at the double split experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Everytime a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
 
+ Watch the following animation:
+
 <iframe width="740" height="415" src="https://www.youtube.com/embed/Xmq_FJd1oUQ" frameborder="0" allowfullscreen></iframe>
 
 If electrons were like little balls, you'd expect to see to clumps of points. What you see instead is an interference pattern made out of individual points, like this:
