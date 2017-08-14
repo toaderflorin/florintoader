@@ -11,7 +11,7 @@ That guy was Einstein.
 
 ### A Different Point Of View ###
 
-But other people came with different ideas. There was Hugh Everett with his multi-world interpretation, and there was Bohm, with his *pilot have theory*, which I find especially interesting. He realized that he could come up with a non-random theory in which a wave of *potential* moves the particle along. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. 
+But other people came with different ideas. There was Hugh Everett with his [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation), and there was Bohm with his [*pilot have theory*](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory), which I find especially interesting. He realized that he could come up with a non-random theory in which a wave of *potential* moves the particle along. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. 
 
 The trajectories you get are something like this which are perfectly consistent with experiment:
 
