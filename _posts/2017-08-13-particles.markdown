@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Doing Away With The Copenhagen Interpretation Of QM"
-description: "The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time..."
+description: "'Opinions are like assholes, everybody's got on' a wise man once said. That wise man was Larry Flint, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos."
 date: 2017-08-10 21:13:11 +0300
 categories: jekyll update
 ---
@@ -31,9 +31,7 @@ What is interesting about the walking droplets experiment is that the particle d
 
 **DISCLAIMER:** this is a personal interpretation, but it is mathematically equivalent with the formalism of standard quantum mechanics.
 
-Let's first look at a couple of concepts. We know each particle type in our universe has a coresponding antiparticle - the antiparticle of the electron is the positron. Obviously, it goes both ways - the electron is the antiparticle of the electron (by the way, the antiparticle of the up quark is not the down quark, because the up quark has +2/3 electric charge, and the down quark has -1/3 electric charge. It's actually the anti-up quark). Because the photon doesn't have electric charge, the antiparticle of a photon is still a high energy gamma ray (photon).
-
-We know that when a particle colides with it's antiparticle, both of them annihilate and they produce energy in the form of a high energy gamma rays. But since our universe has a law called **T-symmetry** or *time reversal symmetry*, a gamma ray can also spontaneously split into an electron-positron pair, as seen in this Feynmann diagram:
+Let's first look at a couple of concepts. We know each particle type in our universe has a coresponding antiparticle - the antiparticle of the electron is the positron. Obviously, it goes both ways - the electron is the antiparticle of the electron (by the way, the antiparticle of the up quark is not the down quark, because the up quark has +2/3 electric charge, and the down quark has -1/3 electric charge. It's actually the anti-up quark). Because the photon doesn't have electric charge, the photon is it's own antiparticle. We also know that when a particle colides with it's antiparticle, both of them annihilate and they produce energy in the form of a high energy gamma rays. But since our universe has a law called **T-symmetry** or *time reversal symmetry*, the reverse is also true so a gamma ray can also spontaneously split into an electron-positron pair, as seen in this Feynmann diagram:
 
 ![image-title-here](/images/diagram.jpg){:class="img-responsive"} 
 
