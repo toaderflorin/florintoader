@@ -4,7 +4,7 @@ title:  "Special Relativity Made REALLY Simple"
 description: "At the end of the 19th century, it was already known that light because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is an electromagnetic wave...
 "
 date:   2017-08-09 21:13:11 +0300
-categories: jekyll update
+categories: science
 ---
 At the end of the 19th century, it was already known that light was a wave of *something* because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is electromagnetic in nature - according to his equations, a variable magnetic field generates a variable electric field and vice-versa. 
 
