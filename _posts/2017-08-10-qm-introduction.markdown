@@ -7,6 +7,8 @@ categories: jekyll update
 ---
 The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time. I really hated writing this article because it's really dry and technical, but to get to the juicy and interesting stuff, you need a minimal understanding of some core concepts.
 
+So let's jump right in.
+
 ### The Double Split Experiment ###
 
  To showcase wave particle duality, let's look at the double split experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Everytime a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
@@ -19,9 +21,9 @@ If electrons were like little balls, you'd expect to see to clumps of points. Wh
 
 ![image-title-here](/images/buildup.png){:class="img-responsive"} 
 
-The reason this is strange is because we are sending electrons through **one by one**. So what exactly interferes with what? Is half of the electron going through one slit and half of it through the other? 
+The reason this is **extremely strange** is because we are sending electrons through **one by one**. So what exactly interferes with what? Is half of the electron going through one slit and half of it through the other? 
 
-*Moreover, if we place a detector at one of the slits, the interference pattern is doing to dissappear! Really weird stuff!*
+*Moreover, if we place a detector at one of the slits, the interference pattern is doing to dissappear! It's really weird!*
 
 According to the Copenhagen interpretation of quantum mechanics, we can never deterministially predict what a particle will do, we can only predict the probability of it doing something in the form of a *wave spreading through space*. For the mathematically minded, we're talking about a field of complex numbers that permeates all space. This means we have a *phase* and an *amplitude* for each point in space. Here's what a complex number looks like:
 
@@ -36,11 +38,11 @@ The phase refers to the angle of the segment and the amplitude refers to length 
 The amplitude of this wave (which is always a positive number) will give you the rough position of where the particle is located. 
 
 ### Heisenberg's Uncertainty Principle ###
-Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (the first order derivative in relation to time) and viceversa.
+Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (which is the first order derivative of the wavefunction in relation to time) and viceversa.
 
 ![image-title-here](/images/schrodinger.png){:class="img-responsive"} 
 
-This can be easily derived out of the Schrödinger equation but I won't bother because nobody is going to read this. But it puts a limit on how precisely we can measure the location and the speed of a particle at the same time:
+This can be easily derived out of the Schrödinger equation (but I will leave it out for the sake of simplicity). But it puts a limit on how precisely we can measure the location and the speed of a particle at the same time:
 
 ![image-title-here](/images/uncertainty.svg){:class="img-responsive"} 
 
