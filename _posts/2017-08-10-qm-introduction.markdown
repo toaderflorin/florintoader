@@ -25,7 +25,7 @@ The reason this is **extremely strange** is because we are sending electrons thr
 
 *Moreover, if we place a detector at one of the slits, the interference pattern is doing to dissappear! It's really weird!*
 
-According to the Copenhagen interpretation of quantum mechanics, we can never deterministially predict what a particle will do, we can only predict the probability of it doing something in the form of a *wave spreading through space*. For the mathematically minded, we're talking about a field of complex numbers that permeates all space. This means we have a *phase* and an *amplitude* for each point in space. Here's what a complex number looks like:
+According to the Copenhagen interpretation of quantum mechanics, we can never deterministically predict what a particle will do, we can only predict the probability of it doing something in the form of a *probability wave spreading through space*. For the mathematically minded, we're talking about a field of complex numbers that permeates all space. This means we have a *phase* and an *amplitude* for each point in space. Here's what a complex number looks like:
 
 ![image-title-here](/images/complex.png){:class="img-responsive"} 
  
