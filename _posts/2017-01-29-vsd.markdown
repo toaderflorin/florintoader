@@ -2,7 +2,7 @@
 layout: post
 title:  "How Games Figure Out What's Visible In A Level"
 date:   2017-01-29 21:13:11 +0300
-description: "In my previous game related article, I went a bit over the history of id software games spanning from Wolfenstein to Quake and I explained how the tech handles things such as occlusion culling (determining which parts of the level are visible from the player’s point of view), and how lighting works.
+description: "In my previous game related article, I went a bit over the history of id software games spanning from Wolfenstein to Quake and I explained how the tech handles things such as occlusion culling (determining which parts of the level are visible from the player’s point of view), and how lighting works...
 "
 categories: jekyll update
 ---
