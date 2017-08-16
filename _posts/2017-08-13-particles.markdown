@@ -2,7 +2,7 @@
 layout: post
 title:  "Doing Away With The Copenhagen Interpretation Of QM"
 description: "'Opinions are like assholes, everybody's got one' a wise man once said. That wise man was Larry Flint, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos."
-date: 2017-08-10 21:13:11 +0300
+date: 2017-08-13 21:13:11 +0300
 categories: jekyll update
 ---
 *"Opinions are like assholes, everybody's got one"* a wise man once said. That wise man was Larry Flint, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos. When Bohr and Heisenberg were working on quantum mechanics at the beginning of the 20th century, they weren't content on just creating a mathematical framework for making predictions, they also claimed that things in quantum mechanics are inherently **random**, not just that we are unable to calculate things. In doing so, they were butting heads with another smart guy, who unsurprisingly also had a big ego, and who famously exclaimed *"God doesn't play dice!"*. 
