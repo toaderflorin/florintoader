@@ -6,9 +6,9 @@ description: "At the end of the 19th century, it was already known that light be
 date:   2017-08-09 21:13:11 +0300
 categories: jekyll update
 ---
-At the end of the 19th century, it was already known that light was a wave of *something* because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is electromagnetic in nature. 
+At the end of the 19th century, it was already known that light was a wave of *something* because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is electromagnetic in nature - according to his equations, a variable magnetic field generates a variable electric field and vice-versa. 
 
-According to his equations, a variable magnetic field generates a variable electric field and vice-versa, so you get something like this propagating through space:
+Which means you get something like this propagating through space:
 
 ![image-title-here](/images/light.png){:class="img-responsive"} 
 
