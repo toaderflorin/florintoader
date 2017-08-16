@@ -2,7 +2,7 @@
 layout: post
 title:  "Jet Engines Explained"
 date:   2017-06-11 21:13:11 +0300
-categories: jekyll update
+categories: tech
 description: "The way a jet works is not that different from how a deflating balloon works: high pressure gas exits a small hole, and propels the balloon. The energy propelling the balloon actually comes the work we put in inflating the balloon...
 "
 ---
