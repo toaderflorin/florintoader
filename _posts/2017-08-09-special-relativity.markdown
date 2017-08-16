@@ -55,7 +55,7 @@ So acording to Einstein, time is just a direction in a 4D spacetime (called Mink
 
 An observer's *NOW* would be just a slice in this 2D spacetime. But because observers moving at different speeds perceive different things to be simultaneous, what's in that slice differs based on the speed and the direction of the observer, instead of being all horizontal. The Lorentz transformations are just projections on various axes in this Minkowski spacetime. You can also see that the notion of one meter, or one second is meaningless because they are relative. Even the order of events which events happen is relative to the observer, so time the flow of time in the way we perceive it sort of an illusion. An interesting by product of this is that space time *just is*. Time is just a coordinate or position in space time. *Now* is not an absolute concept, it's just now *for me*, and just for this version of me who's 34 years and a couple of months old. For somebody else 5 years from now, *now* is different.
 
-The Lorentz transformations are a byproduct of *rotating the camera* (if you will) in this 4D space.
+The Lorentz transformations are a byproduct of *rotating the camera* (if you will) in this 4D space. The changes in time and distance length just the projections on the new axes in the new frame of reference.
 
 (We know for example that things in the future can affect things in the past, thanks to delayed choice quantum eraser experiments, but I'm not going to get into that here, because that's going to complicate things a great deal - so the concept of time is quite fuzzy)
 
