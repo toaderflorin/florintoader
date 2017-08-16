@@ -3,7 +3,7 @@ layout: post
 title:  "Quantum Mechanics 101"
 description: "The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time..."
 date: 2017-08-10 21:13:11 +0300
-categories: jekyll update
+categories: science
 ---
 The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time. I really hated writing this article because it's really dry and technical, but to get to the juicy and interesting stuff, you need a minimal understanding of some core concepts.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How Aircraft Stealth Works"
 date:   2017-05-14 21:13:11 +0300
-categories: jekyll update
+categories: technology
 description: "A common misconception is that stealth aircraft are invisible to radar. They are not, they simply have a reduced cross section. Just consider this: you have to be much closer to a coin then you have to be to a mountain in order to see it, so what low observability does is it gives airplanes first hit advantage...
 "
 ---
