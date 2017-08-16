@@ -29,7 +29,7 @@ According to the Copenhagen interpretation of quantum mechanics, we can never de
 
 ![image-title-here](/images/complex.png){:class="img-responsive"} 
  
-*i is the square root of -1, and y is the imaginary part of the complex number. The reason is called imaginary is because there obviously isn't any real number that multiplied with itself gives us -1.*
+*i is the square root of -1, and y is the imaginary part of the complex number. The reason it is called imaginary is because there obviously isn't any real number that multiplied with itself gives us -1.*
 
 The phase refers to the angle of the segment and the amplitude refers to length of the segment. The phase is what allows us to achieve constructive / destructive interference effects. The probability of a particle being in a specific area is given by the integral of the amplitude of the field over that specific area. The Schrödinger equation tells us how this *wave of probability* evolves in time. The wave of a particle propagating through space would look something like this:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Doing Away With The Copenhagen Interpretation Of QM"
-description: "The thing people find most confusing about quantum mechanics is the *wave-particle duality*, namely how the individual blocks of matter can be waves and particles at the same time..."
+description: "'Opinions are like assholes, everybody's got one' a wise man once said. That wise man was Larry Flint, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos."
 date: 2017-08-10 21:13:11 +0300
 categories: jekyll update
 ---
@@ -11,7 +11,7 @@ That guy was Einstein.
 
 ### A Different Point Of View ###
 
-But other people came with different ideas. There was Hugh Everett with his [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation), and there was Bohm with his [*pilot have theory*](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory), which I find especially interesting. He realized that he could come up with a non-random theory in which a wave of *potential* moves the particle along. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. 
+But it turns out that there are alternative ways of thinking about this so other people came with different ideas. There was Hugh Everett with his [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation), and there was Bohm with his [*pilot have theory*](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory), which I find especially interesting. He realized that he could come up with a non-random theory in which a wave of *potential* moves the particle along. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. 
 
 The trajectories you get are something like this which are perfectly consistent with experiment:
 
@@ -31,9 +31,7 @@ What is interesting about the walking droplets experiment is that the particle d
 
 **DISCLAIMER:** this is a personal interpretation, but it is mathematically equivalent with the formalism of standard quantum mechanics.
 
-Let's first look at a couple of concepts. We know each particle type in our universe has a coresponding antiparticle - the antiparticle of the electron is the positron. Obviously, it goes both ways - the electron is the antiparticle of the electron (by the way, the antiparticle of the up quark is not the down quark, because the up quark has +2/3 electric charge, and the down quark has -1/3 electric charge. It's actually the anti-up quark). Because the photon doesn't have electric charge, the antiparticle of a photon is still a high energy gamma ray (photon).
-
-We know that when a particle colides with it's antiparticle, both of them annihilate and they produce energy in the form of a high energy gamma rays. But since our universe has a law called **T-symmetry** or *time reversal symmetry*, a gamma ray can also spontaneously split into an electron-positron pair, as seen in this Feynmann diagram:
+Let's first look at a couple of concepts. We know each particle type in our universe has a coresponding antiparticle - the antiparticle of the electron is the positron. Obviously, it goes both ways - the electron is the antiparticle of the electron (by the way, the antiparticle of the up quark is not the down quark, because the up quark has +2/3 electric charge, and the down quark has -1/3 electric charge. It's actually the anti-up quark). Because the photon doesn't have electric charge, the photon is it's own antiparticle. We also know that when a particle colides with it's antiparticle, both of them annihilate and they produce energy in the form of a high energy gamma rays. But since our universe has a law called **T-symmetry** or *time reversal symmetry*, the reverse is also true so a gamma ray can also spontaneously split into an electron-positron pair, as seen in this Feynmann diagram:
 
 ![image-title-here](/images/diagram.jpg){:class="img-responsive"} 
 
@@ -78,6 +76,6 @@ Like you can see in the the first ever photo of a hydrogen atom, whohoo!
 
 ![image-title-here](/images/hydrogen.jpg){:class="img-responsive"} 
 
-An orbital is *not the trajectory of a single electron* around the nucleus of an atom, it's a regin of space where the number of electrons is exctly one more when compared to the number of positrons. It's simply the area where the wave in our field around the positively reinforces. The other fluctuations cancel each other out so we don't see them! So why is there one and only electron difference in that area of space? Awesome question. Because electrons are both negatively charged, they repel each other - so you are never going to have to waves of fermions on top of each other adding up constructively, like you can with photons. This is the Pauli exclusion principle, check [it out](https://en.wikipedia.org/wiki/Pauli_exclusion_principle). 
+An orbital is *not the trajectory of a single electron* around the nucleus of an atom, it's a region of space where the number of electrons is exctly one more when compared to the number of positrons. It's simply the area where the wave in our field around the positively reinforces. The other fluctuations cancel each other out so we don't see them! So why is there one and only electron difference in that area of space? Awesome question. Because electrons are both negatively charged, they repel each other - so you are never going to have to waves of fermions on top of each other adding up constructively, like you can with photons. This is the Pauli exclusion principle, check [it out](https://en.wikipedia.org/wiki/Pauli_exclusion_principle). 
 
 How do electrons repel? By exchanging photos - to be more precise by creating ripples in the photon field which couples with the electron field, but that's for another article.
