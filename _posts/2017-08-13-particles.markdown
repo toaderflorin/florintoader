@@ -56,9 +56,9 @@ And this just goes on and on, and we get a bunch of [virtual particles](https://
 
 But here's the deal: our universe is not empty, *it has a slight assymetry of matter over antimatter*. So let's add an electron to our field, and impart it some momentum. Instead of a bazzilion electrons and a bazzilion positrons, we are going to have a bazzilion + 1 one electron and a bazzilion positrons. Here's what's going to happen: our electron is going to bump into a positron, and it's going to annihilate, leaving an unpaired electron which is going to fly off in some direction. This new electron will fly of in some other direction and bump into another positron etc. 
 
-What you get is something like this:
+What you get is something like [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle):
 
-![image-title-here](/images/newton.jpg){:class="img-responsive"} 
+![image-title-here](/images/newton.gif){:class="img-responsive"} 
 
 which is pretty much equivalent to the propagation of the wave function from the previous article:
 
