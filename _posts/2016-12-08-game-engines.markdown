@@ -10,7 +10,6 @@ Another post from the “how it’s made” series. I chose to focus on Id Softw
 ### Wolfenstein ###
 
 This game is considered by many the grand father of 3D shooters.
-because light exhibits all sorts of wave like effects such as interference etc. 
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/561sPCk6ByE" frameborder="0" allowfullscreen></iframe>
 
