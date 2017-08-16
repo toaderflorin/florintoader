@@ -6,11 +6,17 @@ description: "At the end of the 19th century, it was already known that light be
 date:   2017-08-09 21:13:11 +0300
 categories: jekyll update
 ---
-At the end of the 19th century, it was already known that light was a wave of *something* because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is electromagnetic in nature. So if light was a wave, it must propagate through a medium - the scientists at the time postulated that there is something called an ether that permeates all space. It was also known that not only the Earth moves around the Sun, but also the Sun moves around the center of the galaxy and so forth, so they wanted to figure out what's the absolute speed of our planet / solar system in relation to this ether which was thought to be stationary and would provide a cosmic reference frame. 
+At the end of the 19th century, it was already known that light was a wave of *something* because it exhibits all sorts of wave like effects such as interference etc. and Maxwell already showed that light is electromagnetic in nature. According to his equations, a variable magnetic field generates a variable electric field and vice-versa, so you get something like this propagating through space:
+
+![image-title-here](/images/light.png){:class="img-responsive"} 
+
+If you calculate the speed at which this wave propagates, voila, it's aproximately 300 000 m/s, which *coincidentaly* was also the speed that was measured for light. So light is an electromagnetic wave. And if light is a wave, it must propagate through a medium - the scientists at the time postulated that there is something called an ether that permeates all space. It was also known that not only the Earth moves around the Sun, but also the Sun moves around the center of the galaxy and so forth, so they wanted to figure out what's the absolute speed of our planet / solar system in relation to this ether which was thought to be stationary and would provide a cosmic reference frame. 
 
 ![image-title-here](/images/ether.png){:class="img-responsive"} 
 
-Two scientists named Albert Michelson and Edward Morley devised an interesting experiment where they tried to compare the speed of light in different (perpendicular) directions using a very sensitive interferometer, hoping they would find a difference that would allow them to infer Earth's speed. To their surprise, they found none. Surely the Earth couldn't have been stationary, mankind has given up on that idea a long time ago. Everybody was perplexed by the result, and try as they mind, they couldn't figure out what was wrong with the experiment.They improved the apparatus, but to no avail.
+Two scientists named Albert Michelson and Edward Morley devised an interesting experiment where they tried to compare the speed of light in different (perpendicular) directions using a very sensitive interferometer, hoping they would find a difference that would allow them to infer Earth's speed. To their surprise, they found none. Surely the Earth couldn't have been stationary, mankind has given up on that idea a long time ago. Everybody was perplexed by the result, and try as they mind, they couldn't figure out what was wrong with the experiment. 
+
+They improved the apparatus, but to no avail.
 
 One person that wasn't surprised by the results of the experiment was Einstein. He was studying Maxwell's equations of electromagnetism and noticed something interesting - the speed at which the electromagnetic wave propagates doesn't depend on the speed of the observer. Sure, an observer moving in the same of the direction of the lightbeam causes a shift in the observed frequency of the light (the waves appear compressed, this is called the Doppler shift), but not in the speed. Light can never stay still!
 
