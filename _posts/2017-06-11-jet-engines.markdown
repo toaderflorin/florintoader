@@ -24,15 +24,12 @@ So you have to use a compressor. Turns out, it’s not very hard to build a jet 
 So here it is:
 
 1. The intake of the engine consists of a series of fans which squeeze incoming air into smaller and smaller spaces. This compresses the air, makes it hot, and slows it down.
-
 2. The compressed air is then combined with fuel, which burns and produces hot high pressure gas (exhaust).
-
 3. The exhaust spools up a turbine which is placed on the same shaft the compressor fans are, which in turn drives the compressor (this is where the turbo in turbojet comes from).
 
 Now here’s an interesting thing: when the aircraft is stationary, the compressor fans are not spinning, so they are not injecting compressed air in the burn chamber. So how do you start a jet engine up, considering jet engines are too big to be started by an electric motor.?
 
 1. Newer jets have APUs (auxiliary power units, used for powering the cabin and such), which help jump start the compressor. The APU is actually also a jet engine, but a smaller one, small enough to be jump started by an electric motor.
-
 2. Alternatively, compressed air can be injected into the engine on the tarmac, which will spool up the turbine and spin up the compressor blades.
 
 Next, let’s look at some interesting considerations. The amount of thrust an airplane produces is usually limited by the amount of air the plane can ingest. The bigger the engine intake, the bigger the thrust, but also the less aerodynamic the aircraft. The faster the engine spins, the more air the intake gobbles up, but also the bigger the air resistance for the blades cutting through the air and the louder the engine.
