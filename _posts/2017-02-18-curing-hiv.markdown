@@ -2,7 +2,7 @@
 layout: post
 title:  "Why It's So Hard To Cure HIV"
 date:   2017-02-18 21:13:11 +0300
-categories: science
+categories:
 description: "It’s always a joy to have a conversation with people who think that AIDS was created by the CIA, and the reason we don’t have a cure is because it’s all a big government conspiracy — you can make fun of them and feel extra smart. But seriously, why is AIDS so hard to cure?
 "
 ---
