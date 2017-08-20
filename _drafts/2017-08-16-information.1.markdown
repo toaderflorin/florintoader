@@ -17,3 +17,6 @@ If you guessed the one on the left, you were correct. Please note I am not talki
 ## A Primer On Entropy ##
 When scientists were trying to figure out what heat is, they initially envisioned it as some sort of fluid that can flow between warm objects (possesing this fluid) and cold objects , or warm parts of an object to cooler parts until the "pressure" of this fluid equilizez. Eventually they settled upon the idea that heat is actually an internal jittering motion of the constituents of matter.
 
+![image-title-here](/images/thermal.gif){:class="img-responsive"} 
+
+This concept is important because not only movement can be transformed to heat (say by friction) but also the reverse is true, which constitutes the fundamental principle of the internal combustion engine. So naturally, scientists were trying,

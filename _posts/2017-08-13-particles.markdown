@@ -44,7 +44,7 @@ The void actually looks something like this:
 From a distance, this image just looks gray, and this is why we perceive space as being "empty". Instead of a bubbling soup of particles, antiparticles and photons, we see... well, just *nothingness*. How do we know empty space is not empty? First, there's the [Casimir effect](https://en.wikipedia.org/wiki/Casimir_effect), just put to plates close to one another and they will be pushed together because of the pressure of this "empty" space. Then there's [dark energy](https://en.wikipedia.org/wiki/Dark_energy), which permeates all space and pushes our universe apart in an accelerated fashion.
 
 ### A Toy Universe ###
-Let's create a toy universe consisting of just first generation leptopns (electrons and positrons) and energy (photons). We'll leave out the extra junk for now, like second and third generation particles like the moun and tau, the neutrinos, and all baryonic matter (the three quark generations). 
+Let's create a toy universe consisting of just first generation leptopns (electrons and positrons) and energy (photons). We'll leave out the extra junk for now, like second and third generation particles like the muon and tau, the neutrinos, and all baryonic matter (the three quark generations). 
 
 A bunch of stuff happens:
 
