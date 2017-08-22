@@ -29,8 +29,6 @@ It's really mind blowing! Not only do these walking droplets reproduce interfere
 
 What is interesting about the walking droplets experiment is that the particle doesn't need to be in two places at the same time as the standard formalism of QM would have you believe. It's almost that we can get just a little bit of sanity back into the field of fundamental physics. But we can go even further.
 
-**DISCLAIMER:** this is a personal interpretation, but it is mathematically equivalent with the formalism of standard quantum mechanics.
-
 Let's first look at a couple of concepts. We know each particle type in our universe has a coresponding antiparticle - the antiparticle of the electron is the positron. Obviously, it goes both ways - the antiparticle of the positron is the electron (by the way, the antiparticle of the up quark is not the down quark, because the up quark has +2/3 electric charge, and the down quark has -1/3 electric charge. It's actually the anti-up quark). Because the photon doesn't have electric charge, the photon is it's own antiparticle. We also know that when a particle colides with it's antiparticle, both of them annihilate and they produce energy in the form of a high energy gamma rays. But since our universe has a law called **T-symmetry** or *time reversal symmetry*, the reverse is also true so a gamma ray can also spontaneously split into an electron-positron pair, as seen in this Feynmann diagram:
 
 ![image-title-here](/images/diagram.jpg){:class="img-responsive"} 
@@ -44,7 +42,7 @@ The void actually looks something like this:
 From a distance, this image just looks gray, and this is why we perceive space as being "empty". Instead of a bubbling soup of particles, antiparticles and photons, we see... well, just *nothingness*. How do we know empty space is not empty? First, there's the [Casimir effect](https://en.wikipedia.org/wiki/Casimir_effect), just put to plates close to one another and they will be pushed together because of the pressure of this "empty" space. Then there's [dark energy](https://en.wikipedia.org/wiki/Dark_energy), which permeates all space and pushes our universe apart in an accelerated fashion.
 
 ### A Toy Universe ###
-Let's create a toy universe consisting of just first generation leptopns (electrons and positrons) and energy (photons). We'll leave out the extra junk for now, like second and third generation particles like the moun and tau, the neutrinos, and all baryonic matter (the three quark generations). 
+Let's create a toy universe consisting of just first generation leptopns (electrons and positrons) and energy (photons). We'll leave out the extra junk for now, like second and third generation particles like the muon and tau, the neutrinos, and all baryonic matter (the three quark generations). 
 
 A bunch of stuff happens:
 
