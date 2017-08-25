@@ -19,7 +19,7 @@ Looking closely at the demo, I think it boils down to three things:
 ### The Standard Shadow Algorithm ###
 The simplest shadowing algorithm in 3D graphics works like this: to see if light hits a certain point in space or not, you trace a line from that point to the location of the light and see if it intersects anything. If it does, the point is shadowed, if not, it is lit. The way you actually implement this in real time on the GPU, is by rendering how the light “sees” the scene in all six directions (up, down, left, right, front, behind) and create a cube map. The cube map contains the distance from the light source to the nearest occluder.
 
-When rendering the scene, for each pixel, you check against the depth map. Based on the position of the point you are rendering, you calculate the angle with the light source, and based on that you get the face in the cube and the u and v coordinates for that direction. If your point equals the distance in the depth map (use a small bias here, there might be numerical errors), it means your object is the occluder for that direction, and it is lit. If the distance is bigger, it means there’s something else closer to the light, so this area is in shadow.
+When rendering the scene, for each pixel of a particular polygon, you check against the depth map. Based on the position of the point you are rendering, you calculate the angle with the light source and you get the corresponding cube face and the *u* and *v* coordinates for that direction. If your point's distance to the light source equals the distance in the depth map (use a small bias here, there might be numerical errors), it means your object is the occluder for that direction, and it is lit. If the distance is bigger, it means there’s something else closer to the light, so this area is in shadow.
 
 ![image-title-here](/images/lighting1.jpg){:class="img-responsive"} 
 
@@ -47,7 +47,7 @@ What are signed distance fields? To answer that, let’s explain what a distance
 
 <script src="https://gist.github.com/toaderflorin/efe0081985123837ac7244815341650e.js"></script>
 
-Obviously, for complex objects, the distance functions are complicated, and they usually involve taking each polygon into account, so they are time consuming to calculate. This is why for a complex polygon mesh, the distance function is pre-calculated and saved into a three dimensional (volume) texture. Valve recently created a cool paper describing how to do this in two dimensions for text. Epic is doing the same thing in three dimensions. [Check it out](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf) if you are interested in the details.
+Obviously, for complex objects the distance functions are complicated and they usually involve taking each polygon into account, so they are time consuming to calculate. This is why for a complex polygon mesh, the distance function is pre-calculated and saved into a three dimensional (volume) texture. Valve recently created a cool paper describing how to do this in two dimensions for text. Epic is doing the same thing in three dimensions. [Check it out](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf) if you are interested in the details.
 
 UE actually allows visualizing the distance fields in a level. This is pretty cool.
 
