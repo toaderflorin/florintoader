@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Behind The Magic: Realistic In-Game Shadows"
-description: "'Opinions are like assholes, everybody's got one' a wise man once said. That wise man was Larry Flint, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos."
+description: "Lately, I’ve been fascinated by just how realistic environments the Unreal Engine can create. I mean, compared to Unity, it seems surreal. Or unreal, if you will. Looking closely at the demo, I think it boils down to three things..."
 date: 2017-08-24 21:13:11 +0300
 categories: science
 ---
