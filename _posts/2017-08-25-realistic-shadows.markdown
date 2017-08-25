@@ -58,11 +58,9 @@ This is another interesting concept, and it’s not really that new. The algorit
 As you can see from the Nvidia article, there are many applications for ray-marching. Epic is also using this approach for ambient occlusion, and working on a global illumination algorithm based on them.
 
 ### Back To Lighting ###
-How can this be applied to lighting? In the pixel shader, you start from the position of the pixel in 3D space and then trace your way towards the light source. If you hit something, obviously the point you are rendering is in shadow.
+How can this be applied to lighting? In the pixel shader, you start from the position of the pixel in 3D space and then trace your way towards the light source. If you hit something, obviously the point you are rendering is in shadow. 
 
-But here’s where it gets interesting. Because you are tracing your ray along a path, you know when you are getting close to other objects that might be partially occluding your light. The closer the traced ray comes to an object, the darker the shadow. This is not necessarily physically accurate, but provides a nice approximation.
-
-If there are multiple objects in the way affecting the shadow, we pick the closest. We use this to calculate an shadowing coefficient, like so:
+But here’s where it gets interesting. Because you are tracing your ray along a path, you know when you are getting close to other objects that might be partially occluding your light. The closer the traced ray comes to an object, the darker the shadow. This is not necessarily physically accurate, but provides a nice approximation. If there are multiple objects in the way affecting the shadow, we pick the closest. We use this to calculate an shadowing coefficient, like so:
 
 <script src="https://gist.github.com/toaderflorin/2e341d9b52d084926fea20df353a64a9.js"></script>
 
