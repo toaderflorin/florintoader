@@ -11,7 +11,9 @@ When I was trying to learn guitar, the first thing that I learned was the scales
 
 So what is a “note”?
 
-Sound is just a vibration of air that hits our ear. When you throw a pebble in a pond, you get ripples across the surface of the water — that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates -it bounces back like the waves that hit the edge of a pool. That’s echo. So when you pluck a guitar string, it’s like throwing a stone in a pool, the waves go in all directions, until they hit the wall of the pool, then bounce back. When the wave bounces back, it bounces back in counter phase and the back and forth motion cancels its effect. The only waves that “survive” and provide a sizable contribution to the sound, are the ones that have a wave length that fits exactly inside the length of the string. A standing wave looks like this:
+Sound is just a vibration of air that hits our ear. When you throw a pebble in a pond, you get ripples across the surface of the water — that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates -it bounces back like the waves that hit the edge of a pool. That’s echo. So when you pluck a guitar string, it’s like throwing a stone in a pool, the waves go in all directions, until they hit the wall of the pool, then bounce back. When the wave bounces back, it bounces back in counter phase and the back and forth motion cancels its effect. The only waves that “survive” and provide a sizable contribution to the sound, are the ones that have a wave length that fits exactly inside the length of the string.
+
+A standing wave looks like this:
 
 ![image-title-here](/images/standing-wave.gif){:class="img-responsive"} 
 
