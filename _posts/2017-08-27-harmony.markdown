@@ -11,7 +11,15 @@ When I was trying to learn guitar, the first thing that I learned was the scales
 
 So what is a “note”?
 
-Sound is just a vibration of air that hits our ear. When you throw a pebble in a pond, you get ripples across the surface of the water — that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates -it bounces back like the waves that hit the edge of a pool. That’s echo. So when you pluck a guitar string, it’s like throwing a stone in a pool, the waves go in all directions, until they hit the wall of the pool, then bounce back. When the wave bounces back, it bounces back in counter phase and the back and forth motion cancels its effect. The only waves that “survive” and provide a sizable contribution to the sound, are the ones that have a wave length that fits exactly inside the length of the string. So you don’t hear just one sound, you hear more — these are called harmonics. When you play an A4 note on the piano, you don’t just hear a 440Hz sound, you also hear a fainter 880Hz, an even fainter 1320Hz etc.
+Sound is just a vibration of air that hits our ear. When you throw a pebble in a pond, you get ripples across the surface of the water — that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates -it bounces back like the waves that hit the edge of a pool. That’s echo. So when you pluck a guitar string, it’s like throwing a stone in a pool, the waves go in all directions, until they hit the wall of the pool, then bounce back. When the wave bounces back, it bounces back in counter phase and the back and forth motion cancels its effect. The only waves that “survive” and provide a sizable contribution to the sound, are the ones that have a wave length that fits exactly inside the length of the string. 
+
+A standing wave looks like this:
+
+![image-title-here](/images/standing-wave.gif){:class="img-responsive"} 
+
+So you don’t hear just one sound, you hear more — these are called harmonics. When you play an A4 note on the piano, you don’t just hear a 440Hz sound, you also hear a fainter 880Hz, an even fainter 1320Hz etc.
+
+![image-title-here](/images/harmonics.png){:class="img-responsive"} 
 
 When playing two notes at the same time, the more harmonics they share, the more consonant they sound. And the simpler the ratio of the base frequencies, the more harmonics are shared. And what’s the simplest ratio possible? It’s 2/1. This is the most fundamental interval in music, the octave.
 A4 decomposed yields 440Hz, 880Hz, 1320Hz, 1760Hz etc. A5 yields 880Hz, 1760Hz etc. As you can see, A4 fully contains A5 in it’s harmonic composition. They are so consonant, that they have been give the same name — A (or La)! Another simple ratio is 3/2. This interval is called a perfect fifth. In fact, this interval is so common, it’s the staple of rock music — it’s made out of just two notes — a root note and a note that’s 3/2 higher in frequency. This relationship also yields the circle of fifths.
