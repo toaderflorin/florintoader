@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Harmony And Physics"
+description: "When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale..."
+date:   2017-08-27 11:13:11 +0300
+categories: jekyll update
+---
+When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale. When I learned it, what struck me is how strange it looks when played on a guitar string. You can fret anywhere, so why is the distance between all notes 2 frets, except between B and C, and E and F? What is so special about those notes, only those notes? You can also see it on the piano, there isn’t a black key between those notes, so that got me thinking — I had to investigate it.
+
+![image-title-here](/images/piano.jpg){:class="img-responsive"} 
+
+So what is a “note”?
+
+Sound is just a vibration of air that hits our ear. When you throw a pebble in a pond, you get ripples across the surface of the water — that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates -it bounces back like the waves that hit the edge of a pool. That’s echo. So when you pluck a guitar string, it’s like throwing a stone in a pool, the waves go in all directions, until they hit the wall of the pool, then bounce back. When the wave bounces back, it bounces back in counter phase and the back and forth motion cancels its effect. The only waves that “survive” and provide a sizable contribution to the sound, are the ones that have a wave length that fits exactly inside the length of the string. So you don’t hear just one sound, you hear more — these are called harmonics. When you play an A4 note on the piano, you don’t just hear a 440Hz sound, you also hear a fainter 880Hz, an even fainter 1320Hz etc.
+
+When playing two notes at the same time, the more harmonics they share, the more consonant they sound. And the simpler the ratio of the base frequencies, the more harmonics are shared. And what’s the simplest ratio possible? It’s 2/1. This is the most fundamental interval in music, the octave.
+A4 decomposed yields 440Hz, 880Hz, 1320Hz, 1760Hz etc. A5 yields 880Hz, 1760Hz etc. As you can see, A4 fully contains A5 in it’s harmonic composition. They are so consonant, that they have been give the same name — A (or La)! Another simple ratio is 3/2. This interval is called a perfect fifth. In fact, this interval is so common, it’s the staple of rock music — it’s made out of just two notes — a root note and a note that’s 3/2 higher in frequency. This relationship also yields the circle of fifths.
+
+![image-title-here](/images/fifths.jpeg){:class="img-responsive"} 
+
+We can also think of other ratios like 4/3 — this is called the perfect fourth. Or 5/4, the major third etc. Ptolemy, being a pretty smart guy, had this idea of building a harp and chose a simple approach: start with one string of any length, doesn’t matter what length. Then add additional strings to that, the condition being these additional strings have to have those simple ratios we mentioned in terms of length. Your harp will have the following strings:
+
+1. A first string of any length. This is a C, the root note, or the key
+2. Second string will be 9/8 in length of the first. We now call this a D.
+3. Third will be 5/4. This is now a E.
+4. Fourth will be 4/3 of the first. An F.
+5. Fifth will be be 3/2 of the first. An G.
+6. Sixth will be 5/3 of the first. An A.
+7. Seventh will be 15/8. A B.
+8. Eight will be 2/1. Again, a C, one octave higher.
+
+Hmm, not a lot of notes. So maybe we can extend this harp. Let’s add another octave, using the same ratios, but now using the last string as the new root. And if we want another octave, we can do it again. The name of this tuning approach (using perfect ratios) is called just temperament. Of course the ratios can vary slightly, but the approach is the same. There are various problems and artifacts with this approach such as the wolf interval but I won’t get into them.
+
+Another smart guy (named Beethoven) noticed a major problem. He said: “hey, if all the notes are ratios of the root note (the key), it means the key you’re playing in is pre-built into the instrument. If we have instruments with different keys, we cannot play together”. So he set to develop another system, which is what is being used in the western world today. His idea was to divide each octave (the fundamental interval in music) into 12 equal sub-intervals, which we call a semitone. Each semitone is 1.059463094 greater in pitch than the previous. You guessed it — that’s 2 raised to the power 1/12. Because the semitones are equally spaced, we can transpose the same song up or down. You can play a solo in A minor on the 5th fret on the guitar, or in E minor on the 12th. The ratios between them are preserved if you move up or down. So why the two holes in the piano keyboard? Turns out that the best approximation of Ptolemy’s scale using Beethoven’s system is to use 2–2–1–2–2–2–1 intervals, which means there will be one space there (were you just have one semitone). This is called a diatonic scale.
+
+You can have standing waves in more than one dimension. If you strike a circular drum membrane, you get nxn combinations of multiples of standing waves because there are two dimensions.
+
+![image-title-here](/images/drum_modes.gif){:class="img-responsive"} 
+
+Which gives us vibrations that look like this:
+
+![image-title-here](/images/mode22.gif){:class="img-responsive"} 
+
+So what does this have to do with physics? Waves, and especially stationary waves appear everywhere. One of the places where they appear is the shapes electrons orbit around the nucleus, the difference here being the 2D surface actually wraps around the nucleus of the atom.
+
+![image-title-here](/images/orbitals.png){:class="img-responsive"}
+
+String theory is built on a similar idea: strings (or membranes, depending on the theory) of energy vibrate and the harmonics of the different vibration modes represent different particles. 
+
+But that's for another article. 
