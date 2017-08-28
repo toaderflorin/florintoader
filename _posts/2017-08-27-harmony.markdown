@@ -41,7 +41,7 @@ Hmm, not a lot of notes. So maybe we can extend this harp. Let’s add another o
 
 Another smart guy (named Beethoven) noticed a major problem. He said: “hey, if all the notes are ratios of the root note (the key), it means the key you’re playing in is pre-built into the instrument. If we have instruments with different keys, we cannot play together”. So he set to develop another system, which is what is being used in the western world today. His idea was to divide each octave (the fundamental interval in music) into 12 equal sub-intervals, which we call a semitone. Each semitone is 1.059463094 greater in pitch than the previous. You guessed it — that’s 2 raised to the power 1/12. Because the semitones are equally spaced, we can transpose the same song up or down. You can play a solo in A minor on the 5th fret on the guitar, or in E minor on the 12th. The ratios between them are preserved if you move up or down. So why the two holes in the piano keyboard? Turns out that the best approximation of Ptolemy’s scale using Beethoven’s system is to use 2–2–1–2–2–2–1 intervals, which means there will be one space there (were you just have one semitone). This is called a diatonic scale.
 
-You can have standing waves in more than one dimension. If you strike a circular drum membrane, you get nxn combinations of multiples of standing waves because there are two dimensions.
+You can have standing waves in more than one dimension. If you strike a circular drum membrane, for example, you get n x n combinations of multiples of standing waves because there are two dimensions.
 
 ![image-title-here](/images/drum_modes.gif){:class="img-responsive"} 
 
