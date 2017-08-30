@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "Symmmetries ARE The Laws Of Physics"
-description: "When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale..."
+title:  "God's Not An Accountant"
+description: "The normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. One example of this is particles going through small potential barriers without having the energy to do so, like in this example..."
 date: 2017-08-30-energy 11:13:11 +0300
 categories: jekyll update
 ---
-The normal rules of physics don't apply to the quantum world, but I guess you already knew that. One example of this is particles going through small potential barriers without having the energy to do so, like in this example. 
+More like a reckless dice player instead, but let's not get ahead of ourselves. You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. One example of this is particles going through small potential barriers without having the energy to do so, like in this example. 
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-The wave function of the particle hitting the obstacle looks like this:
+The wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
-As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. But what would you say if I would tell you that there isn’t such a thing as energy conservation? Actually, energy isn’t a real physical thing, it’s a mathematical gimmick. It's actually a byproduct of the *T  symmetry* of the laws of physics; we'll get to that in a bit.
+Particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets the particles do and don't do. But what would you say if I would tell you that there isn’t such a thing as energy conservation? 
 
-### A Primer On Calculus ###
-Here’s the deal: when Newton figured out the moon orbiting around the Earth, and objects falling on Earth have the same cause, he didn’t have a computer to do computations with, so he invented calculus — which is just derivatives and integrals.
+### Just What Is Energy? First, A Primer On Calculus... ###
+When Newton figured out the moon orbiting around the Earth, and objects falling on Earth have the same cause, he didn’t have a computer to do computations with, so he invented calculus — which is just derivatives and integrals.
 
 ![image-title-here](/images/derint.gif){:class="img-responsive"} 
 
@@ -27,8 +27,13 @@ Integrals are an analytical way of summing stuff up. Derivatives give you the va
 
 2. Alternatively, you can get the position of the object at any time, if you know the speed at all times, by integrating or summing up the speed.
 
-So if you are trying to figure out what objects are doing, you are going to work a lot with functions and their derivatives and integrals — this is just basic calculus. Let’s consider a specific problem: throwing a rock into the air at a specific angle. Now, there’s a number of questions we could ask: where is the rock at moment t, how high will the rock get into the air, how far away from the thrower will the rock land etc. At the end of the day, we can ask time dependent questions or time-independent questions and we get the answer to time-independent questions by integrating time-dependent physical laws in relation to time (see lagrangian mechanics versus hamiltonian mechanics). 
+Let’s consider a specific problem: throwing a rock into the air at a specific angle. Now, there’s a number of questions we could ask: where is the rock at moment t, how high will the rock get into the air, how far away from the thrower will the rock land etc. 
 
+![image-title-here](/images/trajectory.png){:class="img-responsive"} 
+
+At the end of the day, we can ask time dependent questions or time-independent questions and we get the answer to time-independent questions by integrating time-dependent physical laws in relation to time (see lagrangian mechanics versus hamiltonian mechanics). 
+
+Actually energy isn’t a real physical thing, it’s a mathematical gimmick, a concept invented by us humans.
 
 ### God's Not Up There Counting ###
 
@@ -83,13 +88,15 @@ By looking at the [Euler-Lagrange equation](https://en.wikipedia.org/wiki/Euler%
 
 But there's also a slew of other very interesting symmetries. *T Symmetry* or *time reversal symmetry*, for example, says that if we flip the direction of the arrow of time, we get the same laws, which is really interesting because time seems to be flowing forward, we seem to be getting irreversibly old etc. (but this is for another article). *C Symmetry* or *charge conjugation* tells us that if we flip the sign of the charge of something around, it doesn't make any difference. Indeed, if our world would be made out of anti-particles instead of particles, we wouldn't notice any difference — keep in mind that the electro-weak interaction violates C symmetry, but that's a more advanced topic. *P Symmetry*, *parity*  or mirror symmetry is the property of a system that says it's laws don't change if we flip the sign of a spatial coordinate. Weak interactions also violate this symmetry.
 
-You can also combine these symmetries — for example CP symmetry refers to *both* C symmetry and parity in conjunction, which means that reversing that charge of the particles and mirroring the system spatially should give us the same thing. This was introduced because the weak interaction violated both C and P symmetries, but it turns out that it also [violates CP symmetry](https://en.wikipedia.org/wiki/CP_violation). What is needed to describe the weak force is [CPT symmetry](https://en.wikipedia.org/wiki/CPT_symmetryx): you get this by also adding T symmetry to the mix.
+You can also combine these symmetries — for example CP symmetry refers to *both* C symmetry and parity in conjunction, which means that reversing that charge of the particles and mirroring the system spatially should give us a system indistinguishable from the original. This was introduced because the weak interaction violated both C and P symmetries, but it turns out that it also [violates CP symmetry](https://en.wikipedia.org/wiki/CP_violation). What is needed to describe the weak force is [CPT symmetry](https://en.wikipedia.org/wiki/CPT_symmetryx): you get this by also adding T symmetry to the mix.
 
 So how do we know which interactions obey what symmetries and which not, if everything is so random in quantum mechanics? The same way we would find out if a coin is biased or not. But instead of tossing the coin a gazzilion time and counting the results, we smash things at high speeds a gazzilion times, we sift through the debris and we plot the results on curves and see what comes out.
 
 ![image-title-here](/images/correlationp.png){:class="img-responsive"} 
 
-Now the million dollar question is *if the universe started from a single symmetric point, where does all this variance and uninformity we see in the world around us come from?* 
+So far so good.
+
+Now the million dollar question is *if the universe started from a single symmetric point, and the laws are so symmetric, where does all this variance and uninformity we see in the world around us come from?* 
 
 Stay tuned.
 
