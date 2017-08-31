@@ -10,7 +10,7 @@ You see, the normal rules of physics don't apply to the quantum world, but if yo
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in this example. The wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
+One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
@@ -37,7 +37,7 @@ There’s a number of questions we could ask, for example:
 
 2. How high will the rock get into the air, how far away from the thrower will the rock land? etc. These are *time independent* questions.
 
-And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Of course they didn't have computers back in the day, like I said, so they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltionian gives us the *total energy* of a system.
+And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Of courseBut since they didn't have computers back in the day, like I said, they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltionian gives us the *total energy* of a system.
 
 *Energy is just a mathematical gimmick, it’s not a real physical thing. It’s simply a sum. For example, kinetic energy is the integral of momentum.*
 
