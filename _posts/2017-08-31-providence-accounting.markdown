@@ -91,7 +91,7 @@ So how do we know which interactions obey what symmetries and which not, if ever
 
 So far so good.
 
-Now the million dollar question is *if the universe started from a single symmetric point, and the laws are so symmetric, where does all this variance and uniformity we see in the world around us come from?* 
+Now the 6.4 billion dollar question is *if the universe started from a single symmetric point, and the laws are so symmetric, where does all this variance and uniformity we see in the world around us come from?* 
 
 Stay tuned.
 
