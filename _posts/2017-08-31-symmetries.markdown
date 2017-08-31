@@ -10,7 +10,7 @@ You see, the normal rules of physics don't apply to the quantum world, but if yo
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in this example. The wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
+One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
