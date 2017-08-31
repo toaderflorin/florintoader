@@ -33,7 +33,7 @@ Let’s consider a specific problem: throwing a rock into the air at a specific 
 
 There’s a number of questions we could ask, for example: 
 
-1. Where is the rock and/or what speed it has at moment **t**? These are *time dependent* question.
+1. Where is the rock and/or what speed it has at moment **t**? These are *time dependent* questions.
 
 2. How high will the rock get into the air, how far away from the thrower will the rock land? etc. These are *time independent* questions.
 
