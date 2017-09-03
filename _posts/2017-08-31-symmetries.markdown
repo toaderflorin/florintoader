@@ -5,16 +5,16 @@ description: "The normal rules of physics don't apply to the quantum world, but 
 date: 2017-08-31-energy 10:13:11 +0300
 categories: jekyll update
 ---
-You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that.
+You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. And for a lot of people (like myself), that actually the appeal of it.
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in this example. The wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
+One example of QM weirdness is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
-It seems that the particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets them do and don't do. But what would you say if I would tell you that there isn’t such a thing as fundamental law in nature saying that energy in system must be conserved? 
+It seems that the particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets them do and don't do. But what would you say if I told you that there isn’t such a thing as fundamental law in nature saying that energy in system must be conserved? 
 
 ### Just What Is Energy? First, A Teensy Bit Of Calculus... ###
 When Newton figured out the moon orbiting around the Earth, and objects falling on Earth have the same cause, he didn’t have a computer to do computations with, so he invented calculus — which is just derivatives and integrals.
@@ -37,7 +37,7 @@ There’s a number of questions we could ask, for example:
 
 2. How high will the rock get into the air, how far away from the thrower will the rock land? etc. These are *time independent* questions.
 
-And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Of course they didn't have computers back in the day, like I said, so they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltionian gives us the *total energy* of a system.
+And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Of courseBut since they didn't have computers back in the day, like I said, they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltonian operator gives us the *total energy* of a system.
 
 *Energy is just a mathematical gimmick, it’s not a real physical thing. It’s simply a sum. For example, kinetic energy is the integral of momentum.*
 
