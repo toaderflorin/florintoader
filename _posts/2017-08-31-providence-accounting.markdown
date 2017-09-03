@@ -55,7 +55,7 @@ That’s interesting and **very weird**, but it turns out there would be a way t
 
 So what does this have to do with the real world? First, we know that particles are stable ripples in quantum fields. Second, we know that “empty space” is not empty, it’s full of virtual particles — things like quarks, electrons, neutrinos with variable masses, electromagnetic and color (see quantum chromodynamics) charges pop in and out of existence all the time as quantum fluctuations, which violate energy conservation laws. But because they violate symmetries like the law of conservation of energy, these ripples are not stable and the more they violate it the more unstable they are and the faster they disappear, just like in the above example the bigger the asymmetry of the coin, the faster the game is over. 
 
-*Energy conservation is only a law, because we can't see the stuff that doesn't obey it. It's nothing more than a statistical effect.*
+*Energy conservation is only a law because we can't see the stuff that doesn't obey it. It's nothing more than a statistical effect.*
 
 ![image-title-here](/images/foam.jpeg){:class="img-responsive"} 
 
