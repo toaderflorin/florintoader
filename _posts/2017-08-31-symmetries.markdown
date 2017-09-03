@@ -5,12 +5,12 @@ description: "The normal rules of physics don't apply to the quantum world, but 
 date: 2017-08-31-energy 10:13:11 +0300
 categories: jekyll update
 ---
-You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that.
+You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. And for a lot of people (like myself), that actually the appeal of it.
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-One example of this is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
+One example of QM weirdness is *quantum tunneling*, the propery of particles being able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
@@ -55,7 +55,7 @@ That’s interesting and **very weird**, but it turns out there would be a way t
 
 So what does this have to do with the real world? First, we know that particles are stable ripples in quantum fields. Second, we know that “empty space” is not empty, it’s full of virtual particles — things like quarks, electrons, neutrinos with variable masses, electromagnetic and color (see quantum chromodynamics) charges pop in and out of existence all the time as quantum fluctuations, which violate energy conservation laws. But because they violate symmetries like the law of conservation of energy, these ripples are not stable and the more they violate it the more unstable they are and the faster they disappear, just like in the above example the bigger the asymmetry of the coin, the faster the game is over. 
 
-*Energy conservation is only a law, because we can't see the stuff that doesn't obey it. It's nothing more than a statistical effect.*
+*Energy conservation is only a law because we can't see the stuff that doesn't obey it. It's nothing more than a statistical effect.*
 
 ![image-title-here](/images/foam.jpeg){:class="img-responsive"} 
 
