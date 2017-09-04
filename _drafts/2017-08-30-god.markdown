@@ -5,13 +5,7 @@ description: "When I was trying to learn guitar, the first thing that I learned 
 date: 2017-08-30-energy 11:13:11 +0300
 categories: jekyll update
 ---
-Here's an interesting conundrum: *if there wasn't any time and any matter before the Big Bang what exactly banged and what exactly caused this bang?* But this question is not new. People have been asking this question for eons in a rather different form: *Why is there something rather than nothing, and why is it that what it is is the way it is and not different?*
-
-![image-title-here](/images/god.jpg){:class="img-responsive"} 
-
-In the past, that question was answered simply by postulating God created us. And I am sure there were a lot of smart people that assumed that if that's true, who or what created God. *Does God have a God? And If so, who created God's God?*
-
-But of course, they we're not allowed to ask that question, and least not publicly.
+Here's an interesting conundrum: *if there wasn't any time and any matter before the Big Bang what exactly banged and what exactly caused this bang?* But this question is not new. People have been asking this question for eons in a rather different form: *Why is there something rather than nothing, and why is it that what it is is the way it is and not different?* In the past, that question was answered simply by postulating God created us. And I am sure there were a lot of smart people that assumed that if that's true, who or what created God. *Does God have a God? And If so, who created God's God?* But of course, they we're not allowed to ask that question, and least not publicly.
 
 ### Turtles All The Way Down? ###
 
@@ -21,5 +15,6 @@ Einstein famously said that one cannot solve a problem thinking on the same leve
 
 ![image-title-here](/images/turtles.jpg){:class="img-responsive"} 
 
-And so on. You see, this line of thinking isn't getting us anywhere.
+And so on. You see, this line of thinking isn't getting us anywhere, because if things need reasons to exist, **nothing** would exist. Also the notion of *reason* works within the context of time, but then how do you explain the concept of time (as a side note, the concept of time as well ast space seems *to emerge* from entanglement relations between particles, but that's a subject for another article)?
 
+I've wrote at length here that there is no cosmic God (or whatever) that watches about laws like [conservation of energy being enforced](), and that these kind of conservation laws are more a requirement for something to be stable long enough for us to observe it.
