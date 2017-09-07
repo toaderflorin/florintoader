@@ -5,7 +5,7 @@ description: "The normal rules of physics don't apply to the quantum world, but 
 date: 2017-08-31-energy 10:13:11 +0300
 categories: jekyll update
 ---
-You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. And for a lot of people (like myself), that actually the appeal of it.
+You see, the normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. And for a lot of people (like myself), that's actually the appeal of it.
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
