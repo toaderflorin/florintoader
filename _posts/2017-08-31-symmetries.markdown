@@ -14,7 +14,7 @@ One example of QM weirdness is *quantum tunneling*, the propery of particles bei
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
-It seems that the particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets them do and don't do. But what would you say if I told you that there isn’t such a thing as fundamental law in nature saying that energy in system must be conserved? 
+It seems that the particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets them do and don't do. But what would you say if I told you that there isn’t such a thing as a fundamental law in nature saying that energy in system must be conserved? 
 
 ### Just What Is Energy? First, A Teensy Bit Of Calculus... ###
 When Newton figured out the moon orbiting around the Earth, and objects falling on Earth have the same cause, he didn’t have a computer to do computations with, so he invented calculus — which is just derivatives and integrals.
