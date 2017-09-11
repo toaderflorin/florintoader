@@ -12,8 +12,8 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  margin-top: 300px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  margin-top: 370px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
   &, &:visited {
     color: white;
   }
@@ -162,6 +162,7 @@
 
 .page-content {
   padding: $spacing-unit 0;
+  padding-top: 45px;
 }
 
 .page-heading {

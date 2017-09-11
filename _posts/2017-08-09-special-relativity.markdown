@@ -10,7 +10,7 @@ At the end of the 19th century, it was already known that light was a wave of *s
 
 Which means you get something like this propagating through space:
 
-![image-title-here](/images/light.png){:class="img-responsive"} 
+![image-title-here](/images/circular-light.gif){:class="img-responsive"} 
 
 If you calculate the speed at which this wave propagates, voila, it's aproximately 300 000 m/s, which *coincidentaly* was also the speed that was measured for light. So light is an electromagnetic wave. And if light is a wave, it must propagate through a medium - the scientists at the time postulated that there is something called an ether that permeates all space. It was also known that not only the Earth moves around the Sun, but also the Sun moves around the center of the galaxy and so forth, so they wanted to figure out what's the absolute speed of our planet / solar system in relation to this ether which was thought to be stationary and would provide a cosmic reference frame. 
 
