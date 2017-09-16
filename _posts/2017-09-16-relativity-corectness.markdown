@@ -4,7 +4,7 @@ title:  "If Einstein Wasn't Right, You Wouldn't Be Here Right Now"
 description: "
 I've given a brief introduction to Einstein's Secial Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same speed regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
 "
-date: 2017-09-15 10:13:11 +0300
+date: 2017-09-16 10:13:11 +0300
 ---
 I've given a brief introduction to Einstein's Special Theory of Relativity [here](http://florintoader.net/special-relativity) and to the concept of [Lorentz invariance](https://en.wikipedia.org/wiki/Lorentz_covariance) (the actual technical term is *covariance*, but most scientists seem to use "invariance"), which is the property of the speed of light to have the same speed regardless of the speed of the observer.
 
