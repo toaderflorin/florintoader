@@ -1,7 +1,6 @@
 .site-header {
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-  position: relative;
 }
 
 
@@ -13,7 +12,7 @@
   margin-bottom: 0;
   float: left;
   margin-top: 340px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   &, &:visited {
     color: white;
   }
@@ -163,6 +162,8 @@
 .page-content {
   padding: $spacing-unit 0;
   padding-top: 45px;
+  z-index: 10000;
+  box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.12);
 }
 
 .page-heading {
