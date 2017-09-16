@@ -48,7 +48,7 @@ But then people started playing around with the two and they found something int
 
 *A coil is an electromagnet. But it will stop being one the moment we stop running current through it.*
 
-Hmm, weird... So a moving electric charge produces a magnetic field, but a stationary charge doesn't. A stationary charge does have an electric field though. Maxwell looked did a bunch of experiments and figured out that a variable electric field generates a variable magnetic field and *viceversa*. Which means they propagate through space like a ripple and must be in some ways related:
+Hmm, weird... So a moving electric charge produces a magnetic field, but a stationary charge doesn't. A stationary charge does have an electric field though. Maxwell did a bunch of experiments and figured out that a variable electric field generates a variable magnetic field and *viceversa*. Which means they propagate through space like a ripple and must be in some ways related:
 
 ![image-title-here](/images/em-wave.gif){:class="img-responsive"}
 
