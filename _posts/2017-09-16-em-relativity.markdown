@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "If Einstein Wasn't Right, You Wouldn't Be Reading This Now"
+title:  "If Einstein Wasn't Right, You Wouldn't Be Reading This Right Now"
 description: "
 I've given a brief introduction to Einstein's Secial Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same value regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
 "
