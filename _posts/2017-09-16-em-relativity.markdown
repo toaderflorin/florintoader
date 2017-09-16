@@ -25,7 +25,7 @@ Or is it? Let's strap a camera GoPro on the ball and look at things from its poi
 
 So we have two frames of reference:
 
-1. frame A where the ball is moving, the wire is stationary (so the protons are stationary) and the electrons are moving.
+1. frame A where the ball is moving, the wire is stationary (so the protons in the nuclei are stationary) and the electrons are moving.
 
 2. frame B (the ball's frame), where the ball is stationary, the and the electric current seems to be moving in the other direction. In this frame, the electrons are stationary, and the protons are moving the other way.
 
