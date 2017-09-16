@@ -31,7 +31,7 @@ So we have two frames of reference:
 
 If we look at the two frames of reference from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net elecric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
 
-Here's a quick refresher of relativity before Einstein:
+Here's a quick refresher of relativity before Einstein. This might be apochryphal, but apparently Galileo dropped a rock while on a moving boat and the rock kept moving forward with the boat after he let go of it. That's called *inertia*, by the way.
 
 ![image-title-here](/images/galileo.png){:class="img-responsive"}
 
