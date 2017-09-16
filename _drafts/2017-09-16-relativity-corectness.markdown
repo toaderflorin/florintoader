@@ -61,11 +61,11 @@ Which might leave you scratching your head a little bit: *well there surely isn'
 The answer is quite simple, in a magnetic material, the chemical structure makes it so that the spins of the electrons are aligned. Since each electron behaves like a little magnet, all these effects add up and become detectable at big scales.
 
 ### One More Thing...
-You might be wondering: *why is the wire neutral in it's own frame of reference but not in the frame of the electrons?* 
+You might be wondering: *why is the wire neutral in its own frame of reference but not in the frame of the electrons?* 
 
 In other words, why is that frame of reference special? Actually the answer is simple: for the same reason the Earth moves around the Sun and not viceversa. Let me explain: when we think of moving object, we think of their position as the position of their center of mass. For example, we equate the position of our solar system in the galaxy to position of the Sun, because it's so much bigger than everything else and contains most of the mass. 
 
-Well, it's the same with matter, most of it's mass comes from the nucleus.
+Well, it's the same with matter, most of its mass comes from the nucleus.
 
 ![image-title-here](/images/solar-system.jpg){:class="img-responsive"}
 
