@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "If Einstein Wasn't Right, You Wouldn't Be Here Right Now"
+title:  "If Einstein Wasn't Right, You Wouldn't Be Here Reading This Now"
 description: "
 I've given a brief introduction to Einstein's Secial Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same speed regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
 "
@@ -21,7 +21,7 @@ The electrons are moving at a speed, say *v* (which is much smaller than the spe
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire.*
 
-Or is it? Let's "strap a camera" on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
+Or is it? Let's strap a camera GoPro on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
 
 So we have two frames of reference:
 
@@ -42,7 +42,7 @@ Now let's test Einstein's hypothesis that space contracts for moving objects. In
 ### The Unification Of Electric And Magnetic Forces
 Before Maxwell and Einstein came along, people knew there were aware there are magnetic phenomena (like magnets attracting/repelling each other) and electric phenomena like lightning and electricty (which was thought to be some kind of fluid) where opposite charges attract and same charges repel, but they were thought to be totally unrelated things.
 
-But then people started playing around with the two and they found something interesting. If you run current through a wire, it actually starts to behave like a magnet, and it will interact with other magnets or with feromagnetic materials such as iron.
+But then people started playing around with the two and they found something interesting. If you run current through a wire, it actually starts to behave like a magnet, and it will interact with other magnets or with ferromagnetic materials such as iron.
 
 ![image-title-here](/images/electromagnet.jpg){:class="img-responsive"}
 
