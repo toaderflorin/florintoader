@@ -19,7 +19,7 @@ Okay, enough for an introduction, let's get our hands dirty. Imagine an electric
 
 The electrons are moving at a speed, say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be affected by the field and it will be repelled if the charge of the particle is positive, or attracted if it's negative.
 
-*Hmm, that's weird. The number of electrons and the number of protons is the same in the wire.*
+*Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge of the wire is the same, regardless if the particle is moving or not.*
 
 Or is it? Let's strap a camera GoPro on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
 
