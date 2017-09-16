@@ -42,7 +42,7 @@ Now let's test Einstein's hypothesis that space contracts for moving objects. In
 ### The Unification Of Electric And Magnetic Forces
 Before Maxwell and Einstein came along, people knew there were aware there are magnetic phenomena (like magnets attracting/repelling each other) and electric phenomena like lightning and electricty (which was thought to be some kind of fluid) where opposite charges attract and same charges repel, but they were thought to be totally unrelated things.
 
-But then people started playing around with the two and they found something interesting. If you run current through a wire, it actually starts to behave like a magnet, and it will interact with other magnets or with feromagnetic materials such as iron.
+But then people started playing around with the two and they found something interesting. If you run current through a wire, it actually starts to behave like a magnet, and it will interact with other magnets or with ferromagnetic materials such as iron.
 
 ![image-title-here](/images/electromagnet.jpg){:class="img-responsive"}
 
