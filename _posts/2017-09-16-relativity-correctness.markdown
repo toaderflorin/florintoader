@@ -21,7 +21,7 @@ The electrons are moving at a speed, say *v* (which is much smaller than the spe
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire.*
 
-Or is it? Let's "strap a camera" on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
+Or is it? Let's strap a camera GoPro on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
 
 So we have two frames of reference:
 
