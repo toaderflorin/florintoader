@@ -66,10 +66,10 @@ So what exactly does this have to do with the walking droplets experiment? The s
 
 *You can never detect absolutes, you detect only differences between values.*
 
-You detect the speed of an object in relation to the speed of another object. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we just perceive the stable ripples in the fields, like you can see in the the first ever photo of a hydrogen atom, woohoo!
+You detect the speed of an object in relation to the speed of another object. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we perceive only the stable ripples in the fields, like you can see in the the first ever photo of a hydrogen atom (woohoo!):
 
 ![image-title-here](/images/hydrogen.jpg){:class="img-responsive"} 
 
 An orbital is *not the trajectory of a single electron* around the nucleus of an atom, it's a region of space where the number of electrons is exactly one more when compared to the number of positrons. It's simply the area where the wave in our field around the positively reinforces. The other fluctuations cancel each other out so we don't see them! So why is there one and only electron difference in that area of space? Awesome question. Because electrons are both negatively charged, they repel each other - so you are never going to have to waves of fermions on top of each other adding up constructively, like you can with photons. This is the Pauli exclusion principle, check [it out](https://en.wikipedia.org/wiki/Pauli_exclusion_principle). 
 
-How do electrons repel? By exchanging photos - to be more precise by creating ripples in the photon field which couples with the electron field, but that's for another article.
+How do electrons repel? By exchanging photos - to be more precise, by creating ripples in the photon field which couples with the electron field, but that's for another article.
