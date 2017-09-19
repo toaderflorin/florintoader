@@ -1,19 +1,17 @@
 ---
 layout: post
 title:  "The Quantum World Might Not Be That Crazy After All"
-description: "'Opinions are like assholes, everybody's got one' a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos."
+description: "<i>Opinions are like assholes, everybody's got one</i> a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... you see, smart people have egos."
 date: 2017-08-13 21:13:11 +0300
 categories:
 ---
-*"Opinions are like assholes, everybody's got one"* a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... You see, smart people have egos. When Bohr and Heisenberg were working on quantum mechanics at the beginning of the 20th century, they weren't content on just creating a mathematical framework for making predictions, they also claimed that things in quantum mechanics are inherently **random**, not just that we are unable to calculate things. In doing so, they were butting heads with another smart guy, who unsurprisingly also had a big ego, and who famously exclaimed *"God doesn't play dice!"*. 
+*"Opinions are like assholes, everybody's got one"* a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... you see, smart people have egos. So when Bohr and Heisenberg were working on quantum mechanics at the beginning of the 20th century, they weren't content on just creating a mathematical framework for making predictions, they also claimed that things in quantum mechanics are **inherently random**. In doing so, they not only crossed the boundary between philosophy and physics, they were butting heads with another smart guy who unsurprisingly also had a big ego, and who famously exclaimed *"God doesn't play dice!"*. 
 
 That guy was Einstein.
 
 ### A Different Point Of View ###
 
-But it turns out that there are alternative ways of thinking about this so other people came with different ideas. There was Hugh Everett with his [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation), and there was Bohm with his [*pilot have theory*](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory), which I find especially interesting. He realized that he could come up with a non-random theory in which a wave of *potential* moves the particle along. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. 
-leptons 
-The trajectories you get are something like this which are perfectly consistent with experiment:
+It turns out however that there are alternative ways of thinking about the randomness factor in QM, so other people came with different ideas. There was Hugh Everett with his [many-worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation), and there was Bohm with his [*pilot have theory*](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory), which I find especially interesting. Bohm realized that he could come up with a **deterministic and non-local** theory in which a wave of *potential* moves the particles along their path. In the case of the double slit experiment, the wave would go through both slits, but the particle only goes through one. The trajectories you get are something like this (which are perfectly consistent with experiment):
 
 ![image-title-here](/images/bohmiam.png){:class="img-responsive"} 
 
