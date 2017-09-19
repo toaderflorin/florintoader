@@ -45,8 +45,8 @@ Let's create a toy universe consisting of just first generation leptopns (electr
 A bunch of stuff happens:
 
 1. A photon can spontaneously split into an electron-positron pair.
-2. The electron will attract the "newly born" positron (because they have opposing charges), and will annihilate, creating a new photon.
-3. The electron might actually attract and annihilate another neighboring positron (instead of its pair) leaving an unpaired positron, which will end up annihilating with a neighboring unpaired electron. There is always an equal number of positrons and electrons in our toy universe, so there will always be a free pair.
+2. The electron will attract the positron (because they have opposing charges), and will annihilate, creating a new photon.
+3. The electron might actually attract and annihilate another neighboring positron, leaving an unpaired positron, which will end up annihilating with a neighboring unpaired electron. There is always an equal number of positrons and electrons in our toy universe, so there will always be a free pair.
 
 And this just goes on and on, and we get a bunch of [virtual particles](https://en.wikipedia.org/wiki/Virtual_particle) popping in and out of existence perpetually as [quantum fluctuations](https://en.wikipedia.org/wiki/Quantum_fluctuation).
 
@@ -62,13 +62,11 @@ which is pretty much equivalent to the propagation of the wave function from the
 
 ...but instead of a wave propagating in one dimension, it propagates in multiple dimensions (two in our toy universe, three in the universe we live in because there are three spatial dimensions etc.). It's not really that much different than a sound wave propagating through a medium. 
 
-So what exactly does this have to do with the walking droplets experiment? The systems are quite similar in behavior - and they both show that systems that make sort of sense from the classical point of view can reproduce quantum effects. In the walkers experiment, the integrity of the droplets is ensured by a small film of air between the oil bath and the particle itself. In our toy experiment, individual particles are ensured by the fact the field is quantized - you cannot find half a particle. But even the notion of *what path does my particle take* is pointless, because the notion of *my particle* doesn't make any sense. The particle disappears almost instantly, and *a new particle* takes it's place - particles in quantum field theory are indistinguishable from one another. What you do care is that there is a ripple traveling through a field (space), and that this field is quantized (you can never find half an electron, only a full electron), and that our universe has a slight asymmetry of matter over antimatter. Here's another thing:
+So what exactly does this have to do with the walking droplets experiment? The systems are quite similar in behavior - and they both show that systems which make sense from the classical point of view can reproduce quantum effects. In the walkers experiment, the integrity of the droplets is ensured by a small film of air between the oil bath and the particle itself. In our toy experiment, individual particles are ensured by the fact the field is quantized - you cannot find half a particle. But even the notion of *what path does my particle take* is pointless, because the notion of *my particle* doesn't make any sense. The particle disappears almost instantly, and *a new particle* takes it's place - particles in quantum field theory are indistinguishable from one another. What you do care is that there is a ripple traveling through a field (space), and that this field is quantized (you can never find half an electron, only a full electron), and that our universe has a slight asymmetry of matter over antimatter. Here's another thing:
 
 *You can never detect absolutes, you detect only differences between values.*
 
-You detect the speed of an object in relation to the speed of another object, the reference frame. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we just perceive the stable ripples in the fields such as the orbitals, as I talked in my harmony article.
-
-Like you can see in the the first ever photo of a hydrogen atom, woohoo!
+You detect the speed of an object in relation to the speed of another object. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we just perceive the stable ripples in the fields, like you can see in the the first ever photo of a hydrogen atom, woohoo!
 
 ![image-title-here](/images/hydrogen.jpg){:class="img-responsive"} 
 
