@@ -25,9 +25,9 @@ Or is it? Let's strap a GoPro on the ball and look at things from its point of v
 
 So we have two frames of reference:
 
-1. frame A (the wire's frame) where the ball is moving, the protons in the nuclei are stationary and the electrons are moving.
+1. frame A (the wire's frame), where the ball is moving, the protons in the nuclei are stationary and the electrons are moving.
 
-2. frame B (the ball's frame), where the ball is stationary, and the electric current seems to be moving in the other direction. In this frame, the electrons are stationary because we said the ball is moving at speed *v*.
+2. frame B (the ball's frame), where the ball is stationary and the electric current seems to be moving in the other direction. In this frame the electrons are stationary because we said the ball is moving at speed *v*.
 
 If we look at the two frames of reference from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
 
