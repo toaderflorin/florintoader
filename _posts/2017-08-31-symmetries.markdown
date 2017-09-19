@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Surprinsingly, Providence Doesn't Involve Accounting"
+title:  "Surprisingly, Providence Doesn't Involve Accounting"
 description: "The normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. One example of this is particles going through small potential barriers without having the energy to do so, like in this example..."
 date: 2017-08-31-energy 10:13:11 +0300
 categories: jekyll update
@@ -37,7 +37,7 @@ There’s a number of questions we could ask, for example:
 
 2. How high will the rock get into the air, how far away from the thrower will the rock land? etc. These are *time independent* questions.
 
-And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Of courseBut since they didn't have computers back in the day, like I said, they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltonian operator gives us the *total energy* of a system.
+And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Since they didn't have computers back in the day, like I said, they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltonian operator gives us the *total energy* of a system.
 
 *Energy is just a mathematical gimmick, it’s not a real physical thing. It’s simply a sum. For example, kinetic energy is the integral of momentum.*
 
@@ -65,11 +65,11 @@ Think of it this way... there’s no law that says butterflies (or any species f
 
 ![image-title-here](/images/butterfly.png){:class="img-responsive"} 
 
-And we can actually go further then energy and generalize this concept. In fact there is even a mathematical theorem called [Noether's theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem) which says:
+And we can actually go further than energy and generalize this concept. In fact there is even a mathematical theorem called [Noether's theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem) which says:
 
 *Every differentiable symmetry of the action of a physical system has a corresponding conservation law.*
 
-Let's see what that means. First of all, a symmetry refers to the property of an object to be *invariant under a transformation*. One example of that would be a sphere: if you take any sphere and you rotate it by any number of degrees in any direction, it will look the same — that's what *invariant* means. And in our case, the action was rotation, but it can be something else like translation or reversing the direction of a spatial or time coordinate. The butterfly in the picture has *mirror symmetry*, meaning we can flip the direction of the y axis and it looks the same etc. 
+Let's see what that means. First of all, a symmetry refers to the propery of an object to be *invariant under a transformation*. One example of that would be a sphere: if you take any sphere and you rotate it by any number of degrees in any direction, it will look the same — that's what *invariant* means. And in our case, the action was rotation, but it can be something else like translation or reversing the direction of a spatial or time coordinate. The butterfly in the picture has *mirror symmetry*, meaning we can flip the direction of the y axis and it looks the same etc. 
 
 ### A Primer On Gauge Symmetries ###
 
