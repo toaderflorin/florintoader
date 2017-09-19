@@ -17,17 +17,17 @@ Okay, enough for an introduction, let's get our hands dirty. Imagine an electric
 
 ![image-title-here](/images/current.png){:class="img-responsive"}
 
-The electrons are moving at a speed, say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be affected by the field and it will be repelled if the charge of the particle is positive, or attracted if it's negative.
+The electrons are moving at a speed say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be repelled away (from the wire if the charge of the particle is positive), or attracted towards the wire (if it's negative).
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge of the wire is the same, regardless if the particle is moving or not.*
 
-Or is it? Let's strap a camera GoPro on the ball and look at things from its point of reference. Also, let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
+Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
 
 So we have two frames of reference:
 
-1. frame A where the ball is moving, the wire is stationary (so the protons in the nuclei are stationary) and the electrons are moving.
+1. frame A (the wire's frame) where the ball is moving, the protons in the nuclei are stationary and the electrons are moving.
 
-2. frame B (the ball's frame), where the ball is stationary, the and the electric current seems to be moving in the other direction. In this frame, the electrons are stationary, and the protons are moving the other way.
+2. frame B (the ball's frame), where the ball is stationary, and the electric current seems to be moving in the other direction. In this frame, the electrons are stationary because we said the ball is moving at speed *v*.
 
 If we look at the two frames of reference from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
 
