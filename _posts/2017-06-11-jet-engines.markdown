@@ -63,5 +63,5 @@ So commercial aircraft have bulky, large bypass-ratio engines which are more eco
 
 ![image-title-here](/images/f35-engine.jpeg){:class="img-responsive"} 
 
-The closed end section is empty, and allows the hot pressured exhaust to mix with the bypassed air deep inside the plane, so that the heat signature of the plane from behind is greatly reduced. If more thrust is needed (for a dogfight), large quantities of fuel can be sprayed immediately after the turbine which is called reheat, but this is a very inefficient way of running the plane. Not to mention, the aircraft becomes easily detectable visually (at night), in infrared and by radar (the hot trail actually reflects radar waves pretty well).
+The closed end section is empty, and allows the hot pressurized exhaust to mix with the bypassed air deep inside the plane, so that the heat signature of the plane from behind is greatly reduced. If more thrust is needed (for a dogfight), large quantities of fuel can be sprayed immediately after the turbine which is called reheat, but this is a very inefficient way of running the plane. Not to mention, the aircraft becomes easily detectable visually (at night), in infrared and by radar (the hot trail actually reflects radar waves pretty well).
 

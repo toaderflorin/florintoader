@@ -9,9 +9,9 @@ The thing people find most confusing about quantum mechanics is the *wave-partic
 
 So let's jump right in.
 
-### The Double Split Experiment ###
+### The Double Slit Experiment ###
 
- To showcase wave particle duality, let's look at the double split experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Everytime a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
+ To showcase wave particle duality, let's look at the double slit experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Every time a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
 
  Watch the following animation:
 
@@ -23,7 +23,7 @@ If electrons were like little balls, you'd expect to see to clumps of points. Wh
 
 The reason this is **extremely strange** is because we are sending electrons through **one by one**. So what exactly interferes with what? Is half of the electron going through one slit and half of it through the other? 
 
-*Moreover, if we place a detector at one of the slits, the interference pattern is doing to dissappear! It's really weird!*
+*Moreover, if we place a detector at one of the slits, the interference pattern is doing to disappear! It's really weird!*
 
 According to the Copenhagen interpretation of quantum mechanics, we can never deterministically predict what a particle will do, we can only predict the probability of it doing something in the form of a *probability wave spreading through space*. For the mathematically minded, we're talking about a field of complex numbers that permeates all space. This means we have a *phase* and an *amplitude* for each point in space. Here's what a complex number looks like:
 
@@ -38,7 +38,7 @@ The phase refers to the angle of the segment and the amplitude refers to length 
 The amplitude of this wave (which is always a positive number) will give you the rough position of where the particle is located. 
 
 ### Heisenberg's Uncertainty Principle ###
-Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (which is the first order derivative of the wavefunction in relation to time) and viceversa.
+Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (which is the first order derivative of the wave function in relation to time) and vice versa.
 
 ![image-title-here](/images/schrodinger.png){:class="img-responsive"} 
 
@@ -46,6 +46,6 @@ This can be easily derived out of the Schrödinger equation (but I will leave it
 
 ![image-title-here](/images/uncertainty.svg){:class="img-responsive"} 
 
-Here's how you can interpret this: if you want to know the position of a particle, you need to shine light on it. And the more precisely you want to measure the position, the higher frequency photons you need to use, because these have a higher resolving power. But the higher the frequency, the higher the energy of the photon and the higher the momentum of the particle imparted on the particle. In fact if you whant to know the postion of the particle with arbirtrary precision, you need to use photons so high in energy that they are going to bump the particle so hard that in the next moment it can be anywhere else in the universe! Of course, there's a bit more to this, but I am trying to keep things simple.
+Here's how you can interpret this: if you want to know the position of a particle, you need to shine light on it. And the more precisely you want to measure the position, the higher frequency photons you need to use, because these have a higher resolving power. But the higher the frequency, the higher the energy of the photon and the higher the momentum of the particle imparted on the particle. In fact if you want to know the position of the particle with arbitrary precision, you need to use photons so high in energy that they are going to bump the particle so hard that in the next moment it can be anywhere else in the universe! Of course, there's a bit more to this, but I am trying to keep things simple.
 
 Now if you're like me, you're wondering how can a particle be in two places at the same time and interact with itself or how can a *wave of probability* interact with the edges of the slits which are material in nature etc. Stay tuned...
