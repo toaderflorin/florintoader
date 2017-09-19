@@ -10,20 +10,20 @@ You see, the normal rules of physics (or common sense for that matter)  don't ap
 <iframe width="740" height="415" src="https://www.youtube.com/embed/K64Tv2mK5h4" frameborder="0" allowfullscreen></iframe>
 
 <br />
-One example of QM weirdness is *quantum tunneling*, the propery of particles to be able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
+One example of QM weirdness is *quantum tunneling*, the propery of particles to be able to go through small potential barriers without having the energy to do so, like in the video — the wave function of the particle hitting the obstacle looks like the one in the picture below. As you can see, most of the wave reflects back, but a part of it goes through, so there is a *probability* the particle crosses the barrier. 
 
 ![image-title-here](/images/tunneling.gif){:class="img-responsive"} 
 
 It seems that the particles care about energy but only somewhat... and nature seems pretty forgiving in what it lets them do and don't do. But what would you say if I told you that there isn’t such a thing as a fundamental law in nature saying that energy in system must be conserved? 
 
 ### Just What Is Energy? First, A Teensy Bit Of Calculus... ###
-When Newton figured out the moon orbiting around the Earth, and objects falling on Earth have the same cause, he didn’t have a computer to do computations with, so he invented calculus — which is just derivatives and integrals.
+When Newton figured out the moon orbiting around the Earth and objects falling on Earth have the same root cause, he didn’t have a computer to do computations with, so he invented calculus — which at its core is just derivatives and integrals.
 
 ![image-title-here](/images/derint.gif){:class="img-responsive"} 
 
 Integrals are an analytical way of summing stuff up. Derivatives give you the variation of a function and integrals are the opposite of derivatives. For example:
 
-1. Speed is the variation of the position of an object in relation to time — you can get the speed of the object at any point in time if you know it’s position, by differentiating it in relation to time.
+1. Speed is the variation of the position of an object in relation to time — you can get the speed of the object at any point in time if you know its position by differentiating it in relation to time.
 
 2. Alternatively, you can get the position of the object at any time, if you know the speed at all times, by integrating or summing up the speed over time.
 
@@ -37,7 +37,7 @@ There’s a number of questions we could ask, for example:
 
 2. How high will the rock get into the air, how far away from the thrower will the rock land? etc. These are *time independent* questions.
 
-And if you want to answer *time independent* question you could of course put the equations of motion that describe the [dynamics of the system](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (which would normally consist of a set of time dependent differential equations) into a computer, simulate what happens and see the end result. Since they didn't have computers back in the day, like I said, they had to be a bit more inventive. Turns out if you integrate the equation of motion over time, you can get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltonian operator gives us the *total energy* of a system.
+And if you want to answer *time independent* questions (and you *don't have computers*) you could integrate the equations of motion over time in order to get rid of the **t** parameter and get the answers to your question. That's what [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) is. The Hamiltonian operator gives us the *total energy* of a system.
 
 *Energy is just a mathematical gimmick, it’s not a real physical thing. It’s simply a sum. For example, kinetic energy is the integral of momentum.*
 
@@ -51,7 +51,7 @@ In a nutshell, it tells us that we cannot know both the position and the speed o
 
 *...particles can violate the law of energy conservation, but the more they violate this law the less stable the particle is.*
 
-That’s interesting and **very weird**, but it turns out there would be a way to understand it that makes logical sense, because quantum mechanics is inherently random. Let me use an analogy: let’s say we he have a physical system consisting of two players, and each of them starts out with $100. They toss a coin and if it’s heads, player A gives player B $1, and if it’s tails, vice-versa. If this coin would be a perfectly symmetric coin 50%-50% (most real coins are not), the game could theoretically go on forever with both player hovering around $100, give or take — so we can say their money is conserved. Now if the coin is biased on the other hand, meaning there is a slight asymmetry, one player would start to gain money over time while the other would lose over the long term. The bigger the asymmetry of the coin, the faster the game would be over, the players would each be on their own merry way and our physical system will disintegrate. Nobody's up there counting and saying "hey, we got 3 heads in a row, it's time for tails". It's just random, only the repartition is 50%-50%. God's not an accountant.
+That’s interesting and **very weird**, but it turns out there would be a way to understand it that makes logical sense. Let me use an analogy: let’s say we he have a physical system consisting of two players, and each of them starts out with $100. They toss a coin and if it’s heads, player A gives player B $1, and if it’s tails, vice-versa. If this coin would be a perfectly symmetric coin 50%-50% (most real coins are not), the game could theoretically go on forever with both player hovering around $100, give or take — so we can say their money is conserved. Now if the coin is biased, meaning there is a slight asymmetry, one player would start to gain money over time while the other would lose over the long term. The bigger the asymmetry of the coin, the faster the game would be over, the players would each be on their own merry way and our physical system will disintegrate. Nobody's up there counting and saying "hey, we got 3 heads in a row, it's time for tails". It's just random, only the repartition is 50%-50%. God's not an accountant.
 
 So what does this have to do with the real world? First, we know that particles are stable ripples in quantum fields. Second, we know that “empty space” is not empty, it’s full of virtual particles — things like quarks, electrons, neutrinos with variable masses, electromagnetic and color (see quantum chromodynamics) charges pop in and out of existence all the time as quantum fluctuations, which violate energy conservation laws. But because they violate symmetries like the law of conservation of energy, these ripples are not stable and the more they violate it the more unstable they are and the faster they disappear, just like in the above example the bigger the asymmetry of the coin, the faster the game is over. 
 
