@@ -29,13 +29,11 @@ So we have two frames of reference:
 
 2. frame B (the ball's frame), where the ball is stationary and the electric current seems to be moving in the other direction. In this frame the electrons are stationary because we said the ball is moving at speed *v*.
 
-If we look at the two frames of reference from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
-
 Here's a quick refresher of relativity before Einstein. This might be apocryphal, but apparently Galileo dropped a rock while on a moving boat and the rock kept moving forward with the boat after he let go of it. That's called *inertia*, by the way.
 
 ![image-title-here](/images/galileo.png){:class="img-responsive"}
 
-Pretty straight forward, the speeds just combine intuitively. The problem is this doesn't work for electromagnetism.
+Pretty straight forward, the speeds just combine intuitively. The problem is this doesn't work for electromagnetism. If we look at our two frames of reference (A and B) from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should! 
 
 Now let's test Einstein's hypothesis that space contracts for moving objects. In frame B, the distance between the positive charges (the positively charged nuclei) actually contracts because now they are moving (just like special relativity tells us) and the distance between electron actually dilates relative to what it was in frame A. Wait, what? Special relativity doesn't say that distances contract! That's a good spot, but they were contracted in frame A because they were moving and now since they are no longer moving in frame B we no longer have any contraction, so we have a *relative dilation*. So these two effects actually add up and reinforce each other, and it means that to the moving ball the wire appears to have *a net positive charge*.
 
