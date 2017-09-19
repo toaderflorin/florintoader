@@ -66,7 +66,7 @@ So what exactly does this have to do with the walking droplets experiment? The s
 
 *You can never detect absolutes, you detect only differences between values.*
 
-You detect the speed of an object in relation to the speed of another object. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we just perceive the stable ripples in the fields, like you can see in the the first ever photo of a hydrogen atom (woohoo!):
+You detect the speed of an object in relation to the speed of another object. In the case of the Casimir effect, you detect *the difference* in pressure between the metal plates, not the absolute pressure of the quantum void. Same with matter - we perceive only the stable ripples in the fields, like you can see in the the first ever photo of a hydrogen atom (woohoo!):
 
 ![image-title-here](/images/hydrogen.jpg){:class="img-responsive"} 
 
