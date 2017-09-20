@@ -17,9 +17,9 @@ Okay, enough for an introduction, let's get our hands dirty. Imagine an electric
 
 ![image-title-here](/images/current.png){:class="img-responsive"}
 
-The electrons are moving at a speed say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be repelled away (from the wire if the charge of the particle is positive), or attracted towards the wire (if it's negative).
+The electrons are moving at a speed say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be repelled away from the wire (if it's positively charged), or attracted towards the wire (if it's negatively charged).
 
-*Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge of the wire is the same, regardless if the particle is moving or not.*
+*Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge is the same regardless if the particle is moving or not.*
 
 Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
 
