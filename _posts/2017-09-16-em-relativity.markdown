@@ -2,7 +2,7 @@
 layout: post
 title:  "If Einstein Wasn't Right, You Wouldn't Be Reading This Right Now"
 description: "
-I've given a brief introduction to Einstein's Secial Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same value regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
+I've given a brief introduction to Einstein's Special Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same value regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
 "
 date: 2017-09-16 10:13:11 +0300
 ---
@@ -67,4 +67,4 @@ It's the same with atoms and matter, most of the mass comes from the nucleus.
 
 ![image-title-here](/images/solar-system.jpg){:class="img-responsive"}
 
-Nature wants to move to its lowest stable energy state, so atoms and molecules tend to be electrically neutral (whenever things are not electrically neutral, we usually have a chemical reaction that brings that system to that state, the ground state). But we noticed that the actual net charge depends on the reference frame, so in relation to which does nature pick to be neutral? In relation to the center of mass obviously, which for an atom coresponds to the position of the nucleus. In our wire, the nuclei of the atoms are stationary relative to one another and only the electrons are moving, so that's our prefered frame of reference.
+Nature wants to move to its lowest stable energy state, so atoms and molecules tend to be electrically neutral (whenever things are not electrically neutral, we usually have a chemical reaction that brings that system to that state, the ground state). But we noticed that the actual net charge depends on the reference frame, so in relation to which does nature pick to be neutral? In relation to the center of mass obviously, which for an atom corresponds to the position of the nucleus. In our wire, the nuclei of the atoms are stationary relative to one another and only the electrons are moving, so that's our prefered frame of reference.
