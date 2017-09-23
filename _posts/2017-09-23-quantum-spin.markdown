@@ -68,7 +68,7 @@ Spin is called *intrinsic angular momentum*, which is really interesting. We dis
 
 But why? 
 
-It is believed that what we perceive as "space", is actually some sort of structure emerging from quantum phenomena and not a fundamental concept. Once concept of space described as a network is called a *spin network*, as you can see in this image.
+It is believed that what we perceive as "space", is actually some sort of structure emerging from quantum phenomena and not a fundamental concept. One such concept of space is called a *spin network*, as you can see in this image.
 
 ![chirality](/images/spin-network.png){:class="img-responsive"}
 
