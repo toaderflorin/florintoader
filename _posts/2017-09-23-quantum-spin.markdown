@@ -64,7 +64,7 @@ So why do we care? First of all, because while helicity is *observer dependent*,
 A chiral particle can be *left-chiral* or *right-chiral* and this property is observer independent, but this is a bit tricky to define because it's a mathematical property. If you are not doing mathematics with particles, no need to worry about it.
 
 ### It Actually IS Angular Momentum
-Spin is called *intrinsic angular momentum*, which is really interesting. We discussed that it's not a spinning motion because there's nothing to spin, so why is spin some sort of angular momentum? We DO KNOW that if bombard a classical sized object with particles with spin -1/2 for example, sure enough that object will eventually start to spin, so quantum spin does have something to do with actual spinning. 
+Spin is called *intrinsic angular momentum*, which is really interesting. We discussed that it's not a spinning motion because there's nothing to spin, so why is spin some sort of angular momentum? We DO KNOW that if we bombard a classical sized object with particles with spin -1/2 for example, sure enough that object will eventually start to spin, so quantum spin does have something to do with actual spinning. 
 
 But why? 
 
