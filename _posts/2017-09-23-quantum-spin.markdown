@@ -46,7 +46,7 @@ The [measurement problem](https://en.wikipedia.org/wiki/Measurement_problem) in 
 
 ![coin](/images/coin.jpeg){:class="img-responsive"}
 
-You could think of a particle as a spinning coin. It's neither heads nor tails, it's spinning. Say you want to measure if it's heads or tails - it means you have to interact with it, you have to touch it. But the action of interacting with it makes it collapse to one state or the other.
+You could think of a particle as a spinning coin. It's neither heads nor tails, it's spinning. Say you want to measure if it's heads or tails—it means you have to interact with it, you have to touch it. But the action of interacting with it makes it collapse to one state or the other.
 
 Let's assume an electron goes through a Stern-Gerlach machine and it comes up having spin up in relation to a certain direction in space (the direction the SG machine is pointing in). If the same electron goes through a second machine pointing in the same direction in space as the first one, we are going to get spin up 100% of the time. The first measurement actually collapsed the state of the particle to that concrete value. But if we rotate the second machine just a little bit, we are going to get a percentage smaller than 100% of it being spin up. If the second machine is perpendicular to the first, we actually get 50%-50% so again, we no longer know anything about this particle in that direction. 
 
