@@ -40,8 +40,6 @@ Hmm now wait a minute. In 3D space an object can rotate around any axis, not jus
 
 Also, we only observe left-handed [neutrinos](https://en.wikipedia.org/wiki/Neutrino) in the Universe.
 
-*Spin most certainly plays a role in the concept of emergent spacetime, so it can be viewed like a building block of what we perceive as space and time at large scales, but the way this works hasn't been worked out yet. Our best guess is that entanglement relations between a lot of virtual particles create a sort of mesh-like structure--the fabric of spacetime.*
-
 Another interesting thing is that the mathematics of quantum mechanics tells us that a particle is in a *superposition* of states. It's both left-handed and right-handed at the same time, until you measure it. I don't like that interpretation. I like to think a particle is in neither state, it's in a transitory state (a state of *flux* if you will). 
 
 The [measurement problem](https://en.wikipedia.org/wiki/Measurement_problem) in QM is a subject for whole different article, but here's my take on it:
