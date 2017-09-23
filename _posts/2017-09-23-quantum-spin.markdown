@@ -40,8 +40,6 @@ Hmm now wait a minute. In 3D space an object can rotate around any axis, not jus
 
 Also, we only observe left-handed [neutrinos](https://en.wikipedia.org/wiki/Neutrino) in the Universe.
 
-*Spin most certainly plays a role in the concept of emergent spacetime, so it can be viewed like a building block of what we perceive as space and time at large scales, but the way this works hasn't been worked out yet. Our best guess is that entanglement relations between a lot of virtual particles create a sort of mesh-like structure--the fabric of spacetime.*
-
 Another interesting thing is that the mathematics of quantum mechanics tells us that a particle is in a *superposition* of states. It's both left-handed and right-handed at the same time, until you measure it. I don't like that interpretation. I like to think a particle is in neither state, it's in a transitory state (a state of *flux* if you will). 
 
 The [measurement problem](https://en.wikipedia.org/wiki/Measurement_problem) in QM is a subject for whole different article, but here's my take on it:
@@ -78,7 +76,7 @@ Since spin is angular momentum, it's measured in kg·m<sup>2</sup>·s<sup>−1</
 
 ![chirality](/images/spinvec.gif){:class="img-responsive"}
 
-For [fermions](https://en.wikipedia.org/wiki/Fermion) spin can take values such as -1/2, 1/2, 3/2, 5/2 etc. Since spin is just the projection on the S<sub>z</sub> axis and it is periodic, 3/2 is equivalent to 1/2, 5/2 to -1/2 and so on, so we just have -1/2 and 1/2 as unique possible values which correspond to left and right handedness. [Bosons](https://en.wikipedia.org/wiki/Boson) (which are force carrier particles) such as the photon are spin 1 particles, so their spin can only take -1 and 1 as possible values (which makes a world of difference because it bosons to go through one another but prevents matter particles from doing so—the [Pauli exclusion principle](https://en.wikipedia.org/wiki/Pauli_exclusion_principle)).
+For [fermions](https://en.wikipedia.org/wiki/Fermion) spin can take values such as -1/2, 1/2, 3/2, 5/2 etc. Since spin is just the projection on the S<sub>z</sub> axis and it is periodic, 3/2 is equivalent to 1/2, 5/2 to -1/2 and so on, so we just have -1/2 and 1/2 as unique possible values which correspond to left and right handedness. [Bosons](https://en.wikipedia.org/wiki/Boson) (which are force carrier particles) such as the photon are spin 1 particles, so their spin can only take -1 and 1 as possible values (which makes a world of difference because it means bosons to go through one another but prevents matter particles from doing so—the [Pauli exclusion principle](https://en.wikipedia.org/wiki/Pauli_exclusion_principle)).
 
 ### Conclusion
 There's much more to spin than this, for example how the Pauli exclusion principle works, how photons mediate the electromagnetic force, parity violations etc.
