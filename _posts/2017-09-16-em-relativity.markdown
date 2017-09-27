@@ -21,7 +21,7 @@ The electrons are moving at a speed say *v* (which is much smaller than the spee
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge is the same regardless if the particle is moving or not.*
 
-Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electron (for the sake of simplicity). 
+Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electrons in the wire (for the sake of simplicity). 
 
 So we have two frames of reference:
 
