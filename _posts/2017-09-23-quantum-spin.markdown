@@ -6,11 +6,9 @@ Quantum spin is something which is not easy to explain. You’d be excused if yo
 "
 date: 2017-09-23-energy 10:13:11 +0300
 ---
-Quantum spin is something which is not easy to explain in one sentence, but this is definitely NOT what spin is. I need to stress this again: quantum spin is not like a spinning top or like a planet turning on its axis. 
-
 ![quantum spin](/images/spin.jpg){:class="img-responsive"}
 
-It's called that for historical reasons because it was belived it is some sort of rotation and it's really unfortunate because it's causing a lot of confusion. 
+Quantum spin is something which is not easy to explain in one sentence, but this is definitely NOT what spin is. I need to stress this again: quantum spin is not like a spinning top or like a planet turning on its axis. It's called that for historical reasons because it was belived it is some sort of rotation and it's really unfortunate because it's causing a lot of confusion. 
 
 Here's why it's not rotation:
 
@@ -61,7 +59,7 @@ So why do we care? First of all, because while helicity is *observer dependent*,
 
 *Not only is nature not ambidextrous, it's actually has a preference for left handedness.The Standard Model is a chiral theory, not an achiral one because it makes left-handed particles are treated differently than right-handed particles.*
 
-A chiral particle can be *left-chiral* or *right-chiral* and this property is observer independent, but this is a bit tricky to define because it's a mathematical propertye which describes how the wavefunction describing the particle looks under rotations (which is equivalent to looking at the particle from a different angle). What is interesting is that 1/2 spin particles actually need two full 360 degree rotations to look the same and one rotation makes the wavefunction have the opposite sign (they are said to be anti-symmetric).
+A chiral particle can be *left-chiral* or *right-chiral* and this property is observer independent, but this is a bit tricky to define because it's a mathematical property which describes how the wavefunction of the particle looks under rotations (which is equivalent to looking at the particle from a different angle). What is interesting is that 1/2 spin particles actually need two full 360 degree rotations to look the same and one rotation makes the wavefunction have the opposite sign (they are said to be anti-symmetric).
 
 ### It Actually IS Angular Momentum
 Spin is called *intrinsic angular momentum*, which is really interesting. We discussed that it's not a spinning motion because there's nothing to spin, so why is spin some sort of angular momentum? We DO KNOW that if we bombard a classical sized object with particles with spin -1/2 for example, sure enough that object will eventually start to spin, so quantum spin does have something to do with actual spinning. 
