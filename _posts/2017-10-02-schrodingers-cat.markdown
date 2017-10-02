@@ -26,9 +26,19 @@ which gives equal probability amplitudes to the cat being dead or alive, and the
 It is typical of these cases that an indeterminacy originally restricted to the atomic domain becomes transformed into macroscopic indeterminacy, which can then be resolved by direct observation. That prevents us from so naively accepting as valid a "blurred model" for representing reality. In itself, it would not embody anything unclear or contradictory. There is a difference between a shaky or out-of-focus photograph and a snapshot of clouds and fog banks. 
 </i>
 
-Before we discuss this in detail, we must understand some basic aspects og quantum mechanics. First of all, we know all matter, not just light is wavelike in nature.
+Before we discuss this in detail, we must understand some basic aspects og quantum mechanics. One aspect is *coherence*. In a coherent light source like a laser, all photons have the same wave-length, and their phases are synchronized, and it looks like this:
 
-what quantum decoherence is.
+![magnetic field](/images/coherent.jpg){:class="img-responsive"}
 
-![magnetic field](/images/coherence.png){:class="img-responsive"}
+A decoherent light source would look like this:
 
+![magnetic field](/images/decoherent.jpg){:class="img-responsive"}
+
+But we know that not just light, but all matter particles are waves. And if you take a big object, which is made out of many particles, that object will be made out of a lot of wavy-things (the particles) and their phases and wavelengths will be out of sync. This is why you don't see quantum behavior for large objects.
+
+### The Measurement Problem
+When you measure something, you have to interact with that thing. That's not exactly news. But here's the deal:
+
+*Normally, the measuring device is much bigger than what it measures. Just think of a thermomether you are using to take your temperature when you have a fever.*
+
+When you measure temperature, both the measured body and the termometer tip reach *thermal equilibrium*, but since the thermometer is much smaller than the object it meaasures, this temperature is very close to the initial temperature of the object. But in the case of quantum systems, the actual apparatus that does the measuring is much bigger than what it measures, so it would be reasonable to ask if it plays any role in the actual measurement result.
