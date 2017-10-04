@@ -4,7 +4,7 @@ title:  "Erwin, How's That Cat Of Yours Doing?"
 description: "
 Quantum spin is something which is not easy to explain. You’d be excused if you explain it as similar to a planet rotating around its axis, but it’s not that. Quantum spin is angular momentum just like the rotating motion of a planet is angular momentum but it’s a purely quantum property. 
 "
-date: 2017-09-23-energy 10:13:11 +0300
+date: 2017-10-04 10:13:11 +0300
 ---
 You might have heard of a little thought experiment by Schrodinger in trying to prove the absurdity of the [Copenhagen interpretation](https://en.wikipedia.org/wiki/Copenhagen_interpretation) of quantum mechanics. 
 
