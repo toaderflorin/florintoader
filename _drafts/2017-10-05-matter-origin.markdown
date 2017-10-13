@@ -24,4 +24,3 @@ In XXX, it was discovered that everywhere you point an antena, there is a *hissi
 So it was concluded that at some point, the matter density was so great that the universe was an opaque soup of particles.
 
 ![crowd](/images/universe.jpg){:class="img-responsive"}
-
