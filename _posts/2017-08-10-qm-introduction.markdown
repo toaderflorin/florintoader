@@ -19,32 +19,32 @@ So let's jump right in.
 
 If electrons were like little balls, you'd expect to see to clumps of points. What you see instead is an interference pattern made out of individual points, like this:
 
-![image-title-here](/images/buildup.png){:class="img-responsive"} 
+![image-title-here](/images/buildup.png){:class="img-responsive"}
 
-The reason this is **extremely strange** is because we are sending electrons through **one by one**. So what exactly interferes with what? Is half of the electron going through one slit and half of it through the other? 
+The reason this is **extremely strange** is because we are sending electrons through **one by one**. So what exactly interferes with what? Is half of the electron going through one slit and half of it through the other?
 
 *Moreover, if we place a detector at one of the slits, the interference pattern is doing to disappear! It's really weird!*
 
 According to the Copenhagen interpretation of quantum mechanics, we can never deterministically predict what a particle will do, we can only predict the probability of it doing something in the form of a *probability wave spreading through space*. For the mathematically minded, we're talking about a field of complex numbers that permeates all space. This means we have a *phase* and an *amplitude* for each point in space. Here's what a complex number looks like:
 
-![image-title-here](/images/complex.png){:class="img-responsive"} 
- 
+![image-title-here](/images/complex.png){:class="img-responsive"}
+
 *i is the square root of -1, and y is the imaginary part of the complex number. The reason it is called imaginary is because there obviously isn't any real number that multiplied with itself gives us -1.*
 
 The phase refers to the angle of the segment and the amplitude refers to length of the segment. The phase is what allows us to achieve constructive / destructive interference effects. The probability of a particle being in a specific area is given by the integral of the amplitude of the field over that specific area. The Schrödinger equation tells us how this *wave of probability* evolves in time. The wave of a particle propagating through space would look something like this:
 
-![image-title-here](/images/wave.gif){:class="img-responsive"} 
+![image-title-here](/images/wave.gif){:class="img-responsive"}
 
-The amplitude of this wave (which is always a positive number) will give you the rough position of where the particle is located. 
+The amplitude of this wave (which is always a positive number) will give you the rough position of where the particle is located.
 
 ### Heisenberg's Uncertainty Principle ###
-Here's an interesting byproduct of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (which is the first order derivative of the wave function in relation to time) and vice versa.
+Here's an interesting by-product of the Schrodinger equation: the more localized the wave for the position of the particle, the bigger the spread for the speed of the particle (which is the first order derivative of the wave function in relation to time) and vice versa.
 
-![image-title-here](/images/schrodinger.png){:class="img-responsive"} 
+![image-title-here](/images/schrodinger.png){:class="img-responsive"}
 
 This can be easily derived out of the Schrödinger equation (but I will leave it out for the sake of simplicity). But it puts a limit on how precisely we can measure the location and the speed of a particle at the same time:
 
-![image-title-here](/images/uncertainty.svg){:class="img-responsive"} 
+![image-title-here](/images/uncertainty.svg){:class="img-responsive"}
 
 Here's how you can interpret this: if you want to know the position of a particle, you need to shine light on it. And the more precisely you want to measure the position, the higher frequency photons you need to use, because these have a higher resolving power. But the higher the frequency, the higher the energy of the photon and the higher the momentum of the particle imparted on the particle. In fact if you want to know the position of the particle with arbitrary precision, you need to use photons so high in energy that they are going to bump the particle so hard that in the next moment it can be anywhere else in the universe! Of course, there's a bit more to this, but I am trying to keep things simple.
 
