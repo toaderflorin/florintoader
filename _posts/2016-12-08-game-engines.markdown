@@ -3,7 +3,7 @@ layout: post
 title:  "A Short History Of 3D Game Engines"
 description: "Another post from the “how it’s made” series. I chose to focus on Id Software, because back in the day, they were pioneers and everybody was copying them. Not to mention, John Carmack is a legend in the industry..."
 date:   2016-12-08 21:13:11 +0300
-categories: 
+categories:
 ---
 Another post from the “how it’s made” series. I chose to focus on Id Software, because back in the day, they were pioneers and everybody was copying them. Not to mention, John Carmack is a legend in the industry.
 
@@ -17,7 +17,7 @@ The implementation is simple: the whole level is actually 2D, and it’s stored 
 
 What the engine does is it figures out in which square of the grid the player is, and then for each vertical line on the screen, it traces a ray through this grid to see where it intersects something. So 320×200 screen resolution means 320 rays traced. When the ray hits a wall, it draws that section of the wall as a vertical line on the screen.
 
-![image-title-here](/images/level1.gif){:class="img-responsive"} 
+![image-title-here](/images/level1.gif){:class="img-responsive"}
 
 Now you might have noticed a few things. First, all the walls are vertical and at 90 degree angles. Second, there are no floors. Third, the player cannot look up or down. Number one is the consequence of the grid system in the above picture. The second and third points are actually quite interesting, and has to do with the technological limitations of the processor at the time. Doing mathematically correct perspective texture mapping would require two divides per pixel, so this would have been quite slow. However, vertical walls have a very interesting property — vertical lines on them are parallel to the screen, so you calculate where the texture starts and ends, and do linear interpolation in between (their Z coordinate is constant). This means, you just have to add a small delta for each pixel — no perspective correction needed.
 
@@ -30,7 +30,7 @@ Now, Doom was really interesting when it came out. If you look at the game, it a
 
 Essentially, the maps in Doom are still 2D. They did away with the grid system however, and now the wall lines can be placed anywhere in space and at whatever angle to themselves. They still need to be vertical however, because of the same texture mapping limitation as in Wolf3D and also because the whole level is stored in 2D, not 3D. The map you just saw looks like this:
 
-![image-title-here](/images/level2.gif){:class="img-responsive"} 
+![image-title-here](/images/level2.gif){:class="img-responsive"}
 
 The grid was replaced by a system called a binary space partition tree (done when compiling a level, not at run time). Compilation of a BSP tree works like this:
 
@@ -44,7 +44,7 @@ For rendering, Doom still does ray-tracing for each vertical line on the screen,
 
 You might have noticed that Doom now has floors. Floors are somewhat more complicated to render than walls, but have a similar property: horizontal lines are parallel to the screen (instead of the vertical ones, for walls), so the variation in texture space is still linear (the only difference is that both the u and v coordinates now vary). When Doom does ray-tracing, it keeps a track of the sectors it traversed, gets the vertical wall intersections, renders the walls and then comes back and renders the floors using the trick I just mentioned. Lighting is done per sector, just like floor and ceiling height. Just check out this image.
 
-![image-title-here](/images/doom.jpeg){:class="img-responsive"} 
+![image-title-here](/images/doom.jpeg){:class="img-responsive"}
 
 The lighting on the ceiling (and of course flooring) matches the stairs.
 
@@ -52,11 +52,11 @@ The lighting on the ceiling (and of course flooring) matches the stairs.
 
 For Quake, id was really ambitious. They actually wanted to make a fully 3D game, so you can look up and down, have 3D enemies, rooms on top of each other etc.
 
-![image-title-here](/images/quake.jpeg){:class="img-responsive"} 
+![image-title-here](/images/quake.jpeg){:class="img-responsive"}
 
-Quake is indeed 3D, and this is how it works: First of all, the levels are actually modeled using a 3D editor, not a 2D one. Enemies are also 3D objects. The level is build out of volume brushes like rectangular boxes, tetrahedrons etc. Quake still uses BSP trees, it just does it in 3D — it uses polygon planes to split the level into subsections. The end result is a set of convex 3D cells, adjacent to one another.
+Quake is indeed 3D, and this is how it works: First of all, the levels are actually modelled using a 3D editor, not a 2D one. Enemies are also 3D objects. The level is build out of volume brushes like rectangular boxes, tetrahedrons etc. Quake still uses BSP trees, it just does it in 3D — it uses polygon planes to split the level into subsections. The end result is a set of convex 3D cells, adjacent to one another.
 
-Visibility calculation was a tricky problem to solve for Quake, as ray-tracing is no longer a viable solution. This would have to be done on a per pixel level now, so John Carmack and Michael Abrash (the creators of the engine) tried all sorts of things out (like beam trees, doing raycasting every 8×8 pixels), before settling on a pre-calculated visibility solution.
+Visibility calculation was a tricky problem to solve for Quake, as ray-tracing is no longer a viable solution. This would have to be done on a per pixel level now, so John Carmack and Michael Abrash (the creators of the engine) tried all sorts of things out (like beam trees, doing ray casting every 8×8 pixels), before settling on a pre-calculated visibility solution.
 
 Michael has an awesome series of articles describing how they reached this solution:
 http://www.bluesnews.com/abrash/
@@ -77,7 +77,6 @@ Let’s see how Quake does lighting. For walls and other static objects, the lig
 
 Texture mapping is also interesting. The rendering code is written in assembly and perspective correction for walls using the costly divide operations is not done on every pixel. It’s actually done every 8 pixels or so, and interpolated. Also, moving models like enemies don’t use perspective correct texture mapping, and this is visible if you get close (and on the weapons). Check out the difference between the corrected and uncorrected version:
 
-![image-title-here](/images/quake2.png){:class="img-responsive"} 
+![image-title-here](/images/quake2.png){:class="img-responsive"}
 
 Unreal and Thief: The Dark Project also used BSP trees and precalculated lighting. Interestingly enough, Thief chose not to use a precalculated visibility solution, they actually saved the computed portals which were used real-time for determining what is visible and what is not. [Check it](http://nothings.org/gamedev/thief_rendering.html) out!
-
