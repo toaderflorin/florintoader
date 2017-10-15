@@ -46,14 +46,14 @@ Think about it this way: the Earth (and our bodies) is being heated by a small r
 
 That covers the W boson, but you might have heard there is another particle that mediates the weak force called the *Z boson*. This particle is electrically neutral (so it is its own anti-particle) and it's also very massive, so it too has very a short range as explained by the time-energy uncertainty relationship.
 
-*It carries momentum, energy and spin between weakly charged particles so you can think of the Z as a chubby photon that also interacts with neutrinos, a phenomenon called [weak neutral current](https://www.symmetrymagazine.org/article/august-2009/weak-neutral-current).*
+*It carries momentum, energy and spin between weakly charged particles (so you can think of the Z as a chubby photon that also interacts with neutrinos), a phenomenon called [weak neutral current](https://www.symmetrymagazine.org/article/august-2009/weak-neutral-current).*
 
 ### CP Violation
 Here's an interesting fact about our Universe: only [left-handed](http://florintoader.net/quantum-spin) particles interact with the W and Z bosons, which means that the weak interaction clearly violates [P-symmetry](https://en.wikipedia.org/wiki/P-symmetry) (which says particles should behave the same as their spatial mirror image). Additionally, only left-handed neutrinos (and right-handed anti-neutrinos) have been observed, and if right-handed neutrinos exist, they are thought to be very [massive](https://www.symmetrymagazine.org/article/neutrinos-on-a-seesaw), way beyond the masses that would make them observable at the LHC.
 
 While the weak interaction breaks P-symmetry, it was thought for some time that it obeys CP symmetry (which is C and P symmetries taken together), for example that *left-handed electrons behave like right-handed positrons, and right-handed electrons behave like left-handed electrons*. But it turns out that's also not true. But to scientists surprise, they found out K and B meson decays violate CP symmetry but only *very slightly*, something like 1 part in 1000. So CP is not a symmetry of nature, but since we know that [CPT](https://en.wikipedia.org/wiki/CPT_symmetry) is, this means that the weak interaction also breaks T-symmetry (because if *a + b = 0* and *a* is not zero, that means *b* must also be non-zero), namely it doesn't look the same if time flows the other way.
 
-All things decay, not just neutrons or massive gauge bosons.
+All things decay, not just neutrons or massive gauge bosons. Even us...
 
 ![magnetic field](/images/aging2.jpg){:class="img-responsive"}
 
