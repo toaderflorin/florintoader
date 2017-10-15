@@ -8,20 +8,20 @@ date: 2017-09-23 10:13:11 +0300
 ---
 ![quantum spin](/images/spin.jpg){:class="img-responsive"}
 
-Quantum spin is something which is not easy to explain in one sentence, but this is definitely NOT what spin is. I need to stress this again: quantum spin is not like a spinning top or like a planet turning on its axis. It's called that for historical reasons because it was belived it is some sort of rotation and it's really unfortunate because it's causing a lot of confusion.
+Quantum spin is something which is not easy to explain in one sentence, but this is definitely NOT what spin is. I need to stress this again: quantum spin is not like a spinning top or like a planet turning on its axis. It's called that for historical reasons because it was believed it is some sort of rotation and it's really unfortunate because it's causing a lot of confusion.
 
 Here's why it's not rotation:
 
-1. A particle such as an electron is pointlike, which means it's *zero dimensional*. There is nothing to rotate around an axis.
+1. A particle such as an electron is point like, which means it's *zero dimensional*. There is nothing to rotate around an axis.
 
-2. Non elementary particles such as protons or neutrons have spin, but they also have a certain size. In the case of a proton, it's made out of three quarks which are held together by gluons, and has a size of approximately 0.85×10<sup>−15</sup>m. But if you think of it as a little sphere, you'd conclude that it's rotating faster than the speed of light, which is a no no.
+2. Non elementary particles such as protons or neutrons have spin, but they also have a certain size. In the case of a proton, it's made out of three quarks which are held together by gluons, and has a size of approximately 0.85×10<sup>−15</sup>m. But if you think of it as a little sphere, you'd conclude that it's rotating faster than the speed of light, which is a no-no.
 
 ### The Basics
 So how did the notion of spin came about? Well, in classical electrodynamics, it was know that a rotating charged body produces a magnetic field around it, and the faster the rotation, the bigger this magnetic field (actually called a *magnetic moment*. So a spinning object is behaves like bar magnet (we discussed magnets in the previous post).
 
 ![magnetic field](/images/magnetic.jpg){:class="img-responsive"}
 
-But it was also discovered that electrons possess a similar magnetic moment, so in effect an electron is a small pointlike magnet.
+But it was also discovered that electrons possess a similar magnetic moment, so in effect an electron is a small point like magnet.
 
 You can see that with the [Stern-Gerlach](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment) experiment:
 
