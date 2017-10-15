@@ -2,8 +2,8 @@
 layout: post
 title:  "What Makes The Sun Shine?"
 description: "
-You might have heard of a little thought experiment by Schrodinger in trying to prove the absurdity of the Copenhagen interpretation. Here's a description of the experiment by the man himself: <i>One can even set up quite ridiculous cases. A cat is penned up in a steel chamber, along with the following device (which must be secured against direct interference by the cat)...</i>"
-date: 2017-10-04 10:13:11 +0300
+Here's a nice picture of our Sun, a big ball of plasma. Have you wondered what makes it shine? OK, I'll make this short and sweet. The energy given off by the sun is the result of hydrogen nuclei (which are just protons) fusing together to form helium (which is comprised out of two protons and two neutrons). The fusion is the result of the extreme pressure in the core of the Sun"
+date: 2017-10-15 10:13:11 +0300
 ---
 
 Here's a nice picture of our Sun, a big ball of plasma. Have you wondered what makes it shine? OK, I'll make this short and sweet.
