@@ -53,7 +53,7 @@ Here's an interesting fact about our Universe: only [left-handed](http://florint
 
 While the weak interaction breaks P-symmetry, it was thought for some time that it obeys CP symmetry (which is C and P symmetries taken together), for example that *left-handed electrons behave like right-handed positrons, and right-handed electrons behave like left-handed electrons*. But it turns out that's also not true. But to scientists surprise, they found out K and B meson decays violate CP symmetry but only *very slightly*, something like 1 part in 1000. So CP is not a symmetry of nature, but since we know that [CPT](https://en.wikipedia.org/wiki/CPT_symmetry) is, this means that the weak interaction also breaks T-symmetry (because if *a + b = 0* and *a* is not zero, that means *b* must also be non-zero), namely it doesn't look the same if time flows the other way.
 
-All things decay, not just protons.
+All things decay, not just neutrons or massive gauge bosons.
 
 ![magnetic field](/images/aging2.jpg){:class="img-responsive"}
 
