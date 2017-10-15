@@ -55,6 +55,6 @@ While the weak interaction breaks P-symmetry, it was thought for some time that 
 
 ![magnetic field](/images/aging2.jpg){:class="img-responsive"}
 
-So CP is not a symmetry of nature, but since we know that [CPT](https://en.wikipedia.org/wiki/CPT_symmetry) is, this also means that the weak interaction also breaks T-symmetry (because if *a + b = 0* and *a* is not zero, that means *b* must also be non-zero), namely it doesn't look the same if time flows the other way.
+So CP is not a symmetry of nature, but since we know that [CPT](https://en.wikipedia.org/wiki/CPT_symmetry) is, this means that the weak interaction also breaks T-symmetry (because if *a + b = 0* and *a* is not zero, that means *b* must also be non-zero), namely it doesn't look the same if time flows the other way.
 
 *Could this be the answer why time seems to be flowing forward and why there is a surplus of matter over anti-matter?*
