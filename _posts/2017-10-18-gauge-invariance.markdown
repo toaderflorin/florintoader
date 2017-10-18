@@ -2,7 +2,7 @@
 layout: post
 title:  "Confused About What Gauge Invariance Means?"
 description: "
-I'm pretty sure you encountered the term gauge invariance or gauge symmetry if you're into physics, and you most likely can explain what some gauge symmetries like parity or time reversal symmetry are, but what exactly does the gauge in gauge symmetry or invariance refer to? I will try to give a simple explanation. The term gauge was coined by Hermann Weyl, and the idea is pretty simple..."
+I'm pretty sure you encountered the term <i>gauge invariance</i> or <i>gauge symmetry</i> if you're into physics, and you most likely can explain what some gauge symmetries like <i>parity</i> or <i>time reversal symmetry</i> are, but what exactly does the gauge in gauge symmetry or invariance refer to? I will try to give a simple ex<planation. The term <i>gauge</i> was coined by Hermann Weyl, and the idea is pretty simple..."
 date: 2017-10-18 10:13:11 +0300
 ---
 I'm pretty sure you encountered the term *gauge invariance* or *gauge symmetry* if you're into physics, and you most likely can explain what some gauge symmetries like *parity* or *time reversal symmetry* are, but what exactly does the "gauge" in gauge symmetry or invariance refer to? I will try to give a simple explanation. The term "gauge" was coined by Hermann Weyl, and the idea is pretty simple: in physics, there are certain parameters which are set by us, such the origin of the coordinate system, or the lowest potential energy level in the system etc.
