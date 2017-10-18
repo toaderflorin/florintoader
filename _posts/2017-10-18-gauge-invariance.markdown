@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What The Heck Does Gauge Invariance Mean?"
+title:  "Confused About What Gauge Invariance Means?"
 description: "
 I'm pretty sure you encountered the term gauge invariance or gauge symmetry if you're into physics, and you most likely can explain what some gauge symmetries like parity or time reversal symmetry are, but what exactly does the gauge in gauge symmetry or invariance refer to? I will try to give a simple explanation. The term gauge was coined by Hermann Weyl, and the idea is pretty simple..."
 date: 2017-10-18 10:13:11 +0300
@@ -15,4 +15,4 @@ One such example is measuring the tension between two points in a wire. As you c
 
 Here's another example: you can perform drop a ball either on the surface of the Earth or in a plane (provided the plane flies at a constant speed and the altitude isn't too high that the gravitational constant changes significantly), the laws are the same regardless of the total potential of the system (which is higher for the plane because it's at high altitude). The ball will take the same time to drop to the floor, regardless. This is a special case of gauge invariance, it's *invariance under translation in relation to altitude* because we moved our system by some amount up in the air, but we got the same behavior of the ball.
 
-In general, a "symmetry" refers to the property of an object to be invariant (not to change) under an operation. I've wrote about various gauge symmetries at length [here](http://florintoader.net/accounting).
+In general, a "symmetry" refers to the property of an object to be invariant (not to change) under an operation. I've wrote about various gauge symmetries at length [here](http://florintoader.net/accounting). A gauge theory is a quantum field theory who's Lagrangian (the equation that tells us how the field evolves over time) has one ore more gauge symmetries.
