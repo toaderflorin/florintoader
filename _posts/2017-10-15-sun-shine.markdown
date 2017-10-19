@@ -39,7 +39,7 @@ You might have looked at the flame of a stove and seen that it's blue, whereas t
 
 That is *sort of* the case, but it's slightly more complicated than that. What we're dealing with is inelastic scattering, also called *Compton scattering*. The *inelastic* part refers to the fact that the incident and the scattered photons don't have to have the same wave-length.
 
-We are not dealing with the *same photon*, in fact it doesn't even make sense to talk about particle identity in quantum field theory, because particles are indistinguishable. What we care about is energy and momentum being conserved.
+Essentially, it's not the *same photon*, in fact it doesn't even make sense to talk about particle identity in quantum field theory, because particles are indistinguishable. What we care about is energy and momentum being conserved.
 
 ![magnetic field](/images/scattering.png){:class="img-responsive"}
 
