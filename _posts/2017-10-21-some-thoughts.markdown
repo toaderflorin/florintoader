@@ -9,7 +9,7 @@ I've noticed this [article](https://www.quantamagazine.org/pilot-wave-theory-gai
 
 ![magnetic field](/images/bohmian3.jpg){:class="img-responsive"}
 
-The argument against the Bohmian view of the world is it's non-locality (which says an object here can have instantaneous effect on something on the other side of the Universe, theoretically), but let us not forget that QM **actually is** nonlocal. Ads spaces looks like *Escher's Circle Limit*, and the AdS-CFT correspondence tells us that a normal quantum field theory in N dimensions corresponds to a quantum-gravity theory in N+1 dimensions, which might be just a mathematical trick, but since it's a realization of the holographic principle, it's a very uncanny discovery.
+The argument against the Bohmian view of the world is it's non-locality (which says an object here can have instantaneous effect on something on the other side of the Universe, theoretically), but let us not forget that QM **actually is** nonlocal. AdS spaces looks like *Escher's Circle Limit*, and the AdS-CFT correspondence tells us that a normal quantum field theory in N dimensions corresponds to a quantum-gravity theory in N+1 dimensions, which might be just a mathematical trick, but since it's a realization of the holographic principle, it's a very uncanny discovery.
 
 ![magnetic field](/images/escher.jpg){:class="img-responsive"}
 
@@ -22,7 +22,7 @@ What we do know is that [holography](https://en.wikipedia.org/wiki/Holographic_p
 And since:
 
 1. Entanglement is nonlocal.
-2. Bohmian mechanics are also nonlocal but allows as to make rational sense of the world.
+2. Bohmian mechanics are also nonlocal but allows us to make rational sense of the world.
 3. The actual pilot wave is the vacuum energy, as I've argued [here](http://florintoader.net/particles).
 
 we can think of this nonlocality as an asset, not a problem of the Bohmian view of the world.
