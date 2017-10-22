@@ -10,7 +10,7 @@ I've noticed this [article](https://www.quantamagazine.org/pilot-wave-theory-gai
 
 ![magnetic field](/images/bohmian3.jpg){:class="img-responsive"}
 
-The argument against the Bohmian view of the world is it's non-locality (which says an object here can have instantaneous effect on something on the other side of the Universe, theoretically), but let us not forget that QM **actually is** nonlocal. AdS spaces looks like *Escher's Circle Limit*, and the AdS-CFT correspondence tells us that a normal quantum field theory in N dimensions corresponds to a quantum-gravity theory in N+1 dimensions, which might be just a mathematical trick, but since it's a realization of the holographic principle, it's a very uncanny discovery.
+The argument against the Bohmian view of the world is it's non-locality (which says an object here can have instantaneous effect on something on the other side of the Universe, theoretically), but let us not forget that QM **actually is** nonlocal. AdS spaces look like *Escher's Circle Limit*, and the AdS-CFT correspondence tells us that a normal quantum field theory in N dimensions corresponds to a quantum-gravity theory in N+1 dimensions, which might be just a mathematical trick, but since it's a realization of the holographic principle, it's a very uncanny discovery.
 
 ![magnetic field](/images/escher.jpg){:class="img-responsive"}
 
