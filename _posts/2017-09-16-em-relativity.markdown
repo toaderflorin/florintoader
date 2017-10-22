@@ -5,6 +5,7 @@ description: "
 I've given a brief introduction to Einstein's Special Theory of Relativity here and to the concept of Lorentz invariance (the actual technical term is covariance), which is the property of the speed of light to have the same value regardless of the speed of the observer. Yes, it's really weird, but it has to be true.
 "
 date: 2017-09-16 10:13:11 +0300
+image: "/images/em-wave.gif"
 ---
 I've given a brief introduction to Einstein's Special Theory of Relativity [here](http://florintoader.net/special-relativity) and to the concept of [Lorentz invariance](https://en.wikipedia.org/wiki/Lorentz_covariance) (the actual technical term is *covariance*, but most scientists seem to use "invariance"), which is the property of the speed of light to have the same value regardless of the speed of the observer.
 
@@ -21,7 +22,7 @@ The electrons are moving at a speed say *v* (which is much smaller than the spee
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge is the same regardless if the particle is moving or not.*
 
-Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electrons in the wire (for the sake of simplicity). 
+Or is it? Let's strap a GoPro on the ball and look at things from its point of view. Also let's assume the ball is negatively charged and it's moving at *v*, the speed of the electrons in the wire (for the sake of simplicity).
 
 So we have two frames of reference:
 
@@ -33,7 +34,7 @@ Here's a quick refresher of relativity before Einstein. This might be apocryphal
 
 ![image-title-here](/images/galileo.png){:class="img-responsive"}
 
-Pretty straight forward, the speeds just combine intuitively. The problem is this doesn't work for electromagnetism. If we look at our two frames of reference (A and B) from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should! 
+Pretty straight forward, the speeds just combine intuitively. The problem is this doesn't work for electromagnetism. If we look at our two frames of reference (A and B) from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
 
 Now let's test Einstein's hypothesis that space contracts for moving objects. In frame B, the distance between the positive charges (the positively charged nuclei) actually contracts because now they are moving (just like special relativity tells us) and the distance between electron actually dilates relative to what it was in frame A. Wait, what? Special relativity doesn't say that distances contract! That's a good spot, but they were contracted in frame A because they were moving and now since they are no longer moving in frame B we no longer have any contraction, so we have a *relative dilation*. So these two effects actually add up and reinforce each other, and it means that to the moving ball the wire appears to have *a net positive charge*.
 
@@ -52,16 +53,16 @@ Hmm, weird... So a moving electric charge produces a magnetic field, but a stati
 
 Let's get back to our little experiment. In our the wire's frame of reference, we attribute the attraction force to the wire being an electromagnet, so to the magnetic force. But in the ball's frame of reference the force seems to be caused by the electric force, because the wire appears to have a net positive charge. But it turns out it's the same thing! The electric and magnetic forces are just sides of the same coin, *the electromagnetic force*. If you look at it from one point of view it appears as magnetism, if you look at it from a different point of view it appears as an electric force. From yet another point of view, it's a mixture of both. In space, the forces are just perpendicular arrows to one another.
 
-Which might leave you scratching your head a little bit: *well there surely isn't any current flowing through magnetite rocks or refrigerator magnets, now is there?...* 
+Which might leave you scratching your head a little bit: *well there surely isn't any current flowing through magnetite rocks or refrigerator magnets, now is there?...*
 
 ![image-title-here](/images/mag1.gif){:class="img-responsive"}
 
 The answer is quite simple, in a magnetic material, the chemical structure makes it so that the spins of the electrons are aligned. Since each electron behaves like a little magnet, all these effects add up and become detectable at big scales.
 
 ### One More Thing...
-You might be wondering: *why is the wire neutral in its own frame of reference but not in the frame of the electrons?* 
+You might be wondering: *why is the wire neutral in its own frame of reference but not in the frame of the electrons?*
 
-In other words, why is that frame of reference special? The answer is fairly simple: for the same reason the Earth moves around the Sun and not viceversa—the Sun is much, much more massive. When we think of moving objects, we think of their position as the position of their center of mass and so we equate the position of our solar system in the galaxy to the position of the Sun because it contains most of the mass. 
+In other words, why is that frame of reference special? The answer is fairly simple: for the same reason the Earth moves around the Sun and not viceversa—the Sun is much, much more massive. When we think of moving objects, we think of their position as the position of their center of mass and so we equate the position of our solar system in the galaxy to the position of the Sun because it contains most of the mass.
 
 It's the same with atoms and matter, most of the mass comes from the nucleus.
 

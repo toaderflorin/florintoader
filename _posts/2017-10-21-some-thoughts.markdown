@@ -4,6 +4,7 @@ title:  "Some Thoughts"
 description: "
 Noticed this article on Quanta Magazine and have some thoughts on it. I've always been a proponent of the Bohmian view of QM and I've even gone further in giving an explanation to what might constitute the guiding wave of the theory−the actual vacuum energy itself."
 date: 2017-10-21 10:13:11 +0300
+image: "/images/escher2.jpg"
 ---
 I've noticed this [article](https://www.quantamagazine.org/pilot-wave-theory-gains-experimental-support-20160516/) on Quanta Magazine and have some thoughts on it. I've always been a proponent of the Bohmian view of QM and I've even gone further in giving an [explanation](http://florintoader.net/particles) to what might constitute the "guiding wave" of the theory−the actual vacuum energy itself.
 
