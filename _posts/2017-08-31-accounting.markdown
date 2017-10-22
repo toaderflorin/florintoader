@@ -4,7 +4,7 @@ title:  "Surprisingly, Providence Doesn't Involve Accounting"
 description: "The normal rules of physics don't apply to the quantum world, but if you're reading this, I guess you already knew that. One example of this is particles going through small potential barriers without having the energy to do so, like in this example..."
 date: 2017-08-31-energy 10:13:11 +0300
 categories: jekyll update
-image: "/images/butterfly.png"
+image: "/images/foam.jpeg"
 ---
 You see, the normal rules of physics (or common sense for that matter)  don't apply to the quantum world, but if you're reading this, I guess you already knew that. And for a lot of people (like myself), that's actually the appeal of it.
 
