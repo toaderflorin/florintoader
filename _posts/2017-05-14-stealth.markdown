@@ -5,10 +5,11 @@ date:   2017-05-14 21:13:11 +0300
 categories:
 description: "A common misconception is that stealth aircraft are invisible to radar. They are not, they simply have a reduced cross section. Just consider this: you have to be much closer to a coin then you have to be to a mountain in order to see it, so what low observability does is it gives airplanes first hit advantage...
 "
+image: "/images/b22.jpg"
 ---
 A common misconception is that stealth aircraft are invisible to radar. They are not, they simply have a reduced cross section. Just consider this: you have to be much closer to a coin then you have to be to a mountain in order to see it, so what low observability does is it gives airplanes first hit advantage.
 
-![image-title-here](/images/f35.jpeg){:class="img-responsive"} 
+![image-title-here](/images/f35.jpeg){:class="img-responsive"}
 
 Before we start though, we need to look at the physics of reflection. Radars work by shining a beam of radio electromagnetic energy and detecting the reflection from whatever object happens to be in the way of the beam.
 
@@ -24,7 +25,7 @@ Smooth objects reflect back in a small number of directions, whereas rough surfa
 
 OK, enough for an introduction. In the case of radars, the emitter of “light” and the observer are the same. A typical radar would send a short pulse of electromagnetic energy (in the radio spectrum) in one direction of space, turn off the transmitter and “listen” for the incoming echo for a certain amount of time, and then rotate it’s antenna dish a little bit and scan in another direction, and so forth (modern aircraft usually use phased arrays to redirect the beam, not moving antennas, but that’s for another article). And here is the principle of stealth: if the object diffuses electromagnetic energy in all directions, there is a good chance that a portion of that will be emitted right back to the radar and be picked up.
 
-Typically, conventional aircraft have a lot of surface features with irregular angles such as antennas, bolts, engine intakes, the blades of the engine fan, the cockpit, missiles mounted on the fuselage etc. and at any point, any one of these features can be perpendicular to the radar way as such that it bounces back to the radar. But it turns out it doesn’t even have to be perpendicular: right angles have the property of reflecting the beam back irrespective of where it came from. 
+Typically, conventional aircraft have a lot of surface features with irregular angles such as antennas, bolts, engine intakes, the blades of the engine fan, the cockpit, missiles mounted on the fuselage etc. and at any point, any one of these features can be perpendicular to the radar way as such that it bounces back to the radar. But it turns out it doesn’t even have to be perpendicular: right angles have the property of reflecting the beam back irrespective of where it came from.
 
 Check it out:
 
@@ -46,6 +47,6 @@ With a conventional type of fortress, you can easily have a line of cannons para
 
 You are always going to have surface features on a real aircraft which cannot be smooth (as you can see on this F-35), because you need to put in fuel, access various systems etc., so in this case it’s better to have jagged line to bounce of the incoming signal at various angles. But wouldn’t a radar be able to detect those reflected waves? Sure. But those reflected waves go to the side, and usually an aircraft is either flying towards a target (ingress) or away (egress), so the size of the front and back cross sections are more important than the side cross section.
 
-![image-title-here](/images/f22.jpeg){:class="img-responsive"} 
+![image-title-here](/images/f22.jpeg){:class="img-responsive"}
 
 Check out the parallel lines of the intakes, main and tail wings o the F-22. They are all aligned, and the idea is that you want to limit the number of angles your plane is visible from. The odds of a leading edge to be perpendicular to a radar wave is minimal — the plane would have to be turning and the radar would have to send the pulse at precisely that time minus whatever time the wave needs to get to the airplane. And even if the plane is briefly detected, that just one short bleep on the radar which disappears on the next scan.

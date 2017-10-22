@@ -4,6 +4,7 @@ title:  "What Makes The Sun Shine?"
 description: "
 Here's a nice picture of our Sun, a big ball of plasma. Have you wondered what makes it shine? OK, I'll make this short and sweet. The energy given off by the sun is the result of hydrogen nuclei (which are just protons) fusing together to form helium (which is comprised out of two protons and two neutrons). The fusion is the result of the extreme pressure in the core of the Sun."
 date: 2017-10-15 10:13:11 +0300
+image: "/images/sun.jpg"
 ---
 Here's a nice picture of our Sun, a big ball of plasma—quite a far cry from the Platonic image of a perfect sphere, right? But have you wondered what exactly makes it shine and where all that activity is coming from?
 

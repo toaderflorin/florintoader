@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">  
+<div class="home">
   {{ content }}
 
   <ul class="post-list">
@@ -14,6 +14,8 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+        <div style="width: 740px; height:350px; margin-top: 10px; background-position: center; background-size: cover; background-image: url({{post.image}}); margin-bottom: 12px;">
+        </div>
         <div>
           {{ post.description }}
         </div>

@@ -3,7 +3,7 @@ layout: post
 title:  "The Quantum World Might Not Be That Crazy After All"
 description: "<i>Opinions are like assholes, everybody's got one</i> a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... you see, smart people have egos."
 date: 2017-08-13 21:13:11 +0300
-categories:
+image: "/images/hydrogen.jpg"
 ---
 *"Opinions are like assholes, everybody's got one"* a wise man once said. That wise man was Larry Flynt, or at least that's what the movie claims he said. Those might not have been his exact words, but no need to get into specifics... you see, smart people have egos. So when Bohr and Heisenberg were working on quantum mechanics at the beginning of the 20th century, they weren't content on just creating a mathematical framework for making predictions, they also claimed that things in quantum mechanics are **inherently random**. In doing so, they not only crossed the boundary between philosophy and physics, they were butting heads with another smart guy who unsurprisingly also had a big ego, and who famously exclaimed *"God doesn't play dice!"*.
 

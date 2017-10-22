@@ -4,6 +4,7 @@ title:  "A Short History Of 3D Game Engines"
 description: "Another post from the “how it’s made” series. I chose to focus on Id Software, because back in the day, they were pioneers and everybody was copying them. Not to mention, John Carmack is a legend in the industry..."
 date:   2016-12-08 21:13:11 +0300
 categories:
+image: "/images/doom.jpeg"
 ---
 Another post from the “how it’s made” series. I chose to focus on Id Software, because back in the day, they were pioneers and everybody was copying them. Not to mention, John Carmack is a legend in the industry.
 
