@@ -18,7 +18,7 @@ The *Ads-MERA* approach tries to explain space as a large entanglement network, 
 
 ![magnetic field](/images/entanglement.png){:class="img-responsive"}
 
-What we do know is that [holography](https://en.wikipedia.org/wiki/Holographic_principle) is pretty much an established fact about our universe, and anti-de Sitter spaces which are involved in the the Ads-CFT correspondence look a lot like MERA networks (which describe entanglement relations), so this is a really promising line of research.
+What we do know is that [holography](https://en.wikipedia.org/wiki/Holographic_principle) is pretty much an established fact about our universe, and anti-de Sitter spaces which are involved in the Ads-CFT correspondence look a lot like MERA networks (which describe entanglement relations), so this is a really promising line of research.
 
 And since:
 
