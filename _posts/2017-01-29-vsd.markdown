@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Games Figure Out What's Visible In A Level"
-date:   2017-01-29 21:13:11 +0300
+date:   2017-10-25 11:13:11 +0300
 description: "In my previous game related article, I went a bit over the history of id software games spanning from Wolfenstein to Quake and I explained how the tech handles things such as occlusion culling (determining which parts of the level are visible from the player’s point of view), and how lighting works...
 "
 image: "/images/unreal.jpg"
@@ -17,7 +17,7 @@ When your level looks like this, the Quake 1 approach (binary space partitioning
 
 ![image-title-here](/images/portals.png){:class="img-responsive"}
 
-An approach that was popular for a while was having level designers having to manually create areas and place portals in the game editor (Doom 3 did this), but there are several problems with this approach. First of all it’s tedious, because it involves a lot of manual work. If the designer wants to change the level he / she needs to also change the placement of the portals and so forth, and if there are alignment issues, it can cause bleeding and other unwanted artifacts. Second, portals works great for interior labyrinthine levels such as Alien Isolation (or Doom 3, for that matter). They don’t work well for vast outdoor areas and they are especially bad if your game mixes indoor and outdoor areas. And last but certainly not least, this approach only works for static geometry.
+An approach that was popular for a while was having level designers having to manually create areas and place portals in the game editor (Doom 3 did this), but there are several problems with this approach. First of all it’s tedious, because it involves a lot of manual work. If the designer wants to change the level he / she needs to also change the placement of the portals and so forth, and if there are alignment issues, it can cause bleeding and other unwanted artefacts. Second, portals works great for interior labyrinthine levels such as Alien Isolation (or Doom 3, for that matter). They don’t work well for vast outdoor areas and they are especially bad if your game mixes indoor and outdoor areas. And last but certainly not least, this approach only works for static geometry.
 
 What you ideally want is a way that just works automatically with minimal preprocessing that is able to handle all these issues. This is where hardware occlusion queries enter the picture — as the name says, this is a feature which is supported natively by current video graphics cards.
 
@@ -39,7 +39,7 @@ The simplest implementation of HOQ would look this:
 
 3. If there are any pixels that, pass the Z buffer test, then you render the complex object. The reason for using a bounding box is you always want to cull conservatively. It’s better to render objects that are not actually visible (they will by culled by the Z test anyway), than to actually miss the edges of some objects — this would lead to really ugly visual artefacts.
 
-You might have noticed that we are relying the depth-buffer from the previous frame. This sometimes leads to flicker, and objects popping into existence (especially when the player turns fast), which has lead to searching for alternative ways of doing VSD. In Frostbite (the engine behind Battlefront and Battlefield 4, and the upcoming Battlefield 1 — yeah, I know, awesome naming convention), they are essentially using the same algorithm that’s used in HOQs, but they are doing it in software, so they can bypass hardware limitations and can do it in the same frame.
+You might have noticed that we are relying the depth-buffer from the previous frame. This sometimes leads to flicker, and objects popping into existence (especially when the player turns fast), which has lead to searching for alternative ways of doing VSD. In Frostbite (the engine behind Battlefront and Battlefield 1), they are essentially using the same algorithm that’s used in HOQs, but they are doing it in software, so they can bypass hardware limitations and can do it in the same frame.
 
 Full details [here](http://blog.selfshadow.com/publications/practical-visibility).
 
