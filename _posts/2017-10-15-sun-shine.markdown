@@ -12,7 +12,7 @@ Here's a nice picture of our Sun, a big ball of plasma—quite a far cry from th
 
 OK, I'll make this short and sweet.
 
-The Sun is mostly made out of hydrogen and helium. The energy it gives off is the result of hydrogen nuclei (which are just protons) fusing together to form helium nuclei (which is comprised out of two protons and two neutrons) and this fusion is the result of the extreme pressure caused by gravitational forces in the core of the Sun. Since it takes four protons to make a *He* nucleus, and the masses of those four protons combined are bigger than the mass of a single *He* nucleus, the result is just energy in the form of photons, as per E=mc<sup>2</sup>.
+The Sun is mostly made out of hydrogen and helium. The energy it gives off is the result of hydrogen nuclei (which are just protons) fusing together to form helium nuclei (a helium nucleus is made out of two protons and two neutrons) and this fusion is the result of the extreme pressure caused by gravitational forces in the core of the Sun. Since it takes four protons to make a *He* nucleus, and the masses of those four protons combined are bigger than the mass of a single *He* nucleus, the result is just energy in the form of photons, as per E=mc<sup>2</sup>.
 
 But wait a minute, where do those neutrons come from?
 
