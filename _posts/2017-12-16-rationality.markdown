@@ -47,7 +47,7 @@ According to this theory, the human brain is made out of three "layers". The *re
 You can think of the brain like a software application 3-tier software application where one layer sits on top of the other.
 </i>
 
-Think about that for a little while.
+Dwell on that for a little while.
 
 You'd be tempted to assume that people are rational beings, but it turns out not to be true--in fact people are *backwards-rational* and I'll explain in a minute exactly how that works. It is known that individuals with brain trauma on the limbic system level have a hard time making decisions such as deciding what to it or where to go on vacation. so the neocortex might have a lot of computational power but it needs the limbic system to assign an emotional desirability "score" for the possible outcomes it's evaluating.
 
