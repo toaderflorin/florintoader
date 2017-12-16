@@ -9,7 +9,7 @@ image: "/images/brains.jpg"
 
 *The brain doesn't do backtracking, it's greedy ALL THE WAY.*
 
-If the brain had an architecture, it would be of the [Big Ball Of Mud](https://blog.codinghorror.com/the-big-ball-of-mud-and-other-architectural-disasters/) variety. Finding the best solution involves exploring the whole solution space which is usually an O(n<sup>m</sup>) affair [complexity-wise](https://discrete.gr/complexity/), while greedy algorithms are O(n), and even your average brain consumes a lot of glucose.
+If the brain had an architecture, it would be of the [Big Ball Of Mud](https://blog.codinghorror.com/the-big-ball-of-mud-and-other-architectural-disasters/) variety. Finding the best solution involves exploring the whole solution space which is usually an O(n<sup>m</sup>) affair [complexity-wise](https://discrete.gr/complexity/), while greedy algorithms are O(n), and even your average brain consumes a lot of glucose so ideally you'd prefer to take a shortcut and for your brain to simplify things or get answers from memory, whenever possible.
 
 <iframe width="740" height="415" src="https://www.youtube.com/embed/UBVV8pch1dM" frameborder="0" allowfullscreen></iframe>
 
