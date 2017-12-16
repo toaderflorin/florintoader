@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Rationale Behind Human Irrationality"
-description: "'You do not need science to survive , but you need to survive to do science' Taleb once said, and truer words have never been spoken. So the brain has a caching mechanism. In SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
+description: "'You do not need science to survive , but you need to survive to do science' a wise man once said, and truer words have never been spoken. So the brain has a caching mechanism. In SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
@@ -15,7 +15,7 @@ If the brain had an architecture, it would be of the [Big Ball Of Mud](https://b
 
 Derek has a wonderful explanation of the logical brain and the shortcut brain. But then he always has wonderful explanations.
 
-### Cargo Cults And Neural Networks
+### Agency, Evolution And Neural Networks
 The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t got up there?"*.
 
 ![image-title-here](/images/rabbit-cloud.jpg){:class="img-responsive"}
@@ -52,8 +52,6 @@ Think about that for a little while.
 You'd be tempted to assume that people are rational beings, but it turns out not to be true--in fact people are *backwards-rational* and I'll explain in a minute exactly how that works. In fact, it's known that in individuals with brain trauma on the limbic system level, they have a hard time making decisions such as deciding what to it or where to go on vacation. The neocortex might have a lot of computational power, but it needs the limbic system to assign an emotional desirability "score" for certain outcomes.
 
 You might have noticed something interesting: trying to convince people that have a strong opinion on a subject with logical counter arguments or physical proof actually has the opposite effect--it makes them cling to their initial position on the topic even more stubbornly. Moon landing conspiracy theorists, for example, when presented with photos from Chinese satellites of the Apollo gear on the Moon, usually come up with complex explanations on how these photos could also have been faked. And this is where *cognitive dissonance* comes into play. If a person is presented with evidence that contradicts a moral set of values, which is essentially just the emotional operating system of that person,
-
-![image-title-here](/images/potato.png){:class="img-responsive"}
 
 There's a widely circulated story of King Frederick the Great, the [Potato King](https://en.wikipedia.org/wiki/Frederick_the_Great) (which might be largely anecdotal, very instructive nonetheless) who famously tried to convince his subjects to include the newly imported potato into their diets in order to resolve the problem of famine that was plaguing his kingdom at the time, to which they responded <i>"not even our dogs would touch them so what use are they to us?"</i>. The king then proceeded to declare the potato as being "royal" and only fit for royal consumption, while at the same time instructing his royal guards to be lax in the guarding of the royal potato fields. Lo and behold, reverse psychology was just as effective then as it is now, and the commoners (wanting to get their hands on the forbidden fruit) started to steal from the king's garden and grow their own, until the king was "forced" to concede that the potato isn't as royal as he once claimed. Problem solved.
 
