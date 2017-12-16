@@ -16,11 +16,11 @@ If the brain had an architecture, it would be of the [Big Ball Of Mud](https://b
 Derek has a wonderful explanation of the logical brain and the shortcut brain. But then he always has wonderful explanations.
 
 ### Agency, Evolution And Neural Networks
-The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t got up there?"*.
+The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. Some people refuse to fly on Friday the 13th. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t got up there?"* etc. etc.
 
 ![image-title-here](/images/rabbit-cloud.jpg){:class="img-responsive"}
 
-Regardless, our brains have a tendency to see [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why that came about from an evolutionary perspective.
+Regardless, our brains have a tendency to patterns or see divine [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why that came about from an evolutionary perspective.
 
 Let's first look at an artificial neuron which models (sort of) a real life one. A schematic of it would look like this:
 
