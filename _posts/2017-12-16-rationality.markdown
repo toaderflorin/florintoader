@@ -15,7 +15,7 @@ If the brain had an architecture, it would be of the [Big Ball Of Mud](https://b
 
 Derek has a wonderful explanation of the logical brain and the shortcut brain. But then he always has wonderful explanations.
 
-### Cargo Cults And Neural Networks
+### Agency, Evolution And Neural Networks
 The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t got up there?"*.
 
 ![image-title-here](/images/rabbit-cloud.jpg){:class="img-responsive"}
