@@ -20,7 +20,7 @@ The Mayans thought they had to sacrifice virgins to the gods in order for the su
 
 ![image-title-here](/images/rabbit-cloud.jpg){:class="img-responsive"}
 
-Regardless, our brains have a tendency to patterns or see divine [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why and how that came about from an evolutionary perspective.
+Regardless, our brains have a tendency to see patterns or divine [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why and how that came about from an evolutionary perspective.
 
 Let's first look at an artificial neuron which models (sort of) a real life one. A schematic of it would look like this:
 
