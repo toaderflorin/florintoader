@@ -2,7 +2,7 @@
 layout: post
 title:  "Harmony And Physics"
 description: "When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale..."
-date:   2017-12-16 11:13:11 +0300
+date:   2017-12-12 11:13:11 +0300
 image: "/images/piano.jpg"
 ---
 When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale. When I learned it, what struck me is how strange it looks when played on a guitar string. I mean, you can fret anywhere, so why is the distance between all notes 2 frets, except between B and C, and E and F?
