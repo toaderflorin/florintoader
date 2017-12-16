@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Rationale Behind Human Irrationality"
-description: "<i>You do not need science to survive , but you need to survive to do science</i> a wise man once said, and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
+description: "<i>You do not need science to survive, but you need to survive to do science</i> a wise man once said, and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
