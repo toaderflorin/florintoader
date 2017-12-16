@@ -32,7 +32,7 @@ Now here's where things begin to get interesting. The value of this threshold is
 
 ![image-title-here](/images/lioness.jpg){:class="img-responsive"}
 
-That threshold is largely evolutionary, and here's the thing: our brains have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
+The activation thresholds is in the neurons making up are brains are largely evolutionary, and here's the thing: the brains have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
 
 <i>
 This also includes creating elaborate explanations like religion beliefs and superstitions.
