@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The Rationale Behind Human Irrationality"
-description: "<i>You do not need science to survive , but you need to survive to do science</i> a wise man once said, and truer words have never been spoken. In SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
+description: "<i>You do not need science to survive , but you need to survive to do science</i> a wise man once said, and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
-<i>"You do not need science to survive , but you do need to survive to do science"<i> a wise man [oncesaid](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a), and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes.
+<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [oncesaid](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a), and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes.
 
 *The brain doesn't do backtracking, it's greedy ALL THE WAY.*
 
@@ -22,7 +22,7 @@ The Mayans thought they had to sacrifice virgins to the gods in order for the su
 
 Regardless, our brains have a tendency to see [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why that came about from an evolutionary perspective.
 
-Let's first look at an artificial neuron which models (sort of) an real life one. A schematic of it would look like this:
+Let's first look at an artificial neuron which models (sort of) a real life one. A schematic of it would look like this:
 
 ![image-title-here](/images/neuron-diagram.png){:class="img-responsive"}
 
@@ -53,11 +53,11 @@ You'd be tempted to assume that people are rational beings, but it turns out not
 
 You might have noticed something interesting: trying to convince people that have a strong opinion on a subject with logical counter arguments or physical proof actually has the opposite effect--it makes them cling to their initial position on the topic even more stubbornly. Moon landing conspiracy theorists, for example, when presented with photos from Chinese satellites of the Apollo gear on the Moon, usually come up with complex explanations on how these photos could also have been faked. And this is where *cognitive dissonance* comes into play. If a person is presented with evidence that contradicts a moral set of values, which is essentially just the emotional operating system of that person,
 
-There's a widely circulated story of King Frederick the Great, the [Potato King](https://en.wikipedia.org/wiki/Frederick_the_Great) (which might be largely anecdotal, very instructive nonetheless) who famously tried to convince his subjects to include the newly imported potato into their diets in order to resolve the problem of famine that was plaguing his kingdom at the time, to which they responded <i>"not even our dogs would touch them so what use are they to us?"</i>. The king then proceeded to declare the potato as being "royal" and only fit for royal consumption, while at the same time instructing his royal guards to be lax in the guarding of the royal potato fields. Lo and behold, reverse psychology was just as effective then as it is now, and the commoners (wanting to get their hands on the forbidden fruit) started to steal from the king's garden and grow their own, until the king was "forced" to concede that the potato isn't as royal as he once claimed. Problem solved.
+There's a widely circulated story of King Frederick the Great, the [Potato King](https://en.wikipedia.org/wiki/Frederick_the_Great) (which might be largely anecdotal, but very instructive nonetheless) who famously tried to convince his subjects to include the newly imported potato into their diets in order to resolve the problem of famine that was plaguing his kingdom at the time, to which they responded <i>"not even our dogs would touch them so what use are they to us?"</i>. The king then proceeded to declare the potato as being "royal" and only fit for royal consumption, while at the same time instructing his royal guards to be lax in the guarding of the royal potato fields. Lo and behold, reverse psychology was just as effective then as it is now, and the commoners (wanting to get their hands on the forbidden fruit) started to steal from the king's garden and grow their own, until the king was "forced" to concede that the potato isn't as royal as he once claimed. Problem solved.
 
 But as you can see, the human brain isn't exactly rational. And that's in part because of evolutionary ["technical debt"](https://en.wikipedia.org/wiki/Technical_debt) and also because rational thought consumes a lot of energy.
 
-### So What's Your Point Doc?
+### What I'm Trying To Get At
 Of course, the way the brain operates isn't exactly news for politicians and marketers. They know full well we are not rational--take Beats by Dre for example.
 
 ![image-title-here](/images/gaga.jpg){:class="img-responsive"}
