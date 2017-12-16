@@ -55,9 +55,9 @@ You might have noticed something interesting: trying to convince people that hav
 
 There's a widely circulated story of King Frederick the Great, the [Potato King](https://en.wikipedia.org/wiki/Frederick_the_Great) (which might be largely anecdotal, but very instructive nonetheless) who famously tried to convince his subjects to include the newly imported potato into their diets in order to resolve the problem of famine that was plaguing his kingdom at the time, to which they responded <i>"not even our dogs would touch them so what use are they to us?"</i>. The king then proceeded to declare the potato as being "royal" and only fit for royal consumption, while at the same time instructing his royal guards to be lax in the guarding of the royal potato fields. Lo and behold, reverse psychology was just as effective then as it is now, and the commoners (wanting to get their hands on the forbidden fruit) started to steal from the king's garden and grow their own, until the king was "forced" to concede that the potato isn't as royal as he once claimed. Problem solved.
 
-But as you can see, the human brain isn't exactly rational. And that's in part because of evolutionary ["technical debt"](https://en.wikipedia.org/wiki/Technical_debt) and also because rational thought consumes a lot of energy.
-
 ### What I'm Trying To Get At
+As you can see, the human brain isn't exactly rational. And that's in part because of evolutionary ["technical debt"](https://en.wikipedia.org/wiki/Technical_debt) and also because rational thought consumes a lot of energy.
+
 Of course, the way the brain operates isn't exactly news for politicians and marketers. They know full well we are not rational--take Beats by Dre for example.
 
 ![image-title-here](/images/gaga.jpg){:class="img-responsive"}
