@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Rationale Behind Human Irrationality"
-description: "'You do not need science to survive , but you need to survive to do science' Taleb once said, and truer words have never been spoken. So the brain has a caching mechanism. In SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
+description: "'You do not need science to survive , but you need to survive to do science' a wise man once said, and truer words have never been spoken. So the brain has a caching mechanism. In SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
