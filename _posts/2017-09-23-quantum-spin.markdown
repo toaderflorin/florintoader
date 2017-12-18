@@ -29,11 +29,11 @@ You can see that with the [Stern-Gerlach](https://en.wikipedia.org/wiki/Stern%E2
 <iframe width="740" height="415" src="https://www.youtube.com/embed/rg4Fnag4V-E" frameborder="0" allowfullscreen></iframe>
 <br/>
 
-But here's where it gets interesting, there are actually just two possible values for the magnetic moment in regards to any direction: up and down. Nothing in between. This is why we say the spin is quantized. This is also another reason why this spin is not an actual rotation of the electron. But if it would be, spin *up* would correspond to a particle spinning counterclockwise in relation to its direction of movement (we call this a *left handed* electron) and spin down would correspond to a particle rotating clockwise (a *right handed* electron).
+But here's where it gets interesting, there are actually just two possible values for the magnetic moment in regards to any direction: up and down. Nothing in between. This is why we say the spin is quantized. This is also another reason why this spin is not an actual rotation of the electron. But if it would be, spin *up* would correspond to a particle spinning counter-clockwise in relation to its direction of movement (we call this a *left handed* electron) and spin down would correspond to a particle rotating clockwise (a *right handed* electron).
 
 Something like this:
 
-![image-title-here](/images/handedness.png){:class="img-responsive"}
+![handedness](/images/handedness.png){:class="img-responsive"}
 
 Hmm now wait a minute. In 3D space an object can rotate around any axis, not just the  direction of movement. What gives? I've told you, quantum spin is not classical rotation. It's just a measurement outcome and the way to think of it is like an intrinsic property of a particle. The particle is either *left-handed* or *right-handed*. The reason we care is because the [weak force](https://en.wikipedia.org/wiki/Weak_interaction) only interacts with left handed particles, which is really weird, but Nature works in mysterious ways.
 
@@ -69,11 +69,11 @@ But why?
 
 It is believed that what we perceive as "space", is actually some sort of structure emerging from quantum phenomena and not a fundamental concept. One such concept of space is called a *spin network*, as you can see in this image.
 
-![chirality](/images/spin-network.png){:class="img-responsive"}
+![spin-network](/images/spin-network.png){:class="img-responsive"}
 
 Since spin is angular momentum, it's measured in kg·m<sup>2</sup>·s<sup>−1</sup>. But we only see multiples of certain values for this, like so:
 
-![chirality](/images/spinvec.gif){:class="img-responsive"}
+![spin](/images/spinvec.gif){:class="img-responsive"}
 
 For [fermions](https://en.wikipedia.org/wiki/Fermion) spin can take values such as -1/2, 1/2, 3/2, 5/2 etc. Since spin is just the projection on the S<sub>z</sub> axis and it is periodic, 3/2 is equivalent to 1/2, 5/2 to -1/2 and so on, so we just have -1/2 and 1/2 as unique possible values which correspond to left and right handedness. [Bosons](https://en.wikipedia.org/wiki/Boson) (which are force carrier particles) such as the photon are spin 1 particles, so their spin can only take -1 and 1 as possible values (which makes a world of difference because it means bosons are able to pass through one another unimpeded but prevents matter particles from doing so—the [Pauli exclusion principle](https://en.wikipedia.org/wiki/Pauli_exclusion_principle), which is why we have planets, people, iPhones and TGI Friday's).
 

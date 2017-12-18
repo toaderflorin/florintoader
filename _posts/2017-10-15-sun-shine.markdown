@@ -21,7 +21,7 @@ As you probably guessed it, a proton can turn into a neutron under the right con
 
 Here is another thing worth pointing: neutrons are not stable outside the nucleus. On their own, they decay on average in about 11 minutes and that happens via de weak force, like so:
 
-![magnetic field](/images/decay.png){:class="img-responsive"}
+![decay](/images/decay.png){:class="img-responsive"}
 
 What happens is one of the down quarks in the neutron spontaneously emits a <i>W <sup>-</sup> boson</i>, and so it turns into an up quark. The W then rapidly decays into an electron and an anti-neutrino. This process is called *beta decay*. Cool, but if you checked Wikipedia, you might have seen that the W is *maaaaaasive*, it has about 100 times the mass of the proton so how in the world can a quark emit something so heavy?
 
@@ -42,7 +42,7 @@ That is *sort of* the case, but it's slightly more complicated than that. What w
 
 Essentially, it's not the *same photon*, in fact it doesn't even make sense to talk about particle identity in quantum field theory, because particles are indistinguishable. What we care about is energy and momentum being conserved.
 
-![magnetic field](/images/scattering.png){:class="img-responsive"}
+![scattering](/images/scattering.png){:class="img-responsive"}
 
 Think about it this way: the Earth (and our bodies) is being heated by a small relative number of higher energy photons (light) by the Sun, but emits a much larger number of low energy photons (infrared) into space, thus remaining at thermal equilibrium. The same thing happens inside the Sun: a smaller number of very energetic photons (gamma rays) transform into a larger number of visible light photons (the ones that escape the surface of the Sun and we are able to see). Yes, this process takes thousands of years, but we are *not talking about the same photons* that originated in the core of the Sun.
 

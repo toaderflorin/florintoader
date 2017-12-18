@@ -12,7 +12,7 @@ I've given a brief introduction to Einstein's Special Theory of Relativity [here
 Yes, it's really weird, but it has to be true.
 
 ### Why?
-Well, our day to day reality is mostly governed by the the electromagnetic force (and gravity, but that's part of the General Theory of Relativity, and the subject of another discussion). I will show why either electromagnetism is wrong (and it's not, because if you are reading this, it means your phone / device from which you're reading this is still working, the molecules that make up your body are holding together etc.), or Einstein must be right and Newton must be wrong.
+Well, our day to day reality is mostly governed by the electromagnetic force (and gravity, but that's part of the General Theory of Relativity, and the subject of another discussion). I will show why either electromagnetism is wrong (and it's not, because if you are reading this, it means your phone / device from which you're reading this is still working, the molecules that make up your body are holding together etc.), or Einstein must be right and Newton must be wrong.
 
 Okay, enough for an introduction, let's get our hands dirty. Imagine an electric current in a metal wire:
 
@@ -32,7 +32,7 @@ So we have two frames of reference:
 
 Here's a quick refresher of relativity before Einstein. This might be apocryphal, but apparently Galileo dropped a rock while on a moving boat and the rock kept moving forward with the boat after he let go of it. That's called *inertia*, by the way.
 
-![image-title-here](/images/galileo.png){:class="img-responsive"}
+![galileo](/images/galileo.png){:class="img-responsive"}
 
 Pretty straight forward, the speeds just combine intuitively. The problem is this doesn't work for electromagnetism. If we look at our two frames of reference (A and B) from Newton or Galileo's perspective on relativity, we won't see anything special. Sure, the current appears to be moving in the other direction, but that's like overpassing a car on the freeway at a higher speed. To us it appears we are stationary and the car is moving backwards. No big deal, the wire is still neutral when it comes to net electric charge and it shouldn't affect the ball in any way. And this is the problem, we know from experiments that it should!
 
@@ -49,13 +49,13 @@ But then people started playing around with the two and they found something int
 
 Hmm, weird... So a moving electric charge produces a magnetic field, but a stationary charge doesn't. A stationary charge does have an electric field though. Maxwell did a bunch of experiments and figured out that a variable electric field generates a variable magnetic field and *viceversa*. Which means they propagate through space like a ripple and must be in some ways related:
 
-![image-title-here](/images/em-wave.gif){:class="img-responsive"}
+![em-wave](/images/em-wave.gif){:class="img-responsive"}
 
 Let's get back to our little experiment. In our the wire's frame of reference, we attribute the attraction force to the wire being an electromagnet, so to the magnetic force. But in the ball's frame of reference the force seems to be caused by the electric force, because the wire appears to have a net positive charge. But it turns out it's the same thing! The electric and magnetic forces are just sides of the same coin, *the electromagnetic force*. If you look at it from one point of view it appears as magnetism, if you look at it from a different point of view it appears as an electric force. From yet another point of view, it's a mixture of both. In space, the forces are just perpendicular arrows to one another.
 
 Which might leave you scratching your head a little bit: *well there surely isn't any current flowing through magnetite rocks or refrigerator magnets, now is there?...*
 
-![image-title-here](/images/mag1.gif){:class="img-responsive"}
+![mag1](/images/mag1.gif){:class="img-responsive"}
 
 The answer is quite simple, in a magnetic material, the chemical structure makes it so that the spins of the electrons are aligned. Since each electron behaves like a little magnet, all these effects add up and become detectable at big scales.
 
@@ -66,6 +66,6 @@ In other words, why is that frame of reference special? The answer is fairly sim
 
 It's the same with atoms and matter, most of the mass comes from the nucleus.
 
-![image-title-here](/images/solar-system.jpg){:class="img-responsive"}
+![solar-system](/images/solar-system.jpg){:class="img-responsive"}
 
 Nature wants to move to its lowest stable energy state, so atoms and molecules tend to be electrically neutral (whenever things are not electrically neutral, we usually have a chemical reaction that brings that system to that state, the ground state). But we noticed that the actual net charge depends on the reference frame, so in relation to which does nature pick to be neutral? In relation to the center of mass obviously, which for an atom corresponds to the position of the nucleus. In our wire, the nuclei of the atoms are stationary relative to one another and only the electrons are moving, so that's our prefered frame of reference.

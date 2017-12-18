@@ -22,18 +22,18 @@ The simplest shadowing algorithm in 3D graphics works like this: to see if light
 
 When rendering the scene, for each pixel of a particular polygon, you check against the depth map. Based on the position of the point you are rendering, you calculate the angle with the light source and you get the corresponding cube face and the *u* and *v* coordinates for that direction. If your point's distance to the light source equals the distance in the depth map (use a small bias here, there might be numerical errors), it means your object is the occluder for that direction, and it is lit. If the distance is bigger, it means there’s something else closer to the light, so this area is in shadow.
 
-![image-title-here](/images/lighting1.jpg){:class="img-responsive"}
+![lighting1](/images/lighting1.jpg){:class="img-responsive"}
 
 You can see the result of this technique in the picture. Now obviously, this is not what shadows look like in the real world.
 
 ### Area Shadows ###
 The reason why shadows are not hard in the real world is because light sources have volume. For example, the sun is not a point, it’s a disc (as seen from Earth). This means objects have penumbras which are lit by only part of the light source. The bigger the light source, the more diffuse the shadow is.
 
-![image-title-here](/images/lighting2.jpg){:class="img-responsive"}
+![lighting2](/images/lighting2.jpg){:class="img-responsive"}
 
 We could try to blur our shadow, but that doesn’t look realistic because a real soft shadow is sharp near the object and gets softer with distance. A real soft shadow (called actually area shadow) looks like this:
 
-![image-title-here](/images/lighting3.jpg){:class="img-responsive"}
+![lighting3](/images/lighting3.jpg){:class="img-responsive"}
 
 The way this is implemented in non real-time rendering engines, is by simulating how light behaves in the real world and casting a lot of rays in various directions and averaging out the result. The disadvantage of this approach is that the technique produces an image which is noisy if not enough photons are traced (you can actually see the individual photons), and very time consuming if you are tracing and averaging enough photons to get rid of the noise.
 
@@ -52,7 +52,7 @@ Obviously, for complex objects the distance functions are complicated and they u
 
 UE actually allows visualizing the distance fields in a level. This is pretty cool.
 
-![image-title-here](/images/dfields.jpg){:class="img-responsive"}
+![dfields](/images/dfields.jpg){:class="img-responsive"}
 
 This is another interesting concept, and it’s not really that new. The algorithm involves tracing a ray by getting closer and closer to the actual objects, using spheres, like the one in the image. At each step, the closest distance to the scene can be inferred via the distance field we just discussed so this is a fairly cheap operation on the GPU. Nvidia has an article describe the technique in detail [here](http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter08.html).
 

@@ -8,7 +8,7 @@ image: "/images/cat.jpg"
 ---
 You might have heard of a little thought experiment by Schrodinger in trying to prove the absurdity of the [Copenhagen interpretation](https://en.wikipedia.org/wiki/Copenhagen_interpretation) of quantum mechanics.
 
-![magnetic field](/images/cat.jpg){:class="img-responsive"}
+![images](/images/cat.jpg){:class="img-responsive"}
 
 Here's a description of the experiment by the man himself:
 
@@ -18,7 +18,7 @@ One can even set up quite ridiculous cases. A cat is penned up in a steel chambe
 
 Essentially, you could write something like:
 
-![magnetic field](/images/cat-alive.jpg){:class="img-responsive"}
+![cat-alive](/images/cat-alive.jpg){:class="img-responsive"}
 
 which gives equal probability amplitudes to the cat being dead or alive, and these amplitudes add up to 100%. He further goes on to say:
 
@@ -28,7 +28,7 @@ It is typical of these cases that an indeterminacy originally restricted to the 
 
 Before we discuss this in detail, we must understand some basic aspects of quantum mechanics. One aspect is *coherence*. In a coherent light source like a laser, all photons have the same wave-length, and their phases are synchronized, and it looks like this:
 
-![magnetic field](/images/coherent.jpg){:class="img-responsive"}
+![coherent](/images/coherent.jpg){:class="img-responsive"}
 
 A decoherent light source would look like this:
 
@@ -39,7 +39,7 @@ But we know that not just light, but all matter particles are waves. And if you 
 ### The Measurement Problem
 In quantum mechanics, the wave function describes the probability of finding the particle in a location in space, but to actually figure out where it is, you have to perform a measurement. After the measurement, the wave function will start to spread again.
 
-![magnetic field](/images/collapse.png){:class="img-responsive"}
+![collapse](/images/collapse.png){:class="img-responsive"}
 
 Since the measurement is giving you a precise location, the wave function is said to *collapse*, because as you can see, the wave function takes a very specific value.
 

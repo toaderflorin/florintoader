@@ -45,7 +45,7 @@ And if you want to answer *time independent* questions (and you *don't have comp
 
 *The law of conservation of energy* just says this sum stays constant over a period of time in BIG (non-quantum) systems. Small quantum systems violate energy conservation laws ALL THE TIME. In fact, let’s have a look at the Heisenberg uncertainty principle:
 
-![image-title-here](/images/heisenberg.gif){:class="img-responsive"}
+![heisenberg](/images/heisenberg.gif){:class="img-responsive"}
 
 In a nutshell, it tells us that we cannot know both the position and the speed of a particle with arbitrary precision, but if we tweak the mathematics around a little bit we get the time-energy uncertainty relation which is mathematically equivalent but says:
 
