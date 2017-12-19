@@ -15,7 +15,7 @@
 }
 
 .banner-inner {
-  height: 440px;
+  height: 420px;
   background: url(/images/cs.jpg);
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@
 .banner-inner-title {
   color: white;
   display: flex;
-  height: 420px;
+  height: 400px;
   align-items:
   flex-start;
   flex-direction: column;
@@ -33,11 +33,13 @@
 }
 
 .banner-site-title {
-  color: white; font-size: 45px; font-weight: 400;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 .banner-pic {
-  height: 120px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
