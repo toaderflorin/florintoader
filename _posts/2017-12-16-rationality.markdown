@@ -26,9 +26,9 @@ Let's first look at an artificial neuron which models (sort of) a real life one.
 
 ![neuron-diagram](/images/neuron-diagram.png){:class="img-responsive"}
 
-The output of a neuron can function as the input for another one, and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero.
+The output of a neuron can function as the input for another one and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero.
 
-Now here's where things begin to get interesting. The value of this threshold is very important. If it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
+Now here's where things begin to get interesting: the value of this threshold is very important because if it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
 
 ![lioness](/images/lioness.jpg){:class="img-responsive"}
 
