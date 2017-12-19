@@ -1,5 +1,5 @@
 <header class="site-header" role="banner">
-  <div style="background-color: red; height: 440px; background: url(/images/cs.jpg); background-size: cover; background-position: center; ">
+  <div style="height: 440px; background: url(/images/cs.jpg); background-size: cover; background-position: center;">
     <div class="wrapper" style="color: white; display: flex; height: 420px; align-items: flex-start; flex-direction: column;  justify-content: flex-end; padding-bottom: 50px;">
       {% assign default_paths = site.pages | map: "path" %}
       {% assign page_paths = site.header_pages | default: default_paths %}
@@ -9,7 +9,7 @@
         <i>“For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.”</i></p>
       <p><b><i>Carl Sagan</i></b></p>
 
-      {% if page_paths %}
+      <!-- {% if page_paths %}
         <nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -22,7 +22,7 @@
             </span>
           </label>
         </nav>
-      {% endif %}
+      {% endif %} -->
     </div>
   </div>
 </header>
