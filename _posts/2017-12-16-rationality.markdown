@@ -5,7 +5,7 @@ description: "<i>You do not need science to survive, but you need to survive to 
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
-<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes, from an evolutionary point of view. Say, Ug is coming out of his cave and he's pissed because you had sex with his woman--you need to make a decision on the spot if you are going to flee, or pick a boulder or stick and fight. Being indecisive is the absolute worst thing you can do.
+<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken because from an evolutionary point of view, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. Say, Ug is coming out of his cave and he's pissed because you had sex with his woman--you need to make a decision on the spot if you are going to flee, or pick a boulder or stick and fight. Being indecisive is the absolute worst thing you can do.
 
 *The brain doesn't do backtracking, it mostly uses greedy strategies.*
 
@@ -18,19 +18,19 @@ Derek has a wonderful explanation of the logical brain and the shortcut brain. B
 ### Agency, Evolution And Neural Networks
 The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. Some people refuse to fly on Friday the 13th. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t get up there?"* etc.
 
-![image-title-here](/images/rabbit-cloud.jpg){:class="img-responsive"}
+![rabbit-cloud](/images/rabbit-cloud.jpg){:class="img-responsive"}
 
 Regardless, our brains have a tendency to see patterns or divine [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) where there is none (from rodent lookalike cumulus to bad omens in medieval times) and it's interesting to think why and how that came about from an evolutionary perspective.
 
 Let's first look at an artificial neuron which models (sort of) a real life one. A schematic of it would look like this:
 
-![image-title-here](/images/neuron-diagram.png){:class="img-responsive"}
+![neuron-diagram](/images/neuron-diagram.png){:class="img-responsive"}
 
-The output of a neuron can function as the input for another one, and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero.
+The output of a neuron can function as the input for another one and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero.
 
-Now here's where things begin to get interesting. The value of this threshold is very important. If it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
+Now here's where things begin to get interesting: the value of this threshold is very important because if it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
 
-![image-title-here](/images/lioness.jpg){:class="img-responsive"}
+![lioness](/images/lioness.jpg){:class="img-responsive"}
 
 The activation thresholds in the neurons making up our brains are largely evolutionary dependent and here's the thing: they have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
 
@@ -41,7 +41,7 @@ This also includes creating elaborate explanations like religion beliefs and sup
 ### The Triune Brain Theory
 According to this theory, the human brain is made out of three "layers". The *reptilian* part of the brain is responsible for basic locomotion functions such as standing upright, the fight / flight response and the regulation of the endocrine system. The *limbic system* is responsible for emotions, such as love, fear, envy and so on. And last, but definitely not least, we have the *neocortex* is the part of the brain that's responsible for conscious thought.
 
-![image-title-here](/images/triune.png){:class="img-responsive"}
+![triune](/images/triune.png){:class="img-responsive"}
 
 <i>
 You can think of the brain like a software application 3-tier software application where one layer sits on top of the other.
@@ -60,7 +60,7 @@ As you can see, the human brain isn't exactly rational. And that's in part becau
 
 Of course, the way the brain operates isn't exactly news for politicians and marketers. They know full well we are not rational--take Beats by Dre for example.
 
-![image-title-here](/images/gaga.jpg){:class="img-responsive"}
+![lady-gage](/images/gaga.jpg){:class="img-responsive"}
 
 I would find it hard to believe a millionaire pop star actually uses Beats for personal use, considering a pair of Beats Solo (while retailing for $200) only contains about $20 [worth of parts](https://www.techspot.com/news/61060-200-beats-headphones-actually-cost-18-make.html) and produces low sound fidelity. Nonetheless, being constantly bombarded by images of stars sporting Beats, our brain makes the association between high status and the product, and even if somebody recognizes the marketing trick, it's still hard to overcome the desire to purchase the product if the person is a fan of the said star.
 
