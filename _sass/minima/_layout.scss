@@ -14,6 +14,33 @@
     }
 }
 
+.banner-inner {
+  height: 440px;
+  background: url(/images/cs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-inner-title {
+  color: white;
+  display: flex;
+  height: 420px;
+  align-items:
+  flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+
+.banner-site-title {
+  color: white; font-size: 45px; font-weight: 400;
+}
+
+.banner-pic {
+  height: 120px;
+  margin-bottom: 10px;
+}
+
 .site-title {
   @include relative-font-size(3.8);
   font-weight: 400;
