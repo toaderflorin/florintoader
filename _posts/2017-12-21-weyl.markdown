@@ -2,7 +2,7 @@
 layout: post
 title:  "The Language Of God: Part 1"
 description: "Show a picture of Einstein and most people would recognize who he is. A lot of people would be able to recognize Heisenberg and certainly even more people have heard of him, even though they don't know how a picture of him would look like..."
-date:   2017-12-19 11:13:11 +0300
+date:   2017-12-21 11:13:11 +0300
 image: "/images/lie8.jpg"
 ---
 Einstein used the phrase "reading the mind of God" a lot when talking about physics--to be more precise, he said something along the lines of:
