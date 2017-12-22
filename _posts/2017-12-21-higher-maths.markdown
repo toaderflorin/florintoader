@@ -56,7 +56,7 @@ Which in matrix form looks like:
 More complex transformations (in 3D) or Lorentz transformations take more complex matrices and these matrices can me multiplied for complex transforms.
 
 ### A Bit Of Group Representation Theory
-Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations. The group operation is matrix multiplication.
+Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
 
 ### Symmetry Groups
 Since we now have a notion of what transformations and groups are, we can define the notion of *symmetry groups*. The symmetry group *for a certain object* (such as a geometric object, say a sphere or cube, or a signal etc.) consists of all the transformations that leave that object unchanged.
