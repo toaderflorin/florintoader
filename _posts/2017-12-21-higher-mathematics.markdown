@@ -9,11 +9,13 @@ Einstein used the phrase "reading the mind of God" a lot when talking about phys
 
 *I want to know how God created this world. I'm not interested in this or that phenomenon, in the spectrum of this or that element. I want to know His thoughts, the rest are details.*.
 
-Of course, Einstein used "God" as a stand-in for "the laws of the universe", but what most people don't know is that is as perceptive as he was, he still relied of the work of Hermann Minkowski to describe the mathematical underpinnings of General Relativity. You can look at what's happening and have an intuitive understanding of the processes at work, but if you want to describe and formalize everything, you need to understand this "language". And that language is mathematics.
+Of course, Einstein used "God" as a stand-in for "the laws of the universe", but what most people don't know is that is as perceptive as he was, he still relied of the work of Hermann Minkowski to describe the mathematical underpinnings of General Relativity. You can look at what's happening and have an intuitive understanding of the processes at work, but if you want to describe and formalize everything, you need to understand "the language of God".
+
+And that language is mathematics.
 
 ![weyl](/images/weyl.png){:class="img-responsive"}
 
-Show a picture of Einstein and most people would recognize who he is. A lot of people would be able to recognize Heisenberg and certainly even more people have heard of him, even though they don't know how a picture of him would look like. Surprisingly, considering this man's contribution to science and mathematics, not many people who are not in the field have heard of him.
+Getting back to Einstein, show a picture of him and most people would recognize who he is. Still quite a few people would be able to recognize Heisenberg and certainly even more have heard of him, but not many a folk have even heard of Hermann Weyl--which is surprising, considering the man's contribution to science and mathematics.
 
 If you follow physics blogs, you might have read that the main problem in physics right now is combining relativity with quantum mechanics. That's not correct, Paul Dirac did that in 1928 and he also predicted the existence of anti-matter, so that's not the problem. The problem is we don't know how to create a quantum theory of gravity, because no attempt at this is [renormalizable](https://en.wikipedia.org/wiki/Renormalization), but that's something for another day.
 
