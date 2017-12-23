@@ -17,9 +17,7 @@ Show a picture of Einstein and most people would recognize who he is. A lot of p
 
 If you follow physics blogs, you might have read that the main problem in physics right now is combining relativity with quantum mechanics. That's not correct, Paul Dirac did that in 1928 and he also predicted the existence of anti-matter, so that's not the problem. The problem is we don't know how to create a quantum theory of gravity, because no attempt at this is [renormalizable](https://en.wikipedia.org/wiki/Renormalization), but that's something for another day.
 
-Mathematicians are the unsung heroes of the field and you can think of this article as a small homage to Weyl. If it wasn't for him, we wouldn't have *representation theory* or *gauge theory*.
-
-So here we go.
+Mathematicians are the unsung heroes of the field and you can think of this article as a small homage to Weyl. If it wasn't for him, we wouldn't have *representation theory* or *gauge theory*. But before we get into the sweet stuff, we need to lay the ground work. So here we go.
 
 ### Algebraic Groups
 We are going to start with the basics, the equivalent of "gugu gaga", if you will: groups. Groups are "abstract algebraic structures"--a group consists of a set of *elements* (say all positive integers smaller than 100) and an *operation*. Let's call our group G. We will annotate the operation with "•".
@@ -34,7 +32,7 @@ A simple example would be the [circle group](https://en.wikipedia.org/wiki/Unita
 
 ![rot2](/images/circle-group.svg){:class="img-responsive"}
 
-Multiplying two complex numbers with absolute value 1 yields another complex number with absolute value of 1.
+Multiplying two complex numbers with absolute value 1 gives us another complex number with absolute value of 1. Duh.
 
 ![weyl](/images/modulo.svg){:class="img-responsive"}
 
@@ -53,7 +51,7 @@ Which in matrix form looks like:
 
 ![rot2](/images/rot2.svg){:class="img-responsive"}
 
-More complex transformations (in 3D) or Lorentz transformations take more complex matrices and these matrices can me multiplied for complex transforms.
+More complex transformations (in 3D) or [Lorentz transformations](https://en.wikipedia.org/wiki/Lorentz_transformation) take more complex matrices and these matrices can me multiplied for complex transforms.
 
 ### Symmetry Groups
 Since we now have a notion of what transformations and groups are, we can define the notion of *symmetry groups*. The symmetry group *for a certain object* (such as a geometric object, say a sphere or cube, or a signal etc.) consists of all the transformations that leave that object unchanged.
@@ -68,16 +66,26 @@ The matrix rotation over an arbitrary axis with an arbitrary angle theta looks l
 
 The matrix looks complicated, so don't worry about it! What is important is that we can have any value for &theta; and for the orientation of the axis *(u<sub>x</sub>, u<sub>y</sub>, u<sub>z</sub>)* so we are dealing with a *smooth symmetry set*. The set of the symmetry group for a cube is not smooth--we can rotate it by an arbitrary amount (nor flip it) for obvious reasons.
 
-### Lie Algebras / Representation Theory
-Lie groups are interesting because they combine geometry with algebra. The formal definition of a Lie group is that
+### Lie Groups
+Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are. Honestly, a lot of this stuff looks like somebody pulled it out of their behind to seem smart, but bear with me.
+
+A simple manifold would be something like a sphere or ellipsoid, which approximates the surface of the Earth. We can have even more complicated manifolds such as the one in the picture, not to mention that we can have more than 2 dimensions. Heck, a circle is also a manifold.
 
 ![rot2](/images/manifold.PNG){:class="img-responsive"}
 
-Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
+Lie groups are groups in which the elements of the group also form a *differentiable* or [smooth manifold](https://en.wikipedia.org/wiki/Differentiable_manifold). That simply means the manifold is continuous (it doesn't have any holes in it) and its surface is smooth, meaning that there aren't any jagged angles.
 
-*A representation of a group is another group (which is an isomorphism of the first one), where the elements are transformation matrices and the group operation is matrix multiplication.*
+<!-- Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
 
-An isomorphism is a relationship that defines a one to one mapping between the elements.
+*A representation of a group is another group, where the elements are transformation matrices like the ones we presented earlier and the group operation is matrix multiplication.*
+
+What those matrices look like depends on what group we are trying to create a representation of, but keep in mind the whole idea behind them is to reduce more complicated problems to linear algebra problems, which are usually a tad easier to tackle. -->
 
 ### Why Do We Care About All This?
 Well, we care because symmetries ARE the laws of physics. One simply needs to analyse the results of millions of collisions in an accelerator, plot the results and look at the patterns (or symmetries) of the resulting signal in order to deduce the laws that govern the interactions.
+
+![rot2](/images/curved.jpg){:class="img-responsive"}
+
+The laws of quantum electrodynamics are described by the U(1) symmetry group. Electroweak interactions are described by a broken symmetry of the SU(2)xU(1) group etc. Don't worry about that means for the time being, we'll get to it in future articles. Also, all of this happens in an arena that's quite different from the flat Euclidean space we're all used to from our day to day experience.
+
+I'll refer back to this article once we get to the sweet stuff.
