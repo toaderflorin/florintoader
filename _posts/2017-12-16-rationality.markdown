@@ -35,7 +35,7 @@ Now here's where things begin to get interesting: the value of this threshold is
 The activation thresholds in the neurons making up our brains are largely evolutionary dependent and here's the thing: they have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
 
 <i>
-This also includes creating elaborate explanations like religion beliefs and superstitions.
+This also includes creating elaborate explanations like religious beliefs and superstitions.
 </i>
 
 ### The Triune Brain Theory

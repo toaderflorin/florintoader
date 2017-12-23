@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intro To Higher Mathematics"
+title:  "A Brief Introduction To Higher Mathematics"
 description: "Show a picture of Einstein and most people would recognize who he is. A lot of people would be able to recognize Heisenberg and certainly even more people have heard of him, even though they don't know how a picture of him would look like..."
 date:   2017-12-21 11:13:11 +0300
 image: "/images/lie8.jpg"
@@ -55,9 +55,6 @@ Which in matrix form looks like:
 
 More complex transformations (in 3D) or Lorentz transformations take more complex matrices and these matrices can me multiplied for complex transforms.
 
-### A Bit Of Group Representation Theory
-Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
-
 ### Symmetry Groups
 Since we now have a notion of what transformations and groups are, we can define the notion of *symmetry groups*. The symmetry group *for a certain object* (such as a geometric object, say a sphere or cube, or a signal etc.) consists of all the transformations that leave that object unchanged.
 
@@ -70,6 +67,17 @@ The matrix rotation over an arbitrary axis with an arbitrary angle theta looks l
 ![rot-random](/images/rot-random.svg){:class="img-responsive"}
 
 The matrix looks complicated, so don't worry about it! What is important is that we can have any value for &theta; and for the orientation of the axis *(u<sub>x</sub>, u<sub>y</sub>, u<sub>z</sub>)* so we are dealing with a *smooth symmetry set*. The set of the symmetry group for a cube is not smooth--we can rotate it by an arbitrary amount (nor flip it) for obvious reasons.
+
+### Lie Algebras / Representation Theory
+Lie groups are interesting because they combine geometry with algebra. The formal definition of a Lie group is that
+
+![rot2](/images/manifold.PNG){:class="img-responsive"}
+
+Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
+
+*A representation of a group is another group (which is an isomorphism of the first one), where the elements are transformation matrices and the group operation is matrix multiplication.*
+
+An isomorphism is a relationship that defines a one to one mapping between the elements.
 
 ### Why Do We Care About All This?
 Well, we care because symmetries ARE the laws of physics. One simply needs to analyse the results of millions of collisions in an accelerator, plot the results and look at the patterns (or symmetries) of the resulting signal in order to deduce the laws that govern the interactions.
