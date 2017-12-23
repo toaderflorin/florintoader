@@ -73,7 +73,7 @@ A simple manifold would be something like a sphere or ellipsoid, which approxima
 
 ![rot2](/images/manifold.PNG){:class="img-responsive"}
 
-Lie groups are groups in which the elements of the group also make a *differentiable* or [smooth manifold](https://en.wikipedia.org/wiki/Differentiable_manifold). That simply means the manifold is continuous (it doesn't have any holes in it) and its surface is smooth, meaning that there aren't any jagged angles.
+Lie groups are groups in which the elements of the group also form a *differentiable* or [smooth manifold](https://en.wikipedia.org/wiki/Differentiable_manifold). That simply means the manifold is continuous (it doesn't have any holes in it) and its surface is smooth, meaning that there aren't any jagged angles.
 
 <!-- Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
 
