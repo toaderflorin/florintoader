@@ -86,6 +86,6 @@ Well, we care because symmetries ARE the laws of physics. One simply needs to an
 
 ![rot2](/images/curved.jpg){:class="img-responsive"}
 
-The laws of quantum electrodynamics are described by the U(1) symmetry group. Electroweak interactions are described by a broken symmetry of the SU(2)xU(1) group etc. Don't worry about that means for the time being, we'll get to it in future articles. Also, all of this happens in an arena that's quite different from the flat Euclidean space we're all used to from our day to day experience.
+The laws of quantum electrodynamics are described by the [U(1)](https://en.wikipedia.org/wiki/Unitary_group) symmetry group. Electroweak interactions as we perceive them in our day to day lives are described by a [spontaneously broken symmetry](https://en.wikipedia.org/wiki/Spontaneous_symmetry_breaking) of the SU(2)xU(1) group etc. Don't worry about that means for the time being, we'll get to it in future articles. Also, all of this happens in an arena that's quite different from the flat Euclidean space we're all used to from our day to day experience.
 
 I'll refer back to this article once we get to the sweet stuff.
