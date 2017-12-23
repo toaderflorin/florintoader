@@ -15,7 +15,7 @@ And that language is mathematics.
 
 ![weyl](/images/weyl.png){:class="img-responsive"}
 
-Getting back to Einstein, show a picture of him and most people would recognize who he is. Still quite a few people would be able to recognize Heisenberg and certainly even more have heard of him, but not many a folk have even heard of Hermann Weyl--surprisingly, considering this man's contribution to science and mathematics.
+Getting back to Einstein, show a picture of him and most people would recognize who he is. Still quite a few people would be able to recognize Heisenberg and certainly even more have heard of him, but not many a folk have even heard of Hermann Weyl--which is surprising, considering the man's contribution to science and mathematics.
 
 If you follow physics blogs, you might have read that the main problem in physics right now is combining relativity with quantum mechanics. That's not correct, Paul Dirac did that in 1928 and he also predicted the existence of anti-matter, so that's not the problem. The problem is we don't know how to create a quantum theory of gravity, because no attempt at this is [renormalizable](https://en.wikipedia.org/wiki/Renormalization), but that's something for another day.
 
