@@ -22,7 +22,7 @@ If you follow physics blogs, you might have read that the main problem in physic
 Mathematicians are the unsung heroes of the field and you can think of this article as a small homage to Weyl. If it wasn't for him, we wouldn't have *representation theory* or *gauge theory*. But before we get into the sweet stuff, we need to lay the ground work. So here we go.
 
 ### Algebraic Groups
-We are going to start with the basics, the equivalent of "gugu gaga", if you will: groups. Groups are "abstract algebraic structures"--a group consists of a set of *elements* (say all positive integers smaller than 100) and an *operation*. Let's call our group G. We will annotate the operation with "•".
+Let's start with the basics: groups. Groups are "abstract algebraic structures"--a group consists of a set of *elements* (say all positive integers smaller than 100) and an *operation*. Let's call our group G. We will annotate the operation with "•".
 
 * First of all, the operation • between any two elements, *a* and *b*, such as a • b = c must produce a c that's part of the group set.
 * Second, this operation must be associative, such that *(a • b) • c = a • (b • c)*.
@@ -30,7 +30,7 @@ We are going to start with the basics, the equivalent of "gugu gaga", if you wil
 * Also each element must have an "inverse" *a<sub>i</sub>*, such that *(a • a<sub>i</sub>) = i*
 * This is not a requirement for groups, but if *(a • b) = (b • a)*, the group is called commutative or *abelian*. Otherwise it's called non commutative or non-abelian.
 
-A simple example would be the [circle group](https://en.wikipedia.org/wiki/Unitary_group), the group of all complex numbers with absolute value 1 where the operation of the group is multiplication.
+A simple example would be the [circle group](https://en.wikipedia.org/wiki/Unitary_group), the group of all complex numbers with an absolute value of 1 where the operation of the group is multiplication.
 
 ![rot2](/images/circle-group.svg){:class="img-responsive"}
 
