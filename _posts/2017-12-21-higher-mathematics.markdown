@@ -77,11 +77,10 @@ Lie groups are groups in which the elements of the group also form a *differenti
 
 ### Group Representation
 Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
+
 *A representation of a group is another group, where the elements are transformation matrices like the ones we presented earlier and the group operation is matrix multiplication.*
 
-What those matrices look like depends on what group we are trying to create a representation of, but keep in mind the whole idea behind them is to reduce more complicated problems to linear algebra problems, which are usually a tad easier to tackle.
-
-The simplest group that lends itself easy to representation theory is the circle group--the circle is one of simplest manifolds there are and the elements of the circle group's representation look like this:
+What those matrices look like depends on what group we are trying to create a representation of, but keep in mind the whole idea behind them is to reduce more complicated problems to linear algebra problems, which are usually a tad easier to tackle. The simplest group that lends itself easy to representation theory is the circle group--the circle is one of simplest manifolds there are and the elements of the circle group's representation look like this:
 
 ![rot2](/images/representation.svg){:class="img-responsive"}
 
