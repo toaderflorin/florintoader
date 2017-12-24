@@ -69,19 +69,27 @@ The matrix rotation over an arbitrary axis with an arbitrary angle theta looks l
 The matrix looks complicated, so don't worry about it! What is important is that we can have any value for &theta; and for the orientation of the axis *(u<sub>x</sub>, u<sub>y</sub>, u<sub>z</sub>)* so we are dealing with a *smooth symmetry set*. The set of the symmetry group for a cube is not smooth--we can rotate it by an arbitrary amount (nor flip it) for obvious reasons.
 
 ### Lie Groups
-Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are.
-
-A simple manifold would be something like a sphere or ellipsoid, which approximates the surface of the Earth. We can have even more complicated manifolds such as the one in the picture, not to mention that we can have more than 2 dimensions. Heck, a circle is also a manifold.
+Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are: a simple manifold would be something like a sphere or ellipsoid, which approximates the surface of the Earth. We can have even more complicated manifolds such as the one in the picture, not to mention that we can have more than 2 dimensions.
 
 ![rot2](/images/manifold.PNG){:class="img-responsive"}
 
 Lie groups are groups in which the elements of the group also form a *differentiable* or [smooth manifold](https://en.wikipedia.org/wiki/Differentiable_manifold). That simply means the manifold is continuous (it doesn't have any holes in it) and its surface is smooth, meaning that there aren't any jagged angles.
 
-<!-- Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
-
+### Group Representation
+Groups in and of themselves tend to be quite abstract and *representation theory* is a way to make them more tractable and intuitive. In representation theory, the elements of the group can be represented by matrices which are essentially geometric transformations.
 *A representation of a group is another group, where the elements are transformation matrices like the ones we presented earlier and the group operation is matrix multiplication.*
 
-What those matrices look like depends on what group we are trying to create a representation of, but keep in mind the whole idea behind them is to reduce more complicated problems to linear algebra problems, which are usually a tad easier to tackle. -->
+What those matrices look like depends on what group we are trying to create a representation of, but keep in mind the whole idea behind them is to reduce more complicated problems to linear algebra problems, which are usually a tad easier to tackle.
+
+The simplest group that lends itself easy to representation theory is the circle group--the circle is one of simplest manifolds there are and the elements of the circle group's representation look like this:
+
+![rot2](/images/representation.svg){:class="img-responsive"}
+
+A group representation is a [*homeomorphism*](https://en.wikipedia.org/wiki/Homeomorphism). In general, a function *f(x)* is a homeomorphism if:
+
+*f(a·b)=f(a)·f(b)*
+
+This means the representation of *e<sup>i&theta;<sub>1</sub></sup>·e<sup>i&theta;<sub>2</sub></sup>* is the same as multiplying the representations of  *e<sup>i&theta;<sub>1</sub></sup>* and *e<sup>i&theta;<sub>2</sub></sup>*. Just try it out.
 
 ### Why Do We Care About All This?
 Well, we care because symmetries ARE the laws of physics. One simply needs to analyse the results of millions of collisions in an accelerator, plot the results and look at the patterns (or symmetries) of the resulting signal in order to deduce the laws that govern the interactions.
