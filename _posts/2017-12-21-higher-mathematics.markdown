@@ -69,7 +69,7 @@ The matrix rotation over an arbitrary axis with an arbitrary angle theta looks l
 The matrix looks complicated, so don't worry about it! What is important is that we can have any value for &theta; and for the orientation of the axis *(u<sub>x</sub>, u<sub>y</sub>, u<sub>z</sub>)* so we are dealing with a *smooth symmetry set*. The set of the symmetry group for a cube is not smooth--we can rotate it by an arbitrary amount (nor flip it) for obvious reasons.
 
 ### Lie Groups
-Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are. Honestly, a lot of this stuff looks like somebody pulled it out of their behind to seem smart, but bear with me.
+Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are.
 
 A simple manifold would be something like a sphere or ellipsoid, which approximates the surface of the Earth. We can have even more complicated manifolds such as the one in the picture, not to mention that we can have more than 2 dimensions. Heck, a circle is also a manifold.
 
