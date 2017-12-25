@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "A Brief Introduction To Higher Mathematics"
-description: "Einstein used the phrase "reading the mind of God" a lot when talking about physics--to be more precise, he said something along the lines of: <i>I want to know how God created this world. I'm not interested in this or that phenomenon, in the spectrum of this or that element. I want to know His thoughts, the rest are details.</i>
-"
+description: "Einstein used the phrase \"reading the mind of God\" a lot when talking about physics--to be more precise, he said something along the lines of: <i>I want to know how God created this world. I'm not interested in this or that phenomenon, in the spectrum of this or that element. I want to know His thoughts, the rest are details.</i>"
 date:   2017-12-21 11:13:11 +0300
 image: "/images/lie8.jpg"
 ---
