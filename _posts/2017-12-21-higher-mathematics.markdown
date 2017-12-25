@@ -30,7 +30,7 @@ Let's start with the basics: groups. Groups are "abstract algebraic structures"-
 
 A simple example would be the [circle group](https://en.wikipedia.org/wiki/Unitary_group), the group of all complex numbers with an absolute value of 1 where the operation of the group is multiplication.
 
-![rot2](/images/circle-group.svg){:class="img-responsive"}
+![rot2](/images/circle.png){:class="img-responsive"}
 
 Multiplying two complex numbers with absolute value 1 gives us another complex number with absolute value of 1. Duh.
 
