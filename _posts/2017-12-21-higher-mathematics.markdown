@@ -66,6 +66,10 @@ The matrix rotation over an arbitrary axis with an arbitrary angle theta looks l
 
 The matrix looks complicated, so don't worry about it! What is important is that we can have any value for &theta; and for the orientation of the axis *(u<sub>x</sub>, u<sub>y</sub>, u<sub>z</sub>)* so we are dealing with a *smooth symmetry set*. The set of the symmetry group for a cube is not smooth--we can rotate it by an arbitrary amount (nor flip it) for obvious reasons.
 
+![rot-random](/images/king.jpg){:class="img-responsive"}
+
+If we consider a playing card, say a king of diamonds, its symmetry group would contain all rotations that are a multiple of *π*, because turning the card 180 degrees on the table makes it look exactly the same. The symmetry group for the ace of hearts on the other hand includes all rotations that are a multitude of *2π*, because you need to turn the card 360 degrees for it to look the same (just look at that card, and you will immediately see why). Both of these are [discrete symmetries](https://en.wikipedia.org/wiki/Discrete_symmetry), as opposed to the previously discussed continuous symmetry of a circle or sphere.
+
 ### Lie Groups
 Lie groups are interesting because they combine geometry with algebra. Actually, before we define what a Lie group is, we need to explain what manifolds are: a simple manifold would be something like a sphere or ellipsoid, which approximates the surface of the Earth. We can have even more complicated manifolds such as the one in the picture, not to mention that we can have more than 2 dimensions.
 
