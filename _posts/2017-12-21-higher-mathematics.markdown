@@ -86,7 +86,7 @@ What those matrices look like depends on what group we are trying to create a re
 
 ![rot2](/images/representation.svg){:class="img-responsive"}
 
-A group representation is a [*homeomorphism*](https://en.wikipedia.org/wiki/Homeomorphism). In general, a function *f(x)* is a homeomorphism if:
+A group representation is a [*homeomorphism*](https://en.wikipedia.org/wiki/Group_homomorphism). In general, a function *f(x)* is a homomorphism if:
 
 *f(a·b)=f(a)·f(b)*
 
