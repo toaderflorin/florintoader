@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Some Thoughts / A Tribute To John Williams"
-description: "No, he's not dead–actually that's the thing, but I've been thinking... People are strange beings. We neglect those around us who give use attention an love and chase the ones that don't reciprocate. And we don't pay attention to artists and masters until they are dead?
+description: "No, he's not dead–actually that's the thing, but I've been thinking... People are strange beings. We neglect those around us who give use attention an love and chase the ones that don't reciprocate. Actually, someone asked the Dalai Lama what surprises him the most about the world we live in and he reportedly said:...
 "
 date:   2017-12-27 11:13:11 +0300
 image: "/images/john-williams.jpg"
