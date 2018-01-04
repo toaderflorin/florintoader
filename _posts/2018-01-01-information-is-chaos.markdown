@@ -60,11 +60,19 @@ Physical systems obviously contain information. I've we ignore quantum effects, 
 
 ![molecules](/images/molecules.png){:class="img-responsive"}
 
-Of course, figuring out what happens to each molecule is virtually impossible, so they are usually modelled with scalar fields indicating temperature and pressure, which are essentially statistical effects. Ludwig Boltzmann formalized the concept of "entropy" by defining it as
+Of course, figuring out what happens to each molecule is virtually impossible, so they are usually modelled with scalar fields indicating temperature and pressure, which are essentially statistical effects. Ludwig Boltzmann formalized the concept of "entropy" by defining it as *the logarithmic measure of the number of states with significant probability of being occupied*:
 
 ![boltzmann](/images/boltzmann.svg){:class="img-responsive"}
 
-where *W* is the total number of indistinguishable microstates a system can be in and *k<sub>B</sub>* is a proportionality constant.
+Getting back to the image previous image sizes, if the images have the same size and the same bit depth (say both are 24bit), the size they would take up on disk would depend on the format they are encoded in. But let's assume they are PNG encoded, which performs compression but is a lossless format. Since the one on the left has patterns, it's safe to assume that the compressed image would be significantly smaller than the RAW version. The second one is NOT compressible because it is purely random noise. So one could very easily make the parallel between total information and disorder.
 
-### Compression, Patterns And Chaos
-Getting back to the image previous image sizes, if the images have the same size and the same bit depth (say both are 24bit), the size they would take up on disk would depend on the format they are encoded in. But let's assume they are PNG encoded, which performs compression but is a lossless format. Since the one on the left has patterns, it's safe to assume that the compressed image would be significantly smaller than the RAW version. The second one is NOT compressible because it is purely random noise
+### Empty Space Is Not Empty
+Since "empty" space is a sea of [quantum fluctuations](https://en.wikipedia.org/wiki/Quantum_foam), not only is it not empty but it's higher in entropy than "non-empty" space--or the part of the fields we perceive as being *something* are actually dips in entropy in the quantum foam.
+
+![boltzmann](/images/random.jpg){:class="img-responsive"}
+
+*Empty space is pure randomness.*
+
+Physics is concerned with trying to find the patterns in the valleys of entropy landscape that inhabit our universe. That's what *gauge symmetries* are--the notion of "symmetry" implies redundant information which implies orderliness and so low entropy, but that's a subject for future article.
+
+So in a sense reality is closer to a negative than the actual photograph.
