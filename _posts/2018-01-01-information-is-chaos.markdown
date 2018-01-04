@@ -7,6 +7,11 @@ If you guessed the one on the left, you were correct. Please note I am not talki
 date: 2018-01-03 11:13:11 +0300
 categories: science
 ---
+You might have heard that the "universe is a hologram". You might have thought it's interesting, you might have thought it's science fiction, you might have thought it's speculative or downright bullshit. The term "holographic universe" has a very click-baity sound to it but regardless, there is a very strong indication the concept is true and I will try to explain what it means and how the scientific community came to this conclusion.
+
+![image-title-here](/images/crowd.jpg){:class="img-responsive"}
+
+### A Bit Of Information Theory
 Riddle me this: which image do you think has more information, this one?
 
 ![image-title-here](/images/horse.jpg){:class="img-responsive"}
@@ -17,7 +22,6 @@ Or this one?
 
 If you guessed the first one, you were wrong. Please note I am not talking about *useful information* (as in useful to us humans), I was talking about pure information as in bits. Which is interesting--but first, let us first look at how this notion of "bits" came about.
 
-### A Bit Of Information Theory
 With the invention of the telegraph, people could communicate across long distances very fast using Morse code and then phone lines. But as you probably know from the days of analogue TV signal cables, the quality of the signal isn't that great. The reason for this is simple: over a certain distance, losses and interference from the outside weaken the signal in the cables and it needs to be reamplified--this however also introduces noise. This problem was so bad that sending a telegram from the West coast to the East coast (or vice versa) was problematic because of the interferences in the signal were so bad, the operator at the other side of the line couldn't understand the meaning of the message in Morse code. Of course, this method of communication has an interesting benefit: as long as the intention of the person sending the message can be still understood, the message can be cleaned up and resent.
 
 So let's say you were trying to send a telegram from New York to Seattle. An operator on the other side of the continent might have trouble making out the beeps because of all the noise, but why not send the signal to a closer destination where it's still intelligible and the operator there can forward it?
@@ -50,11 +54,13 @@ Think of it this way: if you toss two dice, there are a lot more ways to get a v
 Keep this in mind when we look at real physical application.
 
 ### Boltzmann Entropy
-When scientists were trying to figure out what heat is, they initially envisioned it as some sort of fluid that can flow between warm objects (possessing this fluid) and cold objects, or warm parts of an object to cooler parts until the "pressure" of this fluid equalizes. Eventually they settled upon the idea that heat is actually an internal jittering motion of the constituents of matter, but nonetheless temperature tends to equalize in an isolated system. Also, temperature is not that much different than pressure--if you put a bunch of gas in a container (say in a corner), the gas eventually spreads out and the pressure equalizes.
+When scientists were trying to figure out what heat is, they initially envisioned it as some sort of fluid that can flow between warm objects (possessing this fluid) and cold objects, or warm parts of an object to cooler parts until the "pressure" of this fluid equalizes. Eventually they settled upon the idea that heat is actually an internal jittering motion of the constituents of matter, but nonetheless temperature tends to equalize in an isolated system. Also, temperature is not that much different than pressure--if you put a bunch of gas in a container (say in a corner), the gas eventually spreads out and the pressure equalizes. Why is that? Well the answer is simple: there are a lot more ways for the particles making up the gas to be arranged in an uniform way in the container than for them to be in a special case all bundled up in a corner (as you've seen from the dice example). Of course, the pressure repartition isn't exactly uniform--there are small variations, but they happen around the median value.
 
-Why is that? Well the answer is simple: there are a lot more ways for the particles making up the gas to be arranged in an uniform way in the container than for them to be in a special case all bundled up in a corner (as you've seen from the dice example). Of course, the pressure repartition isn't exactly uniform--there are small variations, but they happen around the median value.
+Physical systems obviously contain information. I've we ignore quantum effects, a container of gas contains a number of molecules each with a position and momentum in a 3D space.
 
-Ludwig Boltzmann formalized the concept of "entropy" by defining it as
+![image-title-here](/images/molecules.png){:class="img-responsive"}
+
+Of course, figuring out what happens to each molecule is virtually impossible, so they are usually modelled with scalar fields indicating temperature and pressure, which are essentially statistical effects. Ludwig Boltzmann formalized the concept of "entropy" by defining it as
 
 ![image-title-here](/images/boltzmann.svg){:class="img-responsive"}
 
