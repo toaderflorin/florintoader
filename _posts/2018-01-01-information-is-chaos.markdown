@@ -79,4 +79,4 @@ Since "empty" space is a sea of [quantum fluctuations](https://en.wikipedia.org/
 
 Physics is concerned with trying to find the patterns in the valleys of entropy landscape that inhabit our universe. That's what *gauge symmetries* are--the notion of "symmetry" implies redundant information which implies orderliness and so low entropy, but that's a subject for future article.
 
-So in a sense reality is closer to a negative than to actual photograph.
+So in a sense reality is closer to a negative than to an actual photograph.
