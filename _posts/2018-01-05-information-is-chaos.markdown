@@ -43,9 +43,7 @@ This might look familiar:
 
 ![image-title-here](/images/normal_distribution.png){:class="img-responsive"}
 
-This is commonly referred as a "bell curve" or normal distribution (Gaussian distribution) and is commonly used statistics. You might have seen it in charts showing IQ distribution among the population, but where does it come from?
-
-Think of it this way: if you toss two dice, there are a lot more ways to get a value in the middle, than to get 2 or 12. When the number of dice goes to infinity, the individual blocks disappear and the curve becomes continuous.
+This is commonly referred as a "bell curve" or normal distribution (Gaussian distribution) and is commonly used statistics. You might have seen it in charts showing IQ distribution among the population, but where does it come from? Think of it this way: if you toss two dice, there are a lot more ways to get a value in the middle, than to get 2 or 12. When the number of dice goes to infinity, the individual blocks disappear and the curve becomes continuous.
 
 ![image-title-here](/images/probab3.jpg){:class="img-responsive"}
 
