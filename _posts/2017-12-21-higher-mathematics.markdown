@@ -38,7 +38,9 @@ Multiplying two complex numbers with absolute value 1 gives us another complex n
 
 Not only that, but multiplication is equivalent with the addition of phases because of Euler's formula.
 
-![weyl](/images/euler-form.svg){:class="img-responsive"}
+![euler](/images/euler-form.svg){:class="img-responsive"}
+
+So...
 
 *Groups are concepts that allows us to model real life stuff. They also allow us to look at all this stuff and see patterns such as symmetries.*
 
