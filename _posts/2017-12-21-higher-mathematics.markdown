@@ -44,7 +44,7 @@ So...
 
 *Groups are concepts that allows us to model real life stuff. They also allow us to look at all this stuff and see patterns such as symmetries.*
 
-I spoke about it of delved into [symmetries]() somewhat, but I didn't formalize the concept.
+I touched on the subject of [symmetries]() somewhat, but I didn't formalize the concept.
 
 ### Transformations
 When you're working with coordinate systems, you tend to use a lot of spatial transformations. For example, if we would want to rotate a point of coordinates *x, y* around the origin by a &theta; angle, we would have the following equations:
