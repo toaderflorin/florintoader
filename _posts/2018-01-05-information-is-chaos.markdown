@@ -3,7 +3,7 @@ layout: post
 title:  "Information Is Chaos"
 description: "You might have heard that phrase \"universe is a hologram\" and you might have thought it's interesting, you might have thought it's science fiction, you might have thought it's speculative or even downright bullshit. The term \"holographic universe\" has a very click-baity sound to it but regardless...
 "
-date: 2018-01-03 11:13:11 +0300
+date: 2018-01-05 11:13:11 +0300
 categories: science
 image: "/images/both.jpg"
 ---
