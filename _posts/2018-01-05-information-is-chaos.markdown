@@ -43,9 +43,7 @@ This might look familiar:
 
 ![image-title-here](/images/normal_distribution.png){:class="img-responsive"}
 
-This is commonly referred as a "bell curve" or normal distribution (Gaussian distribution) and is commonly used statistics. You might have seen it in charts showing IQ distribution among the population, but where does it come from?
-
-Think of it this way: if you toss two dice, there are a lot more ways to get a value in the middle, than to get 2 or 12. When the number of dice goes to infinity, the individual blocks disappear and the curve becomes continuous.
+This is commonly referred as a "bell curve" or normal distribution (Gaussian distribution) and is commonly used statistics. You might have seen it in charts showing IQ distribution among the population, but where does it come from? Think of it this way: if you toss two dice, there are a lot more ways to get a value in the middle, than to get 2 or 12. When the number of dice goes to infinity, the individual blocks disappear and the curve becomes continuous.
 
 ![image-title-here](/images/probab3.jpg){:class="img-responsive"}
 
@@ -54,7 +52,7 @@ Think of it this way: if you toss two dice, there are a lot more ways to get a v
 Keep this in mind when we look at real physical application.
 
 ### Boltzmann Entropy
-When scientists were trying to figure out what heat is, they initially envisioned it as some sort of fluid that can flow between warm objects (possessing this fluid) and cold objects, or warm parts of an object to cooler parts until the "pressure" of this fluid equalizes. Eventually they settled upon the idea that heat is actually an internal jittering motion of the constituents of matter, but nonetheless temperature tends to equalize in an isolated system. Also, temperature is not that much different than pressure--if you put a bunch of gas in a container (say in a corner), the gas eventually spreads out and the pressure equalizes. Why is that? Well the answer is simple: there are a lot more ways for the particles making up the gas to be arranged in an uniform way in the container than for them to be in a special case all bundled up in a corner (as you've seen from the dice example). Of course, the pressure repartition isn't exactly uniform--there are small variations, but they happen around the median value.
+When scientists were trying to figure out what heat is, they initially envisioned it as some sort of fluid that can flow between warm objects (possessing this fluid) and cold objects, or warm parts of an object to cooler parts until the "pressure" of this fluid equalizes. Eventually they settled upon the idea that heat is actually an internal jittering motion of the constituents of matter, but nonetheless temperature tends to equalize in an isolated system. Also, temperature is not that much different than pressure--if you put a bunch of gas in a container (say in a corner), the gas eventually spreads out and the pressure equalizes. Why is that? Well the answer is simple: there are a lot more ways for the particles making up the gas to be arranged in a randomly uniform way in the container than for them to be in a special case all bundled up in a corner (as you've seen from the dice example). Of course, the pressure repartition isn't exactly uniform--there are small variations, but they happen around the median value.
 
 Physical systems obviously contain information. Even if we ignore quantum effects, a container of gas contains a number of molecules each with a position and momentum in a 3D space, so that's a lot right there.
 
