@@ -11,7 +11,7 @@ You might have heard the phrase "universe is a hologram" and you might have thou
 
 ![crowd](/images/crowd.jpg){:class="img-responsive"}
 
-If you look at the above picture you might see something interesting: while people have a lot in common (more than 99.99% common DNA), yet we are all somewhat different. Same thing goes for trees, rocks, planets, stars etc. Our world is an interesting mix between randomness and repetition--in fact all the variation we see today in the macro-world is because of quantum randomness sometime in the past.
+If you look at the above picture you might see something interesting: while people have a lot in common (more than 99.99% common DNA), yet we are all somewhat different. Same thing goes for trees, rocks, planets, stars etc. Our world is an interesting mix between randomness and repetition--in fact all the variation we see today in the macro-world is because of quantum randomness on the micro scale sometime in the past.
 
 *Quantum mechanics is interesting in itself because while outcomes seem random, we can actually calculate the time evolution of these probability fields deterministically.*
 
