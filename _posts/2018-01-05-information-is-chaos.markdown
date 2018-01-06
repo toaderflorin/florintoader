@@ -32,7 +32,7 @@ With the invention of the telegraph, people could communicate across long distan
 
 *Actually this is the gist of how digital signals work. Because you know that the possible values are only ones and zeros, if you are getting something like 0.971 on the line you can safely assume it's 1, so it's very easy for relays to clean up the signal.*
 
-Also, the transformation from an analog signal to a signal composed out of 0 and 1 is not that hard to do. Let us now look at the specifics. Say we have a sequence of 4 bits. This means there will be a total of 16 possible combinations.
+Also, the transformation from an analog signal to a signal composed out of 0 and 1 is not that hard to do. Let us now look at the specifics. Say we have a sequence of 4 bits--this means there will be a total of 16 possible combinations: 0000, 0001, 0010, 0011, ... etc.
 
 *states = 2 x 2 x 2 x 2 = 2<sup>4</sup>*
 
