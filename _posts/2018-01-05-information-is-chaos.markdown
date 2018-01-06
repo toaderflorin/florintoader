@@ -38,7 +38,7 @@ Also, the transformation from an analog signal to a signal composed out of 0 and
 
 If we know the total number of distinct states a system can be in, we can figure out how many bits we need to encode that state like so:
 
-*n<sub>bits</sub> = log<sub>2</sub>(<sub>states</sub>)*
+*n<sub>bits</sub> = log<sub>2</sub>(n<sub>states</sub>)*
 
 We'll get back to bits in a few moments, but first we need to take...
 
