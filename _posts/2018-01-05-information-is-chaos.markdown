@@ -34,11 +34,11 @@ With the invention of the telegraph, people could communicate across long distan
 
 Also, the transformation from an analog signal to a signal composed out of 0 and 1 is not that hard to do. Let us now look at the specifics. Say we have a sequence of 4 bits--this means there will be a total of 16 possible combinations: 0000, 0001, 0010, 0011, ... etc.
 
-*states = 2 x 2 x 2 x 2 = 2<sup>4</sup>*
+*n<sub>states</sub> = 2 x 2 x 2 x 2 = 2<sup>4</sup>*
 
 If we know the total number of distinct states a system can be in, we can figure out how many bits we need to encode that state like so:
 
-*bits = log<sub>2</sub>(states)*
+*n<sub>bits</sub> = log<sub>2</sub>(<sub>states</sub>)*
 
 We'll get back to bits in a few moments, but first we need to take...
 
