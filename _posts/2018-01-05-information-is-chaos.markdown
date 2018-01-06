@@ -7,7 +7,7 @@ date: 2018-01-05 11:13:11 +0300
 categories: science
 image: "/images/both.jpg"
 ---
-You might have heard the phrase "universe is a hologram" and you might have thought it's interesting, or you might have thought it's science fiction. Or you might have thought it's speculative, or even downright bullshit. The term "holographic universe" has a very click-baity sound to it but regardless, there is a very strong indication the concept is true and I will try to explain what it means and how the scientific community came to this conclusion.
+You might have heard the phrase "the universe is a hologram" and you might have thought it's interesting, or you might have thought it's science fiction. Or you might have thought it's speculative, or even downright bullshit. The term "holographic universe" has a very click-baity sound to it but regardless, there is a very strong indication the concept is true and I will try to explain what it means and how the scientific community came to this conclusion.
 
 ![crowd](/images/crowd.jpg){:class="img-responsive"}
 
