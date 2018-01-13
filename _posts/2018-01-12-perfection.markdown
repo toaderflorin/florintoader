@@ -9,6 +9,6 @@ image: "/images/emily.jpg"
 
 ![crowd](/images/emily-swimsuit.jpg){:class="img-responsive"}
 
-Somebody asked me what the perfect woman would look like so here's my answer: Emily DiDonato is what perfection looks like. Yes, she is a perfect 10 as far as I am concerned.
+Somebody asked me what the perfect woman would look like for me, so here's the answer: Emily DiDonato is what perfection looks like. Yes, she is a perfect 10 as far as I am concerned.
 
 That's all I have to say about that.
