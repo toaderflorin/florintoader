@@ -68,7 +68,7 @@ Of course, figuring out what happens to each molecule is virtually impossible, s
 
 ![boltzmann](/images/boltzmann.svg){:class="img-responsive"}
 
-Just like in the previous dice example, it's a lot more likely for molecules to arrange themselves in a random but evenly distributed fashion in the container, that it is for them to clump up orderly in a corner.
+Just like in the previous dice example, it's a lot more likely for molecules to arrange themselves in a random but evenly distributed fashion in the container than it is for them to clump up orderly in a corner.
 
 Getting back to the image previous image sizes, if the images have the same size and the same bit depth (say both are 24bit), the size they would take up on disk would depend on the format they are encoded in. But let's assume they are PNG encoded, which performs compression but is a lossless format. Since the one on the left has patterns, it's safe to assume that the compressed image would be significantly smaller than the RAW version. The second one is NOT compressible because it is purely random noise. So one could very easily make the parallel between total information and disorder.
 
