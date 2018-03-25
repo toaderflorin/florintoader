@@ -71,7 +71,7 @@ Which means:
 
 Dirac soon realized that for that to happen, A, B, C and D need to be at a minimum 4&times;4 matrices just as Pauli had used 2&times;2 matrices to model particles with spin which means the wave function now has four scalar components, &#936;<sub>1</sub>, &#936;<sub>2</sub>, &#936;<sub>3</sub> and &#936;<sub>4</sub>.
 
-A, B, C and D are called the *Dirac gamma matrices*.
+Applying all the necessary conditions for unitarity / relativity and solving the resulting equations gives us A, B, C and D, which are called the *Dirac gamma matrices*.
 
 ![crowd](/images/gamma-matrices.svg){:class="img-responsive"}
 
