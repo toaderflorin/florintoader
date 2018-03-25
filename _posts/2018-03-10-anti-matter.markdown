@@ -29,7 +29,7 @@ Putting it all together and assuming that our electron sits in an electric poten
 
 ![crowd](/images/schrodinger2.svg){:class="img-responsive"}
 
-Also, the equation can be solved analytically and this gives us the stable orbits of the electrons, the orbitals.
+Also, the equation can be solved analytically and this gives us the stable orbits of the electrons, the orbitals. The stable orbits are [*eigenvalues*](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors) of the Hamiltonian.
 
 ![crowd](/images/orbitals.gif){:class="img-responsive"}
 
