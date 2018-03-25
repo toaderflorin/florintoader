@@ -52,9 +52,9 @@ This equation has a wave-function with *two* components (&#936;<sub>+</sub> and 
 It has however the same fundamental problem: it's not compatible with special relativity.
 
 ### The Dirac Equation
-When trying to come up with a compatible quantum theory, Dirac tried the opposite approach: instead of trying to tweak the Schrodinger equation to obey special relativity rules, he postulated there's *another* equation that's *Schrodinger like* in structure and set out to figure out what the parameters are if they were to be compatible with special relativity.
+When trying to come up with a compatible quantum theory, Dirac tried the opposite approach: instead of trying to tweak the Schrödinger equation to obey special relativity rules, he postulated there's *another* equation that's *Schrödinger like* in structure and set out to figure out what the parameters are if they were to be compatible with Einstein's theory.
 
-He started with a generic formula that looks like this:
+He tried to find a formula that looks like this:
 
 ![crowd](/images/dirac-generic.svg){:class="img-responsive"}
 
