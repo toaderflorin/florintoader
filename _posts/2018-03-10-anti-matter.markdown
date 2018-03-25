@@ -79,7 +79,7 @@ Applying all the necessary conditions for unitarity / relativity and solving the
 Two of those four components are wave functions for the familiar left and right handed electrons, but what to make of the other two? Moreover, these are the negative energy part of the solution which appear because of the fact that *E* appears squared in the energy-momentum relationship. These negative energy solutions were so problematic that the scientific community almost gave up on the theory -- it was only the fact that the other two solutions were in such great accordance with experiment that any attempt to salvage the equation was made.
 
 ### The Dirac Sea
-Dirac assumed the negative energy levels correspond to real physical states (although he wasn't sure what exactly they meant), but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
+Dirac assumed the negative energy levels correspond to real physical states, but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
 
 To explain why that doesn't happen, Dirac postulated that all the negative energy states are already filled.
 
