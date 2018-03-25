@@ -3,7 +3,7 @@ layout: post
 title:  "Special Relativity Requires That Antimatter And Spin Exist"
 description: "Antimatter is interesting because it was predicted by Paul Dirac's equation before it was actually discovered in a laboratory and for a while this prediction was actually problematic because no one had actually seen such an exotic form of matter.
 "
-date:   2018-01-12 11:13:11 +0300
+date:   2018-25-03 11:13:11 +0300
 image: "/images/dirac.jpg"
 ---
 Antimatter is one of those things that most people regard as the stuff of science fiction (because all the anti-matter warp drives in Star Trek and stuff) but you'd be surprised to find out that it's very much established science. Another interesting fact about it is that its existence was predicted by Paul Dirac as a necessity for making quantum dynamics compatible with Einstein's special theory of relativity.
@@ -36,7 +36,7 @@ Also, the equation can be solved analytically and this gives us the stable orbit
 If we were to try and tweak it and replace the terms with the [Lorentzian](https://en.wikipedia.org/wiki/Lorentz_covariance) concepts of time and space that special relativity adheres to, we would get the Klein Gordon equation which has a host of problems: first and foremost, the wave-function *isn't unitary* -- integrating (summing up) the function over the whole space doesn't give you 100% probability, which is absurd because the electron has to be *somewhere* with 100% probability. Heck, it's value isn't even constant so you cannot scale it by a factor to get 100%.
 
 ### The Pauli Equation
-Second, it doesn't take electron spin into account which is a big problem. Not only do electrons come into two varieties (up and down), they sit at slightly different energy levels in the electron shell, so if you were actually to zoom in on this picture, you would see two very close lines instead of single ones (this is called the *fine structure* of the hydrogen atom).
+Second, it doesn't take electron spin into account which is a big problem. Not only do electrons come into two varieties (up and down), they sit at slightly different energy levels in the electron shell when a magnetic field is present, so if you were actually to zoom in on this picture, you would see two very close lines instead of single ones (this is called the *fine structure* of the hydrogen atom).
 
 ![crowd](/images/hydrogen-spectrum.png){:class="img-responsive"}
 
