@@ -3,7 +3,7 @@ layout: post
 title:  "Special Relativity Requires That Antimatter And Spin Exist"
 description: "Antimatter is interesting because it was predicted by Paul Dirac's equation before it was actually discovered in a laboratory and for a while this prediction was actually problematic because no one had actually seen such an exotic form of matter.
 "
-date:   2018-25-03 11:13:11 +0300
+date:   2018-03-25 11:13:11 +0300
 image: "/images/dirac.jpg"
 ---
 Antimatter is one of those things that most people regard as the stuff of science fiction (because all the anti-matter warp drives in Star Trek and stuff) but you'd be surprised to find out that it's very much established science. Another interesting fact about it is that its existence was predicted by Paul Dirac as a necessity for making quantum dynamics compatible with Einstein's special theory of relativity.
