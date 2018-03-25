@@ -6,11 +6,11 @@ description: "Antimatter is interesting because it was predicted by Paul Dirac's
 date:   2018-03-25 11:13:11 +0300
 image: "/images/dirac.jpg"
 ---
-Antimatter is one of those things that most people regard as the stuff of science fiction (because all the anti-matter warp drives in Star Trek and stuff) but you'd be surprised to find out that it's very much established science. Another interesting fact about it is that its existence was predicted by Paul Dirac as a necessity for making quantum dynamics compatible with Einstein's special theory of relativity.
+Antimatter is one of those things that most people regard as the stuff of science fiction (because all the antimatter warp drives in Star Trek and stuff) but you'd be surprised to find out that it's very much established science. Another interesting fact about it is that its existence was predicted by Paul Dirac as a necessity for making quantum dynamics compatible with Einstein's special theory of relativity.
 
 ![crowd](/images/dirac.jpg){:class="img-responsive"}
 
-If you aren't familiar with special relativity go ahead and have a look at my [article](http://florintoader.net/special-relativity) now -- it's something that you absolutely must grasp before delving into subjects like quantum field theory. Dirac's theory was also interesting in its historical context because nobody had seen anything resembling anti-matter so there was quite a pushback from the scientific community. Heisenberg even went as far as to call Dirac's equation garbage, but considering how strange the quantum world was beginning to look at the turn of the century, he probably should have known better.
+If you aren't familiar with special relativity go ahead and have a look at my [article](http://florintoader.net/special-relativity) now -- it's something that you absolutely must grasp before delving into subjects like quantum field theory. Dirac's theory was also interesting in its historical context because nobody had seen anything resembling antimatter so there was quite a pushback from the scientific community. Heisenberg even went as far as to call Dirac's equation garbage, but considering how strange the quantum world was beginning to look at the turn of the century, he probably should have known better.
 
 ### The Schrödinger Equation
 When Schrödinger tried to describe what happens to an electron using his famous equation, he actually tried to make it compatible with Einstein's theory of special relativity but he was not able to and so the equation uses Newtonian concepts of time and space. But because he wasn't able to work out all the details, he decided to publish the version non compatible with special relativity which he thought was still novel enough, and which looks like this:
@@ -79,7 +79,7 @@ Applying all the necessary conditions for unitarity / relativity and solving the
 Two of those four components are wave functions for the familiar left and right handed electrons, but what to make of the other two? Moreover, these are the negative energy part of the solution which appear because of the fact that *E* appears squared in the energy-momentum relationship. These negative energy solutions were so problematic that the scientific community almost gave up on the theory -- it was only the fact that the other two solutions were in such great accordance with experiment that any attempt to salvage the equation was made.
 
 ### The Dirac Sea
-Dirac assumed the negative energy levels correspond to real physical states (although he wasn't sure what exactly they meant), but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
+Dirac assumed the negative energy levels correspond to real physical states, but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
 
 To explain why that doesn't happen, Dirac postulated that all the negative energy states are already filled.
 
