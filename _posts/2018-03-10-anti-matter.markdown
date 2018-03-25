@@ -6,11 +6,11 @@ description: "Antimatter is interesting because it was predicted by Paul Dirac's
 date:   2018-01-12 11:13:11 +0300
 image: "/images/dirac.jpg"
 ---
-Antimatter is one of those things that most people regard as the stuff of science fiction but the reality is it's very much established science.
+Antimatter is one of those things that most people regard as the stuff of science fiction (because all the anti-matter warp drives in Star Trek and stuff) but you'd be surprised to find out that it's very much established science, but what's interesting is that its existence was predicted by Paul Dirac as a necessity for making quantum dynamics compatible with Einstein's special theory of relativity.
 
 ![crowd](/images/dirac.jpg){:class="img-responsive"}
 
- If you aren't familiar with special relativity go ahead and have a look at my [article](http://florintoader.net/special-relativity) now -- it's something that you absolutely must grasp before delving into subjects like quantum field theory. This form of matter is interesting because it was predicted by Paul Dirac's equation before it was actually discovered in a laboratory and for a while this prediction was actually problematic because no one had actually seen such an exotic form of matter. Heisenberg even went as far as to call Dirac's equation garbage, but considering how strange the quantum world was beginning to look at the turn of the century, he probably should have known better.
+If you aren't familiar with special relativity go ahead and have a look at my [article](http://florintoader.net/special-relativity) now -- it's something that you absolutely must grasp before delving into subjects like quantum field theory. Dirac's theory was also interesting in its historical context because nobody had seen anything resembling anti-matter so there was quite a pushback from the scientific community. Heisenberg even went as far as to call Dirac's equation garbage, but considering how strange the quantum world was beginning to look at the turn of the century, he probably should have known better.
 
 ### The Schrödinger Equation
 The story of quantum field theory is interesting: when Schrödinger tried to describe what happens to an electron using his famous equation, he actually tried to make it compatible with Einstein's theory of special relativity but he was not able to and so the equation uses Newtonian concepts of time and space. But because he wasn't able to work out all the details, he decided to publish the version non compatible with special relativity which he thought was still novel enough, and which looks like this:
@@ -34,7 +34,6 @@ Also, the equation can be solved analytically and this gives us the stable orbit
 ![crowd](/images/orbitals.gif){:class="img-responsive"}
 
 If we were to try and tweak it and replace the terms with the [Lorentzian](https://en.wikipedia.org/wiki/Lorentz_covariance) concepts of time and space that special relativity adheres to, we would get the Klein Gordon equation which has a host of problems: first and foremost, the wave-function *isn't unitary* -- integrating (summing up) the function over the whole space doesn't give you 100% probability, which is absurd because the electron has to be *somewhere* with 100% probability. Heck, it's value isn't even constant so you cannot scale it by a factor to get 100%.
-
 
 ### The Pauli Equation
 Second, it doesn't take electron spin into account which is a big problem. Not only do electrons come into two varieties (up and down), they sit at slightly different energy levels in the electron shell, so if you were actually to zoom in on this picture, you would see two very close lines instead of single ones (this is called the *fine structure* of the hydrogen atom).
@@ -79,7 +78,7 @@ A, B, C and D are called the *Dirac gamma matrices*.
 Two of those components are wave functions for the familiar left and right handed electrons, but what to make of the other two? Moreover, these are the negative energy part of the solution which appear because of the fact that *E* is squared in the energy-momentum relationship. These negative energy solutions were so problematic that the scientific community almost gave up on the theory -- it was only the fact that the other two solutions were in such great accordance with experiment that any attempt to salvage the equation was made.
 
 ### The Dirac Sea
-Dirac assumed the negative energy levels correspond to real states (although he wasn't sure what exactly they meant), but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
+Dirac assumed the negative energy levels correspond to real physical states (although he wasn't sure what exactly they meant), but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
 
 To explain why that doesn't happen, Dirac postulated that all the negative energy states are already filled.
 
@@ -87,4 +86,6 @@ To explain why that doesn't happen, Dirac postulated that all the negative energ
 
 ![crowd](/images/diracsea.png){:class="img-responsive"}
 
-So what happens then? A negative energy electron could absorb a photon of just the right frequency to jump up a quantum level? In effect, we have a *hole* in the negatively charged background which acts like a positively charged particle. If a free electron happens to encounter such a hole, it will "fall" in it thus disappearing and eliminating the extra energy as a photon.
+So what happens then? Well a negative energy electron could just emit and absorb random energy photons like a normal electron would do but (and would wiggle around on the same energy level), but it could also absorb a photon of just the right frequency to jump up a quantum level and become a positive energy electron. In effect, we have a *hole* in the negatively charged electron sea and this hole would act exact like a positively charged particle. If a free electron happens to encounter such a hole, it will "fall" in it thus disappearing and eliminating the extra energy as a photon.
+
+This all sounds quite un-scientific, but sure enough positrons were discovered a few years later thus confirming Dirac's relativistic quantum theory.
