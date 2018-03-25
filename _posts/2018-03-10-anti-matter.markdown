@@ -25,7 +25,7 @@ and where the inverted triangle is called the [Laplacian](https://en.wikipedia.o
 
 ![crowd](/images/laplacian.svg){:class="img-responsive"}
 
-Putting it all together, and assuming that our electron sits in an electric potential well V (like what we find around a nucleus) we get:
+Putting it all together and assuming that our electron sits in an electric potential well V (like what we find around a nucleus), we get:
 
 ![crowd](/images/schrodinger2.svg){:class="img-responsive"}
 
@@ -75,7 +75,7 @@ A, B, C and D are called the *Dirac gamma matrices*.
 
 ![crowd](/images/gamma-matrices.svg){:class="img-responsive"}
 
-Two of those components are wave functions for the familiar left and right handed electrons, but what to make of the other two? Moreover, these are the negative energy part of the solution which appear because of the fact that *E* is squared in the energy-momentum relationship. These negative energy solutions were so problematic that the scientific community almost gave up on the theory -- it was only the fact that the other two solutions were in such great accordance with experiment that any attempt to salvage the equation was made.
+Two of those four components are wave functions for the familiar left and right handed electrons, but what to make of the other two? Moreover, these are the negative energy part of the solution which appear because of the fact that *E* appears squared in the energy-momentum relationship. These negative energy solutions were so problematic that the scientific community almost gave up on the theory -- it was only the fact that the other two solutions were in such great accordance with experiment that any attempt to salvage the equation was made.
 
 ### The Dirac Sea
 Dirac assumed the negative energy levels correspond to real physical states (although he wasn't sure what exactly they meant), but then the question was what to make of them? It was known that electrons tend to occupy the lowest energy states available to them so naturally all electrons we see should have spontaneously emitted light and fall lower and lower to levels corresponding to minus infinity.
