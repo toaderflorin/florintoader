@@ -62,7 +62,7 @@ The left hand should represent the Hamiltonian, which means it's a representatio
 
 ![crowd](/images/energy-momentum.svg){:class="img-responsive"}
 
-Squaring the initial formula in order to get the squared energy gives us this formula:
+Squaring the initial formula in order to get the squared energy term gives us this formula:
 
 ![crowd](/images/dirac2.svg){:class="img-responsive"}
 
