@@ -21,7 +21,7 @@ When Schrödinger tried to describe what happens to an electron using his famous
 
 ![crowd](/images/hamiltonian.svg){:class="img-responsive"}
 
-and where the inverted triangle is called the [Laplacian](https://en.wikipedia.org/wiki/Laplace_operator):
+and where the squared inverted triangle is called the [Laplacian](https://en.wikipedia.org/wiki/Laplace_operator):
 
 ![crowd](/images/laplacian.svg){:class="img-responsive"}
 
@@ -34,7 +34,6 @@ Also, the equation can be solved analytically and this gives us the stable orbit
 ![crowd](/images/orbitals.gif){:class="img-responsive"}
 
 If we were to try and tweak it and replace the terms with the [Lorentzian](https://en.wikipedia.org/wiki/Lorentz_covariance) concepts of time and space that special relativity adheres to, we would get the Klein Gordon equation which has a host of problems: first and foremost, the wave-function *isn't unitary* -- integrating (summing up) the function over the whole space doesn't give you 100% probability, which is absurd because the electron has to be *somewhere* with 100% probability. Heck, it's value isn't even constant so you cannot scale it by a factor to get 100%.
-
 
 ### The Pauli Equation
 Second, it doesn't take electron spin into account which is a big problem. Not only do electrons come into two varieties (up and down), they sit at slightly different energy levels in the electron shell when a magnetic field is present, so if you were actually to zoom in on this picture, you would see two very close lines instead of single ones (this is called the *fine structure* of the hydrogen atom).
@@ -58,11 +57,11 @@ He tried to find a formula that looks like this:
 
 ![crowd](/images/dirac-generic.svg){:class="img-responsive"}
 
-The left hand side is part of the equation should be the Hamiltonian which means it's a representation of the energy of the particle and requiring this to be compatible with special relativity means it should obey Einstein's energy-momentum relationship.
+The left hand should represent the Hamiltonian, which means it's a representation of the energy of the particle and requiring this to be compatible with special relativity means it should obey Einstein's energy-momentum relationship.
 
 ![crowd](/images/energy-momentum.svg){:class="img-responsive"}
 
-Squaring the initial formula in order to get the squared energy gives us this formula:
+Squaring the initial formula in order to get the squared energy term gives us this formula:
 
 ![crowd](/images/dirac2.svg){:class="img-responsive"}
 
