@@ -58,7 +58,7 @@ He tried to find a formula that looks like this:
 
 ![crowd](/images/dirac-generic.svg){:class="img-responsive"}
 
-The left hand side is part of the equation should be the Hamiltonian which means it's a representation of the energy of the particle and requiring this to be compatible with special relativity means it should obey Einstein's energy-momentum relationship.
+The left hand should represent the Hamiltonian, which means it's a representation of the energy of the particle and requiring this to be compatible with special relativity means it should obey Einstein's energy-momentum relationship.
 
 ![crowd](/images/energy-momentum.svg){:class="img-responsive"}
 
