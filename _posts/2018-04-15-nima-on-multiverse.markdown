@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nima On The Multiverse"
-description: Nima Arkani Hamed takes on the landscape of false vacua and talks about the multiverse and the role of anthropic reasoning in finding a solution to the cosmological constant problem and the hierarchy problem.
+description: "Nima Arkani Hamed takes on the landscape of false vacua and talks about the multiverse and the role of anthropic reasoning in finding a solution to the cosmological constant problem and the hierarchy problem.
 "
 date:   2018-04-15 11:13:11 +0300
 image: "/images/nima.jpg"
