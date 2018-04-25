@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "They Say Time Is An Illusion - Here's Why"
+description: "Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse. And it's round. So naturally it has to have a certain size which at least in principle could have been determined.
+"
+date:   2018-04-15 11:13:11 +0300
+image: "/images/erasto.jpg"
+---
+Anectodally, Einstein slept like a baby on the night of the 28th of May 1919, on the eve of the upcoming solar eclipse that would validate (or invalidate) his general theory of relativity. His theory predicts that space and time bend around heavy objects and on the 29th of May, Sir Arthur Eddington attempted to validate this prediction by seeing if the Sun modifies the apparent position of stars near it.
+
+In Einstein's theory, space and time intertwine (forming a 4D object called spacetime)
+
+### Diffeomorphism Covariance Explained
+Let's consider a 3D level in a game -- it's defined by a number of polygons, each consisting of a number of vertices in 3D space. Eact vertex is defined by its coordinates, *x, y* and *z*. But these coordinates are not physical, there isn't anything *real* corresponding to the axes, they are just mathematical tools or helpers. They are totally observer dependent.
+
+If we perform a linear mathematical transformation such as a rotation or translation, the relations between the  vertices (distances, angles) will remain the same: we call this property *invariance* under a transformation or *symmetry*.
+
+Since spacetime bends, the metric is not invariant only under linear transformations, it should be invariant under any smooth transformations -- including various curves. In geometry, any
+
+In quantum mechanics, the evolution of a system is usually given by a wavefunction that gives us the probability for certain outcomes, like measuring a particle with a certain spin in a certain location. Diffeomorphism covariance is quite a big constraint -- requiring that our field theory is generally covariant means that the Hamiltonian must vanish, it must be zero. Which would mean there is no time, or at least we have no global time parameter.
+
+This is not really surprising because time isn't a global parameter in general relativity (or special relativity, for that matter), which means a new framework for treating quantum phenomena is needed out of which time arises (or emerges).
+
+So we have quite a problem on our hands.
+
+### What Is Time?
+Ah, the age old question... one might be tempted to answer *who knows*? But it turns out we can make really
+
+1. First of all, it seems to flow in one direction.
+2. It doesn't flow for everybody the same. Depending on your speed, acceleration
+3. Delayed choice quantum eraser experiments tell us that  things in the future can affect things in the past via quantum entaglement.

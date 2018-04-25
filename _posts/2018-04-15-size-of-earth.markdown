@@ -6,7 +6,7 @@ description: "Turns out people knew the Earth was round for quite some time beca
 date:   2018-04-15 11:13:11 +0300
 image: "/images/erasto.jpg"
 ---
-Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it has to have a certain size, which at least in principle could have been determined. And this was first done by none other than Eratosthenes of, you know, the *sieve of Eratosthenes* fame.
+Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it had to have a certain size, which at least in principle could have been determined. And this was first done by none other than Eratosthenes of, you know, the *sieve of Eratosthenes* fame.
 
 ![crowd](/images/er-cropped.png){:class="img-responsive"}
 
