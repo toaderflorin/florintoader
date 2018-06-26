@@ -20,6 +20,6 @@ Eratosthenes wanted to measure exactly how different the orientation of the Sun 
 
 ![crowd](/images/angle.jpg){:class="img-responsive"}
 
-Assuming the Sun is at a distance much bigger than the size of the Earth and approximating that the light rays arrive parallel in Alexandria and Syene, this means that the distance between the cities is 1 / 50 of the diameter of the Earth. This distance is approximately 800 km, which multiplied by 50 gives us a circumference of 40,000 km, which is very close to the 40,075km circumference of the Earth around the equator.
+Assuming the Sun is at a distance much greater than the size of the Earth and approximating that the light rays arrive parallel in Alexandria and Syene, this means that the distance between the cities is 1 / 50 of the diameter of the Earth. This distance is approximately 800 km, which multiplied by 50 gives us a circumference of 40,000 km, which is very close to the 40,075km circumference of the Earth around the equator.
 
 So simple and accurate!
