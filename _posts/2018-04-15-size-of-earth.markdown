@@ -6,13 +6,11 @@ description: "Turns out people knew the Earth was round for quite some time beca
 date:   2018-04-15 11:13:11 +0300
 image: "/images/erasto.jpg"
 ---
-Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it had to have a certain size, which at least in principle could have been determined. And this was first done by none other than Eratosthenes of, you know, the *sieve of Eratosthenes* fame.
+Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it had to have a certain size, which at least in principle could have been determined (which was first done by none other than Eratosthenes of, you know, the *sieve of Eratosthenes* fame).
 
 ![crowd](/images/er-cropped.png){:class="img-responsive"}
 
-Legend has it there was a very deep well in Syene, Ancient Egypt, in which the sun shone all the way to the bottom during summer solstice, which is not really normal: in most places the sun is never at the zenith (or directly above), it's usually at an angle.
-
-This trajectory also depends on season -- here's what a year long exposure photograph (taken with a pinhole camera) looks like:
+Legend has it there was a very deep well in Syene (ancient Egypt) in which the sun shone all the way to the bottom during summer solstice. This is not really normal, in fact it's a very rare occurance: in most places the sun is never at the zenith (directly above), it's usually at an angle and this trajectory also depends on the time of the year -- here's what a year long exposure photograph (taken with a pinhole camera) looks like:
 
 <img src="/images/sun-path.jpeg" style="width: 100%;"/>
 
