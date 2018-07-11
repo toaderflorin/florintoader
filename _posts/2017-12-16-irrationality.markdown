@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "The Rationale Behind Human Irrationality"
-description: "<i>You do not need science to survive, but you need to survive to do science</i> a wise man once said, and truer words have never been spoken. For you see, in SHTF situations, making a good enough decision REALLY FAST is better than making the best decision if that takes say a few minutes."
+description: "<i>You do not need science to survive, but you need to survive to do science</i> a wise man once said, and truer words have never been spoken-because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes."
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
-<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken--because from an evolutionary point of view, when shit fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. Let say, Ug is coming out of his cave and he's pissed because you had sex with his woman--you need to make a decision on the spot if you are going to flee, or pick a boulder or stick and fight. Being indecisive is the absolute worst thing you can do.
+<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken--because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. Let say, Ug is coming out of his cave and he's pissed because you had sex with his woman--you need to make a decision on the spot if you are going to flee, or pick a boulder or stick and fight. Being indecisive is the absolute worst thing you can do.
 
 *The brain doesn't do backtracking, it mostly uses greedy strategies.*
 
@@ -16,7 +16,7 @@ If the brain had an architecture, it would be of the [Big Ball Of Mud](https://b
 Derek has a wonderful explanation of the logical brain and the shortcut brain. But then he always has wonderful explanations.
 
 ### Agency, Evolution And Neural Networks
-The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. Some people refuse to fly on Friday the 13th. You or I might look up at the sky, see a cloud and that looks like a rabbit and think *"how quaint, how'd that sh#t get up there?"* etc.
+The Mayans thought they had to sacrifice virgins to the gods in order for the sun to continue rising each morning. Some people refuse to fly on Friday the 13th. You or I might look up at the sky, see a cloud that looks like a rabbit and think *"how quaint, how'd that sh#t get up there?"* etc.
 
 ![rabbit-cloud](/images/rabbit-cloud.jpg){:class="img-responsive"}
 
