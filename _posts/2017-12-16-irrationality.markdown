@@ -26,20 +26,18 @@ Let's first look at an artificial neuron which models (sort of) a real life one.
 
 ![neuron-diagram](/images/neuron-diagram.png){:class="img-responsive"}
 
-The output of a neuron can function as the input for another one and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero.
-
-Now here's where things begin to get interesting: the value of this threshold is very important because if it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
+The output of a neuron can function as the input for another one and so complex networks can be created. In our case, a neuron is just a function that does a weighted sum of all its inputs and if the result is *greater* than a certain threshold value, it produces this value as an output, otherwise it outputs zero. Now here's where things begin to get interesting: the value of this threshold is very important because if it's too high, the neurons will fail to fire and detect patterns but if it's TOO LOW, we are going to have a lot of false positives.
 
 ![lioness](/images/lioness.jpg){:class="img-responsive"}
 
-The activation thresholds in the neurons making up our brains are largely evolutionary dependent and here's the thing: they have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
+The activation thresholds in the neurons making up our brains are largely dependent on evolutionary proccess and here's the thing: they have evolved to err strongly on the side of false positives because mistakenly taking something moving in a bush for a lion is harmless, but actually missing the silhouette of a lion would have been fatal. Which means we have a propensity to see patterns where there aren't any.
 
 <i>
 This also includes creating elaborate explanations like religious beliefs and superstitions.
 </i>
 
 ### The Triune Brain Theory
-According to this theory, the human brain is made out of three "layers" and those layers are interdependent. The *reptilian* part of the brain is responsible for basic locomotion functions such as standing upright, the fight / flight response and the regulation of the endocrine system. The *limbic system* is responsible for emotions, such as love, fear, envy and so on. And last, we have the *neocortex* is the part of the brain that's responsible for conscious thought.
+According to this theory, the human brain is made out of three "layers" and those layers are interdependent. The *reptilian* part of the brain is responsible for basic locomotion functions such as standing upright, the fight / flight response and the regulation of the endocrine system. The *limbic system* is responsible for emotions, such as love, fear, envy and so on. And finally, we have the *neocortex* which is the part of the brain that's responsible for conscious thought.
 
 ![triune](/images/triune.png){:class="img-responsive"}
 
