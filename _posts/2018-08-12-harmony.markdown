@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "Harmony And Physics"
-description: "When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale..."
-date:   2017-12-12 11:13:11 +0300
+description: "When I was trying to learn guitar the first thing that I learned was the scales, to be able play solos like Jimi or Slash, while totally overlooking rythm and learning to play chords...."
+date:   2018-08-12 11:13:11 +0300
 image: "/images/piano.jpg"
 ---
-When I was trying to learn guitar, the first thing that I learned was the scales. You know, to play solos like Jimi or Slash, and the first one I picked up was the A minor scale. When I learned it, what struck me is how strange it looks when played on a guitar string. I mean, you can fret anywhere, so why is the distance between all notes 2 frets, except between B and C, and E and F?
+When I was trying to learn guitar the first thing that I learned was the scales, to be able play solos like Jimi or Slash, while totally overlooking rythm and learning to play chords. And when I started learning them, the first thing that really struck me was how strange it looked when played on a a single guitar string (going higher or lower on the neck to play different notes). I mean, you can fret anywhere so why is the distance between all notes 2 frets, except between B and C and also E and F?
 
-What is so special about those notes, only those notes? You can also see it on the piano, there isn’t a black key between those notes, so that got me thinking—I had to investigate it.
+What is so special about those notes, only those notes? You can also see it on the piano: there aren't any black keys between those notes, so that got me thinking—I had to investigate it.
 
 ![piano](/images/piano.jpg){:class="img-responsive"}
 
-Actually, what exactly is a “note”?
+And we are going to explain that but first things first. Actually, what exactly is a “note”?
 
-Let's start with the basics. Sound is just a vibration of air that hits our ear. Similarly, when you throw a pebble in a pond you get ripples across the surface of the water—that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates—it bounces back just like waves hitting the edge of a pool. That’s echo. So when you pluck a guitar string, the waves travel out until they hit the edge of the string, and then bounce back. When the waves bounce back, they bounce back in counter phase and the back and forth motion cancels a lot of the sound. The only parts of the waves that “survive” and provide a sizable contribution to the sound are the ones that have a wavelength that fits exactly inside the length of the string.
+OK, let's start with the basics: sound is just a vibration of air that hits our ear. Similarly, when you throw a pebble in a pond you get ripples across the surface of the water—that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates—it bounces back just like waves hitting the edge of a pool. That’s echo. So when you pluck a guitar string, the waves travel out until they hit the edge of the string and then bounce back. When the waves bounce back, they bounce in counter phase and this motion cancels a significant portion of the sound. The only parts of the wave that “survive” and provide a sizable contribution to the sound are the ones that have a wavelength that fits exactly inside the length of the string.
 
 A standing wave looks like this:
 
