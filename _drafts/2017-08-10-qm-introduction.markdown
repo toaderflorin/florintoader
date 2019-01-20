@@ -11,7 +11,7 @@ So let's jump right in.
 
 ### The Double Slit Experiment ###
 
- To showcase wave particle duality, let's look at the double slit experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Every time a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
+To showcase wave particle duality, let's look at the double slit experiment, which is probably one of the most famous physics experiments of all time. It  is quite simple: it consists of an electron gun firing electrons **one by one**, a detector screen at the other end, and a plate in the middle with two slits cut out of it close to one another. Every time a particle is fired it can either go through one of the slits, or hit the plate. If it goes through, it's going to hit the detector screen and leave a mark.
 
  Watch the following animation:
 
