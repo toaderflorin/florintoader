@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Harmony And Physics"
+title:  "On Harmony"
 description: "When I was trying to learn guitar the first thing that I learned was the scales, to be able play solos like Jimi or Slash, while totally overlooking rythm and learning to play chords...."
 date:   2018-08-12 11:13:11 +0300
 image: "/images/piano.jpg"
 ---
-When I was trying to learn guitar the first thing that I learned was the scales, to be able play solos like Jimi or Slash, while totally overlooking rythm and learning to play chords. And when I started learning them, the first thing that really struck me was how strange it looked when played on a a single guitar string (going higher or lower on the neck to play different notes). I mean, you can fret anywhere so why is the distance between all notes 2 frets, except between B and C and also E and F?
+When I was trying to learn guitar the first thing that I learned was the scales, because I wanted to be like Hendrix. Getting past the fact that rythm is the foundation of music, not harmony, there was one thing that really struck me as odd: was how strange it looked when played on a a single guitar string (going higher or lower on the neck to play different notes). I mean, you can fret anywhere so why is the distance between all notes 2 frets, except between B and C and also E and F?
 
 What is so special about those notes, only those notes? You can also see it on the piano: there aren't any black keys between those notes, so that got me thinking—I had to investigate it.
 
