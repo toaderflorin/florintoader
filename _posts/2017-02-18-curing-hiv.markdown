@@ -3,11 +3,11 @@ layout: post
 title:  "Why It's So Hard To Cure HIV"
 date:   2017-02-18 21:13:11 +0300
 categories:
-description: "There is an urban myth going around that the HIV virus was created in the lab by the CIA as part of of some black ops type of program and that the United States government actually has a cure for it.
+description: "There is an urban myth going around that the HIV virus was created in the lab by the CIA as part of some black ops type of program and that the United States government actually has a cure for it, and while it's definitely fun to speculate, if however one gets into the specifics of the virus, it's easy to dispel this myth...
 "
 image: "/images/hiv1.jpg"
 ---
-There is an urban myth going around that the HIV virus was created in the lab by the CIA as part of of some "black ops" type of program and that the United States government actually has a cure for it. If however one gets into the specifics of the virus, it's easy to dispel this myth as genetic sequencing of the virus seems to point to the fact that HIV is descendant from SIV (Simian Immunodeficiency Virus) and that the first transmission of SIV to HIV in humans took place around 1920 in Kinshasa in the Democratic Republic of Congo (yes, the virus crossed over from primates, but interestingly enough, most primate species seem to be unaffected by the virus).
+There is an urban myth going around that the HIV virus was created in the lab by the CIA as part of some "black ops" type of program and that the United States government actually has a cure for it, and while it's definitely fun to speculate, if however one gets into the specifics of the virus, it's easy to dispel this myth as genetic sequencing of the virus seems to point to the fact that HIV is descendant from SIV (Simian Immunodeficiency Virus) and that the first transmission of SIV to HIV in humans took place around 1920 in Kinshasa in the Democratic Republic of Congo (yes, the virus crossed over from primates, but interestingly enough, most primate species seem to be unaffected by the virus).
 
 ![image-title-here](/images/hiv1.jpg){:class="img-responsive"}
 
