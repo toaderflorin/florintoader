@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "On Harmony"
-description: "When I was trying to learn guitar the first thing that I learned was the scales, to be able play solos like Jimi or Slash, while totally overlooking rythm and learning to play chords...."
+title:  "Harmony"
+description: "When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. I've been a fan of Hendrix and SRV since as far as I can remember (and wanted to play like them), I skipped ahead and directly tried to play lead and solos, which meant I had to learn the scales - you know, the thing that every classical music student dreads."
 date:   2018-08-12 11:13:11 +0300
 image: "/images/piano.jpg"
 ---
-When I was trying to learn guitar the first thing that I learned was the scales, because I wanted to be like Hendrix. Getting past the fact that rythm is the foundation of music, not harmony, there was one thing that really struck me as odd: was how strange it looked when played on a a single guitar string (going higher or lower on the neck to play different notes). I mean, you can fret anywhere so why is the distance between all notes 2 frets, except between B and C and also E and F?
+When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. Since I've been a fan of Hendrix and SRV since as far as I can remember (and wanted to play like them), I skipped ahead and directly tried to play lead and solos, which meant I had to learn the scales--you know, the thing that every classical music student dreads.
 
-What is so special about those notes, only those notes? You can also see it on the piano: there aren't any black keys between those notes, so that got me thinking—I had to investigate it.
+It wasn't <i>that</i> bad, but the thing that really struck me as being the very odd was the way these scales look on the guitar neck: <i>why is the distance between all notes two semitones, except for the second and third note in a major scale and also the sixth and the seventh?</i> You can also see it on the piano: there aren't any black keys between B / C and E / F.
 
 ![piano](/images/piano.jpg){:class="img-responsive"}
 
-And we are going to explain that but first things first. Actually, what exactly is a “note”?
+But first, what exactly is a “note”?
 
-OK, let's start with the basics: sound is just a vibration of air that hits our ear. Similarly, when you throw a pebble in a pond you get ripples across the surface of the water—that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates—it bounces back just like waves hitting the edge of a pool. That’s echo. So when you pluck a guitar string, the waves travel out until they hit the edge of the string and then bounce back. When the waves bounce back, they bounce in counter phase and this motion cancels a significant portion of the sound. The only parts of the wave that “survive” and provide a sizable contribution to the sound are the ones that have a wavelength that fits exactly inside the length of the string.
+Let's start with the basics: sound is just a vibration of air that hits our ear. Similarly, when you throw a pebble in a pond, you get ripples across the surface of the water—that’s kind of what sound is but in three dimensions. And when sound hits a wall, it reverberates—it bounces back just like waves hitting the edge of a pool (that’s echo). So when you pluck a guitar string, the waves travel out until they hit the edge of the string and then bounce back. An important thing to mention here is that when they reflect back, they do so in counter phase and this causes a significant portion of the sound to cancel out--the only parts of the wave that “survive” and provide a sizable contribution to the sound are the ones that have a wavelength that fits exactly inside the length of the string.
 
 A standing wave looks like this:
 
 ![standing-wave](/images/standing-wave.gif){:class="img-responsive"}
 
-So you don’t hear just one sound, you hear more—these are called harmonics. When you play an A4 note on the piano, you don’t just hear a 440Hz sound, you also hear a fainter 880Hz, an even fainter 1320Hz etc.
+So you don’t hear just one frequency, you hear more—these are called harmonics. When you play an A4 note on the piano, you don’t just hear a 440Hz sound, you also hear a fainter 880Hz, an even fainter 1320Hz etc.
 
 ![harmonics](/images/harmonics.png){:class="img-responsive"}
 
@@ -56,6 +56,6 @@ So what does this have to do with physics? Waves, and especially stationary wave
 
 ![orbital](/images/orbitals.png){:class="img-responsive"}
 
-String theory is built on a similar idea: strings (or membranes, depending on the theory) of energy vibrate and the harmonics of the different vibration modes represent different particles.
+String theory is built on a similar idea: strings (or membranes, depending on the version of the theory) of energy vibrate and the harmonics of the different vibration modes represent different particles.
 
-But that's for another article.
+But that's something for another article.
