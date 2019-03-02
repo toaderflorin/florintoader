@@ -5,7 +5,7 @@ description: "<i>You do not need science to survive, but you need to survive to 
 date:   2017-12-16 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
-<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken--because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. Let's say Ug is coming out of his cave and he's pissed because you had sex with his woman--you need to make a decision on the spot if you are going to flee, or pick a boulder or stick and fight. Being indecisive is the absolute worst thing you can do.
+<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken -- because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. 
 
 *The brain doesn't do backtracking, it mostly uses greedy strategies.*
 

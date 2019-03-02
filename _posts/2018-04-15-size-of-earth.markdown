@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "How Did Eratosthenes Figure Out The Size Of The Earth?"
-description: "Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse. And it's round. So naturally it has to have a certain size which at least in principle could have been determined.
+description: "Apparently people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse - so naturally it had to have a certain size, which at least in principle could have been determined
 "
 date:   2018-04-15 11:13:11 +0300
 image: "/images/erasto.jpg"
 ---
-Turns out people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it had to have a certain size, which at least in principle could have been determined (which was first done by none other than Eratosthenes of, you know, the *sieve of Eratosthenes* fame).
+Apparently people knew the Earth was round for quite some time because not only are the other heavenly bodies like the Moon and Sun round, but it turns out you can actually see the Earth's shadow projected on the Moon during a partial Moon eclipse -- so naturally it had to have a certain size, which at least in principle could have been determined (and this was first done by none other than Eratosthenes of *the sieve of Eratosthenes* fame).
 
 ![crowd](/images/er-cropped.png){:class="img-responsive"}
 
@@ -22,4 +22,4 @@ Eratosthenes wanted to measure exactly how different the orientation of the Sun 
 
 Assuming the Sun is at a distance much greater than the size of the Earth and approximating that the light rays arrive parallel in Alexandria and Syene, this means that the distance between the cities is 1 / 50 of the diameter of the Earth. This distance is approximately 800 km, which multiplied by 50 gives us a circumference of 40,000 km, which is very close to the 40,075km circumference of the Earth around the equator.
 
-So simple and accurate!
+Simple and accurate!
