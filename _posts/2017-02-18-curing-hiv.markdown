@@ -3,17 +3,15 @@ layout: post
 title:  "Why It's So Hard To Cure HIV"
 date:   2017-02-18 21:13:11 +0300
 categories:
-description: "It’s always a joy to have a conversation with people who think that AIDS was created by the CIA, and the reason we don’t have a cure is because it’s all a big government conspiracy — you can make fun of them and feel extra smart. But seriously, why is AIDS so hard to cure?
+description: "There an urban myth going around that the HIV virus was created in the lab by the CIA as part of of some black ops type of program and that the United States government actually has a cure for it. If you get into the specifics of the virus, it's easy to dispel this myth...
 "
 image: "/images/hiv1.jpg"
 ---
-It’s always entertaining to have conversations people who think that AIDS was created by the CIA and the reason we don’t have a cure is because it’s all a big government conspiracy — you can make fun of them and feel extra smart. But seriously, why is AIDS so hard to cure? I thought I would write an article to explain the hurdles which prevent us from having a vaccine or a functional cure.
+There is an urban myth going around that the HIV virus was created in the lab by the CIA as part of of some "black ops" type of program and that the United States government actually has a cure for it. If however one gets into the specifics of the virus, it's easy to dispel this myth--genetic sequencing of the virus concluded that HIV is descendant from SIV (Simian Immunodeficiency Virus) and that the first transmission of SIV to HIV in humans took place around 1920 in Kinshasa in the Democratic Republic of Congo (yes, the virus crossed over from primates, but interestingly enough, most primate species seem to be unaffected by the virus).
 
 ![image-title-here](/images/hiv1.jpg){:class="img-responsive"}
 
-First, a bit of history that shows that HIV wasn’t made in the lab.
-
-Genetic sequencing of the virus concluded that HIV is descendant from SIV (Simian Immunodeficiency Virus) and that the first transmission of SIV to HIV in humans took place around 1920 in Kinshasa in the Democratic Republic of Congo (yes, the virus crossed over from primates, but interestingly enough, most primate species seem to be unaffected by the virus). The actual AIDS epidemic started in the late ’70s, but it wasn’t recognized as a new disease back then. After an outbreak of various illnesses that were previously very rare like *Pneumocystis carinii pneumonia* or *Kaposi’s Sarcoma* among gay men, it was suspected that the culprit might be a yet undiscovered pathogen that affects the immune system. In 1981 alone there were 270 reported cases of this severe immunodeficiency among gay communities, so it was called GRID, *gay related immune deficiency*.
+The initial AIDS epidemic started in the late ’70s, but it wasn’t recognized as a new disease back then. After an outbreak of various illnesses that were previously very rare like *Pneumocystis carinii pneumonia* or *Kaposi’s Sarcoma* among gay men, it was suspected that the culprit might be a yet undiscovered pathogen that affects the immune system. In 1981 alone there were 270 reported cases of this severe immunodeficiency among gay communities, so it was called GRID, *gay related immune deficiency*.
 
 However, after an explosion of cases among haemophiliacs, it soon become clear that anybody was susceptible to get infected, and the name was changed to *acquired immune deficiency syndrome*, or AIDS for short.
 
