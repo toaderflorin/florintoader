@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Harmony"
-description: "When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. I've been a fan of Hendrix and SRV since as far as I can remember (and wanted to play like them), I skipped ahead and directly tried to play lead and solos, which meant I had to learn the scales - you know, the thing that every classical music student dreads."
+description: "When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. I on the other hand, since I've been a fan of Hendrix and SRV since as far as I can remember and wanted to play like them, thought it would be a good idea (it's not) to skip ahead and directly tried to play lead and solos, which meant I had to learn the scales-you know, the thing that every classical music student dreads."
 date:   2018-08-12 11:13:11 +0300
 image: "/images/piano.jpg"
 ---
-When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. Since I've been a fan of Hendrix and SRV since as far as I can remember (and wanted to play like them), I skipped ahead and directly tried to play lead and solos, which meant I had to learn the scales--you know, the thing that every classical music student dreads.
+When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. I on the other hand, since I've been a fan of Hendrix and SRV since as far as I can remember and wanted to play like them, thought it would be a good idea (it's not) to skip ahead and directly tried to play lead and solos, which meant I had to learn the scales--you know, the thing that every classical music student dreads.
 
 It wasn't <i>that</i> bad, but the thing that really struck me as being the very odd was the way these scales look on the guitar neck: <i>why is the distance between all notes two semitones, except for the second and third note in a minor scale and also the sixth and the seventh?</i> You can also see it on the piano: there aren't any black keys between B / C and E / F.
 
