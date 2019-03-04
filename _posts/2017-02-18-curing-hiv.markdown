@@ -11,7 +11,7 @@ There is an urban myth going around that the HIV virus was created in the lab by
 
 ![image-title-here](/images/hiv1.jpg){:class="img-responsive"}
 
-The initial AIDS epidemic started in the late ’70s, but it wasn’t recognized as a new disease back then. After an outbreak of various illnesses that were previously very rare like *Pneumocystis carinii pneumonia* or *Kaposi’s Sarcoma* among gay men, it was suspected that the culprit might be a yet undiscovered pathogen that affects the immune system. In 1981 alone there were 270 reported cases of this severe immunodeficiency among gay communities, so it was called GRID, *gay related immune deficiency*.
+The initial AIDS epidemic started in the late ’70s, but it wasn’t recognized as a new disease back then. After an outbreak of various illnesses that were previously very rare like *Pneumocystis carinii pneumonia* or *Kaposi’s Sarcoma* among gay men, it was suspected that the culprit might be a yet undiscovered pathogen that affects the immune system. In 1981 alone there were 270 reported cases of this severe immunodeficiency among gay communities, so it was called *gay related immune deficiency* or GRID for short.
 
 However, after an explosion of cases among haemophiliacs, it soon became clear that anybody was susceptible to become infected and the name was changed to *acquired immune deficiency syndrome*, or AIDS for short.
 
@@ -25,10 +25,10 @@ The actual reason why the HIV virus actually destroys T cells was long a mystery
 
 So why it’s so hard to cure HIV? There are two reasons:
 
-1. It’s an RNA virus, which means it’s molecule is a lot more chemically unstable than that of a DNA virus, because it only has one strand.
+1. It’s an RNA virus, which means it’s molecule is a lot more unstable chemically than that of a DNA virus, because it only has one strand.
 2. Natural virus reservoirs in the body.
 
-DNA is made out of two RNA strands. The nitrogenous bases G, U, A and C that make up the DNA and encode the genetic information are complementary (G attracts U and A attracts C), forming a more rigid structure than you have with RNA. It’s more stable for the same reason why a stool with four legs is more stable than a stool with two legs, in case you are wondering. With DNA, genetic information is sort of backed up(because there are two copies) so it’s a lot harder to get data corruption (mutations).
+DNA is made out of two RNA strands. The nitrogenous bases G, U, A and C that make up the DNA and encode the genetic information are complementary (G attracts U and A attracts C), forming a more rigid structure than you have with RNA. It’s more stable for the same reason why a stool with four legs is more stable than a stool with two legs, in case you are wondering. With DNA, genetic information is duplicated so it’s a lot harder to get data corruption (mutations).
 
 Number 1 is also the reason we have a Hepatitis B vaccine (it’s a DNA virus), and we don’t have a Hepatitis C vaccine (which is RNA). The virus is simply able to outsmart your typical vaccine.
 
