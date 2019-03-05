@@ -25,7 +25,7 @@ So you don’t hear just one frequency, you hear more—these are called harmoni
 
 When playing two notes at the same time, the more harmonics they share, the more consonant they sound. And the simpler the ratio of the base frequencies, the more harmonics are shared. And what’s the simplest ratio possible? It’s 2/1. This is the most fundamental interval in music, the octave.
 
-Here's an example: A4 decomposed yields 440Hz, 880Hz, 1320Hz, 1760Hz etc. A5 yields 880Hz, 1760Hz etc. As you can see, A4 fully contains A5 in its harmonic composition. They are so consonant, that they have been give the same name—A (or La)! Another simple ratio is 3/2. This interval is called a perfect fifth. In fact, this interval is so common, it’s the staple of rock music—it’s made out of just two notes—a root note and a note that’s 3/2 higher in frequency. This relationship also yields the circle of fifths.
+Here's an example: A4 decomposed yields 440Hz, 880Hz, 1320Hz, 1760Hz etc. A5 yields 880Hz, 1760Hz etc. As you can see, A4 fully contains A5 in its harmonic composition and they are so consonant, that they have been given the same name—A (or La)! Another simple ratio is 3/2, an interval which is called a perfect fifth which is the staple of rock music—it’s made out of just two notes—a root note and a note that’s 3/2 higher in frequency. This relationship also yields the circle of fifths.
 
 ![fifths](/images/fifths.jpeg){:class="img-responsive"}
 
