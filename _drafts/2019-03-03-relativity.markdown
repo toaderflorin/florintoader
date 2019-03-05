@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Exactly Was Bothering A Young Einstein?"
+title:  "What Exactly Was Bothering Einstein?"
 description: ""
 date:   2019-03-03 11:13:11 +0300
 image: "/images/einstein.jpeg"
@@ -13,11 +13,15 @@ The notion of relativity isn't exactly new. Galileo had already introduced the c
 
 *Galilean relativity makes sense intuitively for most people. If I'm in a car that's moving at 100km/h and I overtake another car that's moving at 80km/h  t(relative to the road), I would perceipe the relative speed to be 20 km/h.*
 
+Also, object trajectories are consistent:
+
+![einstein](/images/einstein.jpeg){:class="img-responsive"}
+
+
 ![einstein](/images/galilean1.svg){:class="img-responsive"}<br/>
 ![einstein](/images/galilean2.svg){:class="img-responsive"}<br/>
 ![einstein](/images/galilean3.svg){:class="img-responsive"}<br/>
 ![einstein](/images/galilean4.svg){:class="img-responsive"}<br/>
-
 
 And yet, this must be wrong. Because dropping weights from tall towers is one thing. But there was also a host of other knonw phenomena, like electricity and magnetism for example. And these phenomenons really don't play well with Gallielean relativity.
 
