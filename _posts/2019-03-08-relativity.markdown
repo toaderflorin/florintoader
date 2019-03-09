@@ -19,9 +19,7 @@ Object trajectories are consistent:
 
 And yet, this must be wrong. But in figuring out why this is, Einstein didn't think in terms of cannonballs falling from high towers and speeding bullets. He was preocupied with how electromagnetism looks for different observers travelling at relative speeds to one another.
 
-Before Maxwell, people used to think as electricity and magnetism as two different phenomena. We had strange materials such as magnetite that act on certain metals without having to touch them, and we learned how to create electricity by statically charging objects through friction.
-
-But then something interesting happened. In xxxx A showed that a moving electric charge generates a magnetic field.
+Before Maxwell, people used to think as electricity and magnetism as two different phenomena. We had strange materials such as magnetite that act on certain metals without having to touch them, and we learned how to create electricity by statically charging objects through friction. But then something interesting happened. In xxxx A showed that a moving electric charge generates a magnetic field.
 
 Maxwell's genius lied in his ability to combine the work of the people before him, people like Faraday and Gauss, into a single comprehensive framework -- he's actually credited with the first unified theory in the history of physics. His realisation was that if a variable magnetic field creates a variable electric field and vice versa, then what you have is a [transverse wave](https://en.wikipedia.org/wiki/Transverse_wave) and using the known values for electric and magnetic permeability, he was even able to calculate the speed at which this wave propagates through space.
 
@@ -60,10 +58,14 @@ So in order for the laws electromagnetism to hold (which were tested thoroughly)
   1. The laws of physics are the same in all inertial frames of reference.
   2. As measured in any inertial frame of reference, light is always propagated in empty space with a definite velocity c that is independent of the state of motion of the emitting body.
 
-Number one makes sense because observers travelling at different speeds need to agree on what's happening, it's pretty much basic logic. Number two is weird to us intuitively, but we know it's happening both from the mathematics **and** experiment.
+Number one makes sense because observers travelling at different speeds need to agree on what's happening, it's pretty much basic logic. Number two is weird to us intuitively, but we know it's happening both from the mathematics **and** experiment. Einstein, being heavily influenced by Mach's [positivism](https://en.wikipedia.org/wiki/Positivism), simply stated that since we cannot detect an ether we have no reason to assume it's there. But what we do know is that 1. and 2. are correct because it's something that we can see and that's all we need.
 
-Einstein, being heavily influenced by Mach's positivism, simply stated that since we cannot detect an ether we have no reason to assume it's there. But what we do know is that 1. and 2. are correct because it's something that we can see and that's all we need.
+So in addition to the new law for adding velocities, you would have to introduce a space contraction. Because the speed of light is constant, you also have an inverse time dilation:
 
-Time dilation:
+![em-wave](/images/dilation.svg){:class="img-responsive"}
+
+Plotting this on a graph based on speed, we get the following:
 
 ![einstein](/images/time-dilation.png){:class="img-responsive"}
+
+Looking at the formulas for time dilation and space contraction for things moving at the speed of light (massless elementary particles and what particles do in the absence of a Higgs field): *distances contract to zero and time dilation approaches infinity so apparently no time passes.* This is really interesting and I think it points to the idea that spacetime is not fundamental. For a single particle, it's meaningless concept and seems to point to the fact that it's emergent from a multitude of interactions.
