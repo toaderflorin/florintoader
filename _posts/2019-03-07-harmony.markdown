@@ -7,7 +7,7 @@ image: "/images/piano.jpg"
 ---
 When most people learn to play guitar, they usually start by learning a few chords, a beat, and then try to put together a rythmic foundation for a song. Me being me on the other hand, and because I've been a fan of Hendrix and SRV since as far as I can remember and wanted to play like them (I'm also lazy), thought it would be a good idea (it's a terrible idea) to skip ahead and directly try to play lead and solos, which meant I had to learn the scales--you know, the thing that every classical music student dreads.
 
-It wasn't <i>that</i> bad, but not knowing any music theory, a thing that struck me as being the very odd was the way these scales look on the guitar neck: <i>why is the distance between all notes two semitones, except for the second and third note in a minor scale and also the sixth and the seventh?</i> You can also see it on the piano: there aren't any black keys between B / C and E / F.
+It wasn't <i>that</i> bad, but not knowing any music theory, a thing that struck me as being very odd was the way these scales look on the guitar neck: <i>why is the distance between all notes two semitones, except for the second and third note in a minor scale and also the sixth and the seventh?</i> You can also see it on the piano: there aren't any black keys between B / C and E / F.
 
 ![piano](/images/piano.jpg){:class="img-responsive"}
 
