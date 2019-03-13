@@ -7,17 +7,6 @@ I've given a brief introduction to Einstein's Special Theory of Relativity here 
 date: 2017-09-16 10:13:11 +0300
 image: "/images/em-wave.gif"
 ---
-I've given a brief introduction to Einstein's Special Theory of Relativity [here](http://florintoader.net/special-relativity) and to the concept of [Lorentz invariance](https://en.wikipedia.org/wiki/Lorentz_covariance) (the actual technical term is *covariance*, but most scientists seem to use "invariance"), which is the property of the speed of light to have the same value regardless of the speed of the observer.
-
-Yes, it's really weird, but it has to be true.
-
-### Why?
-Well, our day to day reality is mostly governed by the electromagnetic force (and gravity, but that's part of the General Theory of Relativity, and the subject of another discussion). I will show why either electromagnetism is wrong (and it's not, because if you are reading this, it means your phone / device from which you're reading this is still working, the molecules that make up your body are holding together etc.), or Einstein must be right and Newton must be wrong.
-
-Okay, enough for an introduction, let's get our hands dirty. Imagine an electric current in a metal wire:
-
-![image-title-here](/images/current.png){:class="img-responsive"}
-
 The electrons are moving at a speed say *v* (which is much smaller than the speed of light, by the way). Now imagine a stationary charged object like a tiny ball sitting next to the wire. Since the wire is electrically neutral, nothing will happen. But if the ball starts moving along the wire, it's going to be repelled away from the wire (if it's positively charged), or attracted towards the wire (if it's negatively charged).
 
 *Hmm, that's weird. The number of electrons and the number of protons is the same in the wire, so the net charge is the same regardless if the particle is moving or not.*
