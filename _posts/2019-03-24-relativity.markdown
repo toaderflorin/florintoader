@@ -3,7 +3,7 @@ layout: post
 title:  "What Exactly Was Bothering Einstein?"
 description: "In 1905, a young Albert Einstein put out a paper which he called *Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)* that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer dependent. 
 "
-date:   2019-03-12 11:13:11 +0300
+date:   2019-03-24 11:13:11 +0300
 image: "/images/einstein.jpeg"
 ---
 In 1905, a young Albert Einstein put out a paper which he called *Zur Elektrodynamik bewegter Körper (On The Electrodynamics Of Moving Bodies)* that would forever change the way we think about space and time and among other things, it says that space contracts, time dilates and even the notion of simultaneity is relative and observer dependent. 
@@ -70,7 +70,7 @@ Let's exemplify with another thought experiment using the following setup: assum
   1. In the wire's frame of reference, the electrons move at speed __*v*__, so their frame contracts which changes the net charge density of the wire from neutral to negative and this in turn acts on the charged object. 
   2. In the current's frame of reference, the positive ions in the wire now appear to be moving (so their frame contracts) and so the wire net electric charge density is positive, which means the electric force points in the other direction. But because the charged object also appears like it's moving, there is a magnetic force that counteracts the electric force and the sum of these two forces is exactly the same as for number 1.
 
-Einstein's main insight was that the phenomena we see are a byproduct of one's frame of observation (hence *relativity*): *what looks like an electric field to me is a magnetic field to aunt Marge, if she's moving at a relative speed that's big enough.* But there's something else that's even more interesting: if you take the Lorentz transforms and you apply them to something that moves at the speed of light (essentially any elementary particle in the absence of a Higgs field), they tell you that space contracts to zero and time dilates to infinity and pretty much stops flowing. 
+Einstein's major insight was that the phenomena we see are a byproduct of one's frame of observation (hence *relativity*): *what looks like an electric field to me is a magnetic field to aunt Marge, if she's moving at a relative speed that's big enough.* But there's something else that's even more interesting: if you take the Lorentz transforms and you apply them to something that moves at the speed of light (essentially any elementary particle in the absence of a Higgs field), they tell you that space contracts to zero and time dilates to infinity and pretty much stops flowing. 
 
 ![dilation](/images/time-dilation.png){:class="img-responsive"}
 
