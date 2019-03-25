@@ -10,7 +10,7 @@ Apparently people knew the Earth was round for quite some time because not only 
 
 ![crowd](/images/er-cropped.png){:class="img-responsive"}
 
-Legend has it there was a very deep well in Syene (ancient Egypt) in which the sun shone all the way to the bottom during summer solstice. This is not something that's normal, in fact it's a very rare occurance: in most places on Earth the sun is never at the zenith, it's usually at an angle which depends on the time of the year. A year long exposure photograph (taken with a pinhole camera) that captures its daily path in the sky looks like:
+Legend has it there was a very deep well in Syene (ancient Egypt) in which the sun shone all the way to the bottom during summer solstice. This is not something that's normal, in fact it's a very rare occurrence: in most places on Earth the sun is never at the zenith, it's usually at an angle which depends on the time of the year. A year long exposure photograph (taken with a pinhole camera) that captures its daily path in the sky looks like:
 
 <img src="/images/sun-path.jpeg" style="width: 100%;"/>
 
