@@ -2,10 +2,10 @@
 layout: post
 title:  "The Rationale Behind Human Irrationality"
 description: "<i>You do not need science to survive, but you need to survive to do science</i> a wise man once said, and truer words have never been spoken-because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes."
-date:   2017-12-16 11:13:11 +0300
+date:   2019-07-10 11:13:11 +0300
 image: "/images/brains.jpg"
 ---
-<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken -- because from an evolutionary point of view when shit/fan colission is imminent, making a good enough decision REALLY FAST is better than making the best decision if that takes a few minutes. 
+<i>"You do not need science to survive , but you do need to survive to do science"</i> a wise man [once said](https://medium.com/incerto/how-to-be-rational-about-rationality-432e96dd4d1a) and truer words have never been spoken -- because from an evolutionary point of view reacting fast to a situation is
 
 *The brain doesn't do backtracking, it mostly uses greedy strategies.*
 
