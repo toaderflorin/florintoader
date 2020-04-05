@@ -287,18 +287,11 @@
   }
 }
 
-.list-content {
-  background-color: white;
-  margin-top: 100px;
-  padding: $spacing-unit 0;
-  padding-top: 20px;
-}
-
 .page-content {
   background-color: white;
   margin-top: 100px;
   padding: $spacing-unit 0;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .page-heading {
@@ -357,6 +350,10 @@
 #subtitle {
   font-size: 15px;
   color: #ddd;
+}
+
+.post {
+  margin-top: 20px;
 }
 
 .post-content {
