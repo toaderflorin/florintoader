@@ -34,6 +34,8 @@ The WPF rendering system receives these events and then uses .NET's reflection s
 
 VueJS does something similar, but it's a little bit less transparent; it looks at the model the component was initialized with and then wraps the existing fields in getters and setters that also notify it. These wrappers aren't directly visible to the user, which is why it is crucial to understand what the library does under the hood — adding a property to the model that wasn't present when the component was initialized means that property isn't observable.
 
+Directly from the VueJS documentation:
+
 ![diagram2](/images/reactivity/vue-reactivity.png){:class="img-responsive"}
 
 Mutations play a central role when it comes to observability in these libraries, but React works a little bit differently because it is much more functional in nature. 
@@ -206,7 +208,7 @@ Because of this, React creates a virtual copy of the DOM in memory. <code class=
 In a nutshell, this process works like this:
 
 1. Diffing is recursive and starts at the root of the DOM / VDOM.
-2. If a node isn't marked as dirty in the VDOM, nothing happens to the corresponding node in the DOM.
+2. If a node isn't marked as dirty in the VDOM, nothing happens to the corresponding node in the DOM, and React doesn't traverse the child nodes.
 3. If the node is marked as dirty, the diffing algorithm looks at whether the type has changed. If the node has gone from a <code class="code">BlogPost</code> to a <code class="code">WarningMessage</code> component, or from a button to a div, the whole subtree (including children) is recreated. React doesn't try to reuse the existing DOM elements (by transplanting them as children them to the newly created element) because even if that were possible, it would be to slow to figure out which ones can be kept.
 4. If, however, the type hasn't changed, only the properties (like text, width, etc.) and the children will be evaluated and updated if needed.
 5. When it comes to lists, React needs a little help in the form of keys. Because elements can move up and down in order, using the index is not reliable for comparison. It is recommended we set the key to a stable value, such as the UUID of the underlying data model.
