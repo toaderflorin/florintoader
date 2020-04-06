@@ -201,9 +201,9 @@ Another thing worth mentioning is that Redux is a standalone datastore, so we do
 ## Reconciliation And The Virtual DOM
 Whenever <code class="code">setState()</code> is called in a component, or it receives props from a parent component (or Redux), rerendering takes place. Of course, just replacing elements DOM elements as we've done for the component state not only would be slow but would also cause issues with controls losing focus and other artifacts.
 
-Because React creates a virtual copy of the DOM in memory. <code class="code">setState()</code> and props only change the virtual DOM and then there's a diffing process. 
+Because of this, React creates a virtual copy of the DOM in memory. <code class="code">setState()</code> only triggers a process that marks the affected nodes in the VDOM as dirty, and then there's a *reconciliation process* that takes care of updating the actual DOM based on deltas.
 
-In a nutshell, the reconciliation process works like this:
+In a nutshell, this process works like this:
 
 1. Diffing is recursive and starts at the root of the DOM / VDOM.
 2. If a node isn't marked as dirty in the VDOM, nothing happens to the corresponding node in the DOM.
