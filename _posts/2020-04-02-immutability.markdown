@@ -122,17 +122,13 @@ updateTask = (id, newText, completed) => {
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
 updateTask = (id, text, completed) => {
-  const existingTask = this.state.tasks.find(person => person.id === id)
-
-  if (existingTask) {
-    const existingTaskIndex = persons.indexOf(existingPerson)
-    persons[] = firstName
-    existingPerson.lastName = lastName
-    
-    this.setState({
-      persons: [...state.persons, 
+  this.setState({
+    persons: [...state.persons, persons: state.persons.map(task => 
+      task.id ===  action.id 
+        ? { ...task, { completed: !task.completed} } 
+        : task      
     })
-  }
+  })
 }
 </code></pre>
 </div>
@@ -156,12 +152,12 @@ Based on them we would write our reducer like this:
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-const ADD_TODO = 'ADD_TODO'
-const TOGGLE_TODO = 'TOGGLE_TODO'
-const CLEAR_TODOS = 'CLEAR_TODOS'
+const ADD_TASK = 'ADD_TODO'
+const TOGGLE_TASK = 'TOGGLE_TASK'
+const CLEAR_TASKS = 'CLEAR_TASKS'
 
-const todosReducer = (state = [], action) => {
-    case ADD_TODO: {
+const tasksReducer = (state = [], action) => {
+    case ADD_TASK: {
       return [
         ...state,
         {
@@ -171,15 +167,15 @@ const todosReducer = (state = [], action) => {
       ]
     }
     
-    case TOGGLE_TODO: {
-      return state.map(todo => 
-        todo.id ===  action.id 
-          ? { ...todo, { completed: !todo.completed} } 
-          : todo      
+    case TOGGLE_TASK: {
+      return state.map(task => 
+        task.id ===  action.id 
+          ? { ...task, { completed: !task.completed} } 
+          : task      
       })
     }
 
-    case CLEAR_TODOS: {
+    case CLEAR_TASK: {
       return []
     }
     
