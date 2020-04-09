@@ -121,11 +121,11 @@ updateTask = (id, newText, completed) => {
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-updateTask = (id, text, completed) => {
+completeTask = (id, text, completed) => {
   this.setState({
     persons: [...state.persons, persons: state.persons.map(task => 
       task.id ===  action.id 
-        ? { ...task, { completed } }
+        ? { ...task, { completed: true } }
         : task      
     })
   })
@@ -153,7 +153,7 @@ Based on them we would write our reducer like this:
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
 const ADD_TASK = 'ADD_TODO'
-const TOGGLE_TASK = 'TOGGLE_TASK'
+const COMPLETE_TASK = 'COMPLETE_TASK'
 const CLEAR_TASKS = 'CLEAR_TASKS'
 
 const tasksReducer = (state = [], action) => {
@@ -167,10 +167,10 @@ const tasksReducer = (state = [], action) => {
       ]
     }
     
-    case TOGGLE_TASK: {
+    case COMPLETE_TASK: {
       return state.map(task => 
         task.id ===  action.id 
-          ? { ...task, { completed: !task.completed} } 
+          ? { ...task, { completed: true } } 
           : task      
       })
     }
