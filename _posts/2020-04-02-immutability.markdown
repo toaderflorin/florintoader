@@ -125,7 +125,7 @@ completeTask = (id, text, completed) => {
   this.setState({
     persons: [...state.persons, persons: state.persons.map(task => 
       task.id ===  action.id 
-        ? { ...task, { completed: true } }
+        ? { ...task, completed: true }
         : task      
     })
   })
