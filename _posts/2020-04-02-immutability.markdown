@@ -157,31 +157,30 @@ const COMPLETE_TASK = 'COMPLETE_TASK'
 const CLEAR_TASKS = 'CLEAR_TASKS'
 
 const tasksReducer = (state = [], action) => {
-    case ADD_TASK: {
-      return [
-        ...state,
-        {
-          text: action.text,
-          completed: false
-        }
-      ]
-    }
-    
-    case COMPLETE_TASK: {
-      return state.map(task => 
-        task.id ===  action.id 
-          ? { ...task, { completed: true } } 
-          : task      
-      })
-    }
+  case ADD_TASK: {
+    return [
+      ...state,
+      {
+        text: action.text,
+        completed: false
+      }
+    ]
+  }
+  
+  case COMPLETE_TASK: {
+    return state.map(task => 
+      task.id ===  action.id 
+        ? { ...task, { completed: true } } 
+        : task      
+    })
+  }
 
-    case CLEAR_TASK: {
-      return []
-    }
-    
-    default: {
-      return state
-    }
+  case CLEAR_TASK: {
+    return []
+  }
+  
+  default: {
+    return state
   }
 }
 </code></pre>
