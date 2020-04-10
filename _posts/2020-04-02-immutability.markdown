@@ -209,5 +209,5 @@ In a nutshell, this process works like this:
 5. When it comes to lists, React needs a little help in the form of keys. Because elements can move up and down in order, using the index is not reliable for comparison. It is recommended we set the key to a stable value, such as the UUID of the underlying data model.
 
 ## Summary
-React can be very fast, but knowledge about how it works under the hood is essential. Not understanding the inner workings of <code class= "code">setState()</code> can lead to issues with updating, and the same thing goes with setting inappropriate keys on list items. Understanding immutability, pure functions, and components can also provide a significant performance boost.
+React can be very fast, but knowledge about how it works under the hood is essential. Not understanding the inner workings of <code class= "code">setState()</code>, for example, can lead to issues with updating, and the same thing goes with setting inappropriate keys on list items. Understanding immutability, pure functions, and components can also provide a significant performance boost.
 
