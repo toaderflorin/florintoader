@@ -43,7 +43,7 @@ So what's the key takeaway here? If we want a robust and decoupled architecture,
 
 While the term *domain driven design* gets thrown around quite a bit, if you ask five different developers what they understand by DDD, you are most likely going to get five different answers. To make matters worse, even Eric Evan's book which is the canonical authority on all things DDD doesn't give an exact definition, so the term DDD is used quite loosely. 
 
-A thorough understanding of the business is undoubtedly necessary for all parties involved, but it's worth also highlighting that people in different roles are interested in different things.
+A thorough understanding of the business is undoubtedly necessary for all parties involved, but it's worth also highlighting that people in different roles are interested in different things. For example:
 
 * The company as a whole must make a profit so it needs to solve certain business needs for existing and potential new customers.
 * Developers are usually more interested in the technology itself, don't particularly like being in long meetings to clarify the requirements, and would like to work with the newest technology stacks available.
@@ -58,7 +58,7 @@ We can identify some domain entities from the start -- users need to log in so w
 
 ![image-title-here](/images/ddd/ddd.png){:style="width: 650px;"}
 
-If we want to fill in the object fields and relations, we can use a database modeling tool. Of course, domain experts aren't interested in things like databases (SQL vs. NoSQL, whether we use microservices or not, etc., and other implementation details), but sketching tools like that can come in handy when designing the domain model.
+If we want to fill in the object fields and relations, we can use a database modeling tool. And while domain experts aren't interested in things like databases (SQL vs. NoSQL, whether we use microservices or not, etc., and other implementation details), sketching tools like that can come in handy when designing the domain model.
 
 What we have so far is called [model driven architecture](https://en.wikipedia.org/wiki/Model-driven_architecture). DDD counts as MDA, but not viceversa, because DDD is a bit more prescriptive and it introduces additional concepts:
 
