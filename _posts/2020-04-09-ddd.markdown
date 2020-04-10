@@ -66,7 +66,7 @@ What we have so far is called [model driven architecture](https://en.wikipedia.o
 * *Aggregates* are collections of entities that can be treated as atomic entities.
 * *Services* allow us to attach functionality to the model.
 * *Bounded contexts* are relatively isolated groupings of entities, aggregates and services.
-* *Domain events* trigger the flow of the domain over time.
+* *Domain events* flag moments when changes in the state of your domain occur.
 * *Commands* are triggered by domain events and act on entities or aggregates.
 
 *Bounded context make for good candidates for individual microservices but they don't have to be. Remember, we are using DDD to inform our technical decisions, not the other way around.*
