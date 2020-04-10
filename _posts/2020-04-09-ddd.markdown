@@ -79,7 +79,7 @@ But even if the whole team agrees that it's important to start by defining the d
 
 Eric Evans defines ubiquitous language as “the practice of building up a common, rigorous language between developers and users”. Rigorous here means always refering to entities consistently, so *Account* isn't interchangabe with *User*.
 
-Event storming, on the other hand, is the brainchild of Alberto Brandolini, and it's essentially a way for the team members to communicate ideas using sticky notes and a whiteboard. It's not a replacement for a requirements document or architecture diagram, but merely a way for the domain experts and developers to get together, agree on the requirements, and help define these.
+Event storming, on the other hand, is the brainchild of Alberto Brandolini, and it's essentially a way for the team members to communicate ideas using sticky notes and a whiteboard. It's not a replacement for a requirements document or architecture diagram, but merely a way for the domain experts and developers to get together, agree on the requirements, and help define them.
 
 1. Identify the domain events and write them on orange sticky notes. 
 2. For each domain event, find the command that caused it. Commands are written on blue notes and placed directly before the corresponding domain event.
