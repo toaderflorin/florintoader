@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Architecting Applications With DDD"
-date:   2020-04-05 09:39:37 +0300
+date:   2020-04-09 09:39:37 +0300
 description: "
 If you ask five different developers what they understand by domain driven design, you are most likely going to get five different answers. To make matters slightly worse and even if they did one did thoroughly read Eric Evan's book, it's not readily apparent how one would go about extracting a canonical definition. Virtually everybody working in the field of software development agrees that properly architecting an application is extremely important -- just like a poorly constructed building, a software project lacking a solid architectural background can easily come crashing down after a while. 
 "
@@ -57,6 +57,7 @@ Let us imagine the following scenario -- the team is tasked with creating creati
 We can identify some domain entities from the start -- users need to log in so we'll have a *User* object, and we also need multiple types of users (for example, an admin and a regular customer), so we will also have a *Permission* object. Of course, we need to have a catalog of products that we're going to sell, so we will define a *Product* object, and these products have to be kept in stock so we'll have *Warehouse* and *WarehouseProduct* entries. And last but not least, as this is the whole purpose of the app, *Order*, *OrderItem* and *PaymentInfo* for accepting orders and processing payments.
 
 ![image-title-here](/images/ddd/ddd.png){:style="width: 650px;"}
+
 If we want to fill in the object fields and relations, we can use a database modeling tool. Of course, domain experts aren't interested in things like databases (SQL vs. NoSQL, whether we use microservices or not, etc., and other implementation details), but sketching tools like that can come in handy when designing the domain model.
 
 What we have so far is called [model driven architecture](https://en.wikipedia.org/wiki/Model-driven_architecture). DDD counts as MDA, but not viceversa, because DDD is a bit more prescriptive and it introduces additional concepts:
