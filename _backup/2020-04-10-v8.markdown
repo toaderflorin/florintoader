@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "v8 internals"
+date:   2020-04-09 09:39:37 +0300
+description: "
+If you ask five different developers what they understand by domain driven design, you are most likely going to get five different answers. To make matters slightly worse and even if they did one did thoroughly read Eric Evan's book, it's not readily apparent how one would go about extracting a canonical definition. Virtually everybody working in the field of software development agrees that properly architecting an application is extremely important -- just like a poorly constructed building, a software project lacking a solid architectural background can easily come crashing down after a while. 
+"
+icon: "ddd/ddd-icon.jpg"
+categories:
+---
+When JavaScript was developed, it was designed as a scripting language for implementing simple interactions in the browser, like hiding or showing sections of the DOM, when the user was performing simple actions such as acting on inputs. It wasn't designed as a fully-fledged language for application development. Over time, web applications proved to be quite popular because of the convenience of opening your browser, performing some actions while being online, without needing to download a piece of software and install it on a local machine. Google played a big part in this shift in thinking with GMail and its online docs suite, which was so successful among small companies and startups that Microsoft had to come up with Office 360. 
+
+jQuery, Backbone, and Angular showed that more complex applications were possible, so suddenly, the web application paradigm switched from server-side rendering to an approach where rendering was done in the browser, and the serverside consisted only of APIs. Javascript was initially interpreted, but it was clear very fast that that would not be feasible with complex applications. Browsers soon started switching to just-in-time compilation soon after, with Google's V8 engine being the gold standard in this field.
+
+## How JavaScript Is Different
+
+Let's look at the following code:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+const person = {
+  firstName: 'John',
+  lastName: 'Doe'
+}
+
+// we can use this notation as well
+person['middleName'] = 'Archibald'
+
+// we can also do this
+person[4] = 'Huh?'
+
+</code></pre>
+</div>
+
+Objects in JavaScript are key/value maps (dictionaries), even arrays, as shown by the following code:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+const arr = [1, 2, 3]
+console.log(typeof arr) // 'object'
+</code></pre>
+</div>
+
+Which makes it a lot slower than something like C. Let's show why:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+struct person {
+  char firstName[50];
+  char lastName[50];
+  bool gender;
+}
+
+person people[10];
+</code></pre>
+</div>
+
+If we want to access the gender of the fifth person in the array, the calculation is simple:
+
+ 1. Each person takes up a 101 byte-long block of memory, and there are 4 people in the array before the person we're interested in.
+ 2. In the fifth code block, there are two fields ahead of the one we're interested in.
+
+So the address is <code class="code">4 * 101 + 100</code>. We also know that gender only takes up one byte, so we know the exact range we need to read. All of this is determined at compile time, so it's very fast. The downside is it can lead to bugs, with wrong casts as it's not enforcing typesafety at runtime.
+
+Now let's contrast this with what's happening in JavaScript. First of all, JS keeps runtime type information and it checks against it and those checks mean a performance hit. Then the algorythm for accesing a hashtable (dictionary) while of O(1) complexity, is still much slower than pointing to a location in memory.
+
+As a quick segway, it's worth mentioning there's another problem with JS's loose typing. The fact that users can change object interfaces at runtime leads to poorly enforced data contracts between components, and errors only popping up at runtime, which means they have to be debugged - a time-consuming process. The lack of strong typing also means we don't have a reliable way of implementing autocomplete / intellisense in our IDEs, which can make development significantly slower. TypeScript helps fix all there problems, but surprisingly, it also provides a significant performance benefit to the speed of the compiled code. To understand why this happens, we need to look at how a compiler like V8 works under the hood, specifically V8's newer Ignition / TurboFan pipeline. When a page is first loaded, its HTML, CSS, and JS code is parsed, and this has to be done as fast as possible, to provide a responsive feel to the user. 
+
+Ignition is the first part of the pipeline, and it's an interpreter. It takes JavaScript code and creates unoptimized bytecode, which is then being executed. The secret of V8's speed is TurboFan's advanced use if adaptive optimization, which works as follows: the compiler looks at repeated patterns of use of objects and then selectively optimizes. Consider the following code:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+function getFullName(person) {
+  return `{person.firstName} ${person.lastName}`
+}
+
+const person = {
+  firstName: 'John',
+  lastName: 'Doe'
+}
+
+console.log(getFullName(person))
+</code></pre>
+</div>
+
+If this function is repeatedly called with objects that have these properties, it creates an internal class, which we would represent as and statically optimizes the code.
+
+
+
+If you're using arrays of numbers, it will optimize under the hood. But as soon as one of the items in the array is no longer a number, V8 uses the less optimized version of code, so be mindful of that.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Atomic React Native"
-date:   2020-02-25 09:39:37 +0300
+date:   2020-04-10 09:39:37 +0300
 description: "
 "
 icon: "scaling-sql/shard-icon (1).jpg"
