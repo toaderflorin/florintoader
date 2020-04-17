@@ -16,7 +16,6 @@
 title: Florin Toader
 email: toaderflorin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
