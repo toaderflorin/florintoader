@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Functional React - Part 1: Functions, Closures And Lexical Evironoments"
+date:   2020-04-09 09:39:37 +0300
+description: "
+Lately, there's been a push from the React team to move from class components to functional components and of course to *hooks*. The motivation for writing this article came from various frustrations regarding this new model and ."
+icon: "ddd/ddd-icon.jpg"
+categories:
+---
+Lately, there’s been a push from the React team to move from class components to functional components and hooks. This makes sense because even though JS supports classes, it’s primarily a functional language, and the class syntax is merely syntactic sugar. The motivation for writing this article came from various frustrations regarding this new way of doing this. Even though classes in C# or Java look superficially similar to those in JS, they are fundamentally different under the hood.
+
+Since C# is an OOP language, classes are world-class citizens. That’s not the case, however, with JavaScript, which is more functional. With JS, functions can exist outside classes and are the first-class citizens, and before ES6, we didn’t even have classes. A typical JS function would look like this:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+function consoleLogFullName(firstName, lastName) {  
+  console.log(`${firstName} ${lastName}`)
+}
+
+consoleLogFullName('John', 'Doe') // outputs 'John Doe' to the console
+</code></pre>
+</div>
+
+Let's now spice things up a little bit.
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+const consoleLogFullName1 = function(firstName, lastName) {  
+  console.log(`${firstName} ${lastName}`)
+}
+
+const consoleLogFullName2 = function(firstName, lastName) {  
+  console.log(`${firstName} ${lastName}`)
+}
+
+const consoleLogFullName3 = consoleLogFullName1
+
+console.log(consoleLogFullName1 === consoleLofFullName2) // false
+console.log(consoleLogFullName1 === consoleLofFullName3) // true
+</code></pre>
+</div>
+
+We can clearly see functions are treated like objects and we can even create them dynamically at runtime like this (which can make for nice meta-programming). Since JS is a dynamic language, we can even write:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+const f = new Function(`console.log('Hello there')`)
+f() // Hello there
+</code></pre>
+</div>
+
+In statically linked languages your 
+
+Another aspect of JS is we can write functions inside other functions and this has some interesting implications.
+

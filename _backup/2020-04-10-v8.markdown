@@ -60,13 +60,21 @@ If we want to access the gender of the fifth person in the array, the calculatio
  1. Each person takes up a 101 byte-long block of memory, and there are 4 people in the array before the person we're interested in.
  2. In the fifth code block, there are two fields ahead of the one we're interested in.
 
-So the address is <code class="code">4 * 101 + 100</code>. We also know that gender only takes up one byte, so we know the exact range we need to read. All of this is determined at compile-time, so it's very fast. The downside is it can lead to bugs, with wrong casts as it's not enforcing type-safety at runtime.
+So the address is <code class="code">4 * 101 + 100</code>. We also know that gender only takes up one byte, so we know the exact range we need to read. All of this is determined at compile-time, so it’s very fast. The downside is it can lead to bugs, or memory overflows if a wrong cast is used in the code. 
 
-Now let's contrast this with what's happening in JavaScript. First of all, JS keeps runtime type information, and it checks against it, and those checks mean a performance hit. Then the algorithm for accessing a hashtable (dictionary) while of O(1) complexity is still much slower than pointing to a location in memory.
+
+Now let's contrast this with what's happening in JavaScript. First of all, JS keeps runtime type information, and those type safety checks mean a performance hit. Then the algorithm for accessing a hashtable (dictionary) while of O(1) complexity is still much slower than pointing to a location in memory.
 
 As a quick segway, it's worth mentioning there's another problem with JS's loose typing. The fact that users can change object interfaces at runtime leads to poorly enforced data contracts between components, and errors only popping up at runtime, which means they have to be debugged - a time-consuming process. The lack of strong typing also means we don't have a reliable way of implementing autocomplete / intellisense in our IDEs, which can make development significantly slower. TypeScript helps fix all there problems, but surprisingly, it also provides a significant performance benefit to the speed of the compiled code. To understand why this happens, we need to look at how a compiler like V8 works under the hood, specifically V8's newer Ignition / TurboFan pipeline. When a page is first loaded, its HTML, CSS, and JS code is parsed, and this has to be done as fast as possible, to provide a responsive feel to the user. 
 
-Ignition is the first part of the pipeline, and it's an interpreter. It takes JavaScript code and creates unoptimized bytecode, which is then being executed. The secret of V8's speed is TurboFan's advanced use if adaptive optimization, which works as follows: the compiler looks at repeated patterns of use of objects and then selectively optimizes. Consider the following code:
+## V8 Pipeline
+
+Ignition is the first part of the pipeline, and it's an interpreter. It takes JavaScript code and creates unoptimized bytecode, which is then being executed. The secret of V8's speed is TurboFan's advanced use if adaptive optimization, which works as follows: the compiler looks at repeated patterns of use of objects and then selectively optimizes. 
+
+![image-title-here](/images/v8/pipe.jpg)
+
+
+Ignition looks at the *shape* of objects functions are called with and creates *internal classes* for patterns that it sees repeated often. Consider the following code:
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
@@ -83,6 +91,13 @@ console.log(getFullName(person))
 </code></pre>
 </div>
 
-If this function is repeatedly called with objects that have these properties, it creates an internal class, which we would represent as and statically optimizes the code.
+Just as our C code allows for highly optimized code because the typing is static, TurboFan (which is the compiler part) manages to create optimized code for this method. What happens if we call the method with an object with other properties, like *middleName*? In that case, we have polymorphism, so we'll have two optimized compiled versions of the method.
+
+Distinctions:
+
+1. Code is monomorphic.
+2. Code is polymorphic, an additional check is needed to resolve which code is called.
+3. Dictionary.
 
 If you're using arrays of numbers, it will optimize under the hood. But as soon as one of the items in the array is no longer a number, V8 uses the less optimized version of code, so be mindful of that.
+
