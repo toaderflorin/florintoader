@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Functional React - Part 1: Functions, Closures And Lexical Evironoments"
+title:  "Closures And Lexical Evironoments"
 date:   2020-04-09 09:39:37 +0300
 description: "
-Lately, there's been a push from the React team to move from class components to functional components and of course to *hooks*. The motivation for writing this article came from various frustrations regarding this new model and ."
-icon: "ddd/ddd-icon.jpg"
+Lately, there’s been a push from the React team to move from class components to functional components and hooks. This makes sense because even though JS supports classes, it’s primarily a functional language, and the class syntax is merely syntactic sugar. The motivation for writing this article came from various frustrations regarding this new way of doing this. Even though classes in C# or Java look superficially similar to those in JS, they are fundamentally different under the hood.
+"
+icon: "closures/js.png"
 categories:
 ---
 Lately, there’s been a push from the React team to move from class components to functional components and hooks. This makes sense because even though JS supports classes, it’s primarily a functional language, and the class syntax is merely syntactic sugar. The motivation for writing this article came from various frustrations regarding this new way of doing this. Even though classes in C# or Java look superficially similar to those in JS, they are fundamentally different under the hood.
@@ -13,11 +14,11 @@ Since C# is an OOP language, classes are world-class citizens. That’s not the 
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-function consoleLogFullName(firstName, lastName) {  
+function logFullName(firstName, lastName) {  
   console.log(`${firstName} ${lastName}`)
 }
 
-consoleLogFullName('John', 'Doe') // outputs 'John Doe' to the console
+logFullName('John', 'Doe') // outputs 'John Doe' to the console
 </code></pre>
 </div>
 
@@ -25,18 +26,18 @@ Let's now spice things up a little bit.
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-const consoleLogFullName1 = function(firstName, lastName) {  
+const logFullName1 = function(firstName, lastName) {  
   console.log(`${firstName} ${lastName}`)
 }
 
-const consoleLogFullName2 = function(firstName, lastName) {  
+const logFullName2 = function(firstName, lastName) {  
   console.log(`${firstName} ${lastName}`)
 }
 
-const consoleLogFullName3 = consoleLogFullName1
+const logFullName3 = consoleLogFullName1
 
-console.log(consoleLogFullName1 === consoleLofFullName2) // false
-console.log(consoleLogFullName1 === consoleLofFullName3) // true
+console.log(logFullName1 === logFullName2) // false
+console.log(logFullName1 === logFullName3) // true
 </code></pre>
 </div>
 
@@ -49,7 +50,60 @@ f() // Hello there
 </code></pre>
 </div>
 
-In statically linked languages your 
+JS clearly stands in contrast with statically linked languages like C, where the function compiles to a set of machine language instructions that live somewhere in memory.
 
-Another aspect of JS is we can write functions inside other functions and this has some interesting implications.
+Another aspect of JS is that we can write functions inside other functions, which has some interesting implications -- but we'll show a simple example first.
+
+So far, nothing special -- a function sees a variable from its own scope scope or the outer scope.
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+function multiplyBy(factor) {
+  const _factor = factor
+
+  return function multiply(val) {    
+    console.log(_factor * x)
+  }
+}
+
+const multiplyBy2 = multiplyBy(2) // this is a function that multiplies a val by 2
+const multiplyBy3 = multiplyBy(2) // this is a function that multiples a val by 3
+
+console.log(multiplyBy2(5)) // outputs 10
+console.log(multiplyBy3(5)) // outputs 15
+</code></pre>
+</div>
+
+The idea behind closures is the lexical environment works similar to instance state in OOP. To illustrate this:
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+function Employee(firstName, lastName, position) {
+  let _firstName = firstName
+  let _lastName = lastName
+
+  return {    
+    getFistName: () => {
+      return `${firstName} ${lastName}`
+    }
+
+    setFirstName: (firstName) => {
+      _firstName = firstName
+    }
+
+    setLastName: (lastName) = > {
+      _lastName = lastName
+    }
+  }  
+}
+
+const employee1 = Employee('John', 'Doe')
+const employee2 = Employee('Jane', 'Doe')
+
+console.log(employee1.getFullName())
+console.log(employee2.getFullName())
+</code></pre>
+</div>
+
+Even though the employee function has finished executing, since the `getFirstName`, `setFirstName` and `setLastTIme` functions still have access to the `_firstName` and `_lastName` fields. But because we called it twice, we have two copies of those values just like we would have different values for different instances of the same class.
 
