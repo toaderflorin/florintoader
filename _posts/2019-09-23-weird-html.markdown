@@ -31,10 +31,13 @@ Keep in mind that by default the *width* and *height* CSS properties refer to th
 
 Here's what you need to do:
 
-<pre class="margin-bottom"><code class="language-css">.box-sized-element {
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">
+.box-sized-element {
   box-sizing: border-box;    
 }
 </code></pre>
+</div>
 
 <!-- <script src="https://gist.github.com/toaderflorin/12fcda543d0c76cd57df3890917cfdd8.js"></script> -->
 
@@ -60,7 +63,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies, dolor la
 <br/>
 
 The CSS for these elements looks like this:
-<pre class="margin-bottom"><code class="language-css line-numbers">.cyan {
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">.cyan {
   width: 64px; 
   height: 64px; 
   background-color: cyan; 
@@ -89,6 +93,7 @@ The CSS for these elements looks like this:
   clear: left;
 }
 </code></pre>
+</div>
 
 Floats are a standard way of incorporating an image (or some sort of container block) into a paragraph of text. Not only can you have multiple images, but you can actually use both *float* and *clear* at the same time.
 
@@ -110,22 +115,25 @@ This might not actually be the desired outcome, but it turns out there is a work
 <br/>
 What I did was add an empty div at the end of the parent container, like so:
 
-<pre><code class="language-html">&#x3C;div class=&#x22;container&#x22;&#x3E;
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">&#x3C;div class=&#x22;container&#x22;&#x3E;
   ...
   &#x3C;div style=&#x22;clear: both;&#x22;&#x3E;&#x3C;/div&#x3E;
 &#x3C;/div&#x3E;
 </code></pre>
+</div>
 
-That's a bit annoying so what you could do is create a CSS class that always appends an html element that does the clearing (like we previously did). This trick is called a **clearfix**.
+That's a bit annoying so what you could do is create a CSS class that always appends an html element that does the clearing (like we previously did). This trick is called a *clearfix*.<br/>
 
-<pre class="margin-bottom"><code class="language-css">.clearfix:after {
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 </code></pre>
-
-<!-- <script src="https://gist.github.com/toaderflorin/3605269010a8e7d506cf932afd496917.js"></script> -->
+</div>
 
 Then, all you need to do is simply add that class to all the elements that you want clearfixed.
 
@@ -150,21 +158,27 @@ This by default makes just the content to be 100%.
 ## Vertical Centering
 Something as simple as centering something in the middle of a container was problematic before the addition of flexbox. It still is for older browsers that don't fully support the *display: flex* CSS specification. Before we get into the quirky cases, let's see how we solve vertical centering with flexbox:
 
-<pre class="margin-bottom"><code class="language-css">.centered {
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">
+.centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 </code></pre>
+</div>
 
 If you know the height of the panel you want to center you can do something like:
 
-<pre class="margin-bottom"><code class="language-css">.centered-fixed {
+<div class="margin-bottom">
+<pre><code class="language-css line-numbers">
+.centered-fixed {
   margin-top: calc(100% - 100px);
   margin-left: auto;
   margin-right: auto;
 }
 </code></pre>
+</div>
 
 If your browser doesn't support *calc*, there are other ways to do it such as using line-height (which works only for text) or using *display: table-cell*.
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Reactivity, Immutability And Reconciliation In React"
 date:   2020-04-02 09:39:37 +0300
 description: "
-Since a single database server can support a considerable load, it's worth starting off by saying that needing to scale out your database server means your business is doing several things right, so this is a good problem to have. While getting a machine with more processor cores, memory and disk space can alleviate your problems in the short term, at some point needing to distribute your database across multiple machines becomes unavoidable.
+Before getting into library-specific details, it's worth starting with a definition of what constitutes reactivity. A typical example would be an Excel spreadsheet: if a cell aggregates data from other cells, that cell instantly changes if we change a value in any of the aggregated cells. In reactive programming, if a variable A depends on B and C, a change in either B or C would also trigger a change in A.
 "
 icon: "reactivity/reactivity-icon.png"
 categories:
@@ -34,18 +34,18 @@ The WPF rendering system receives these events and then uses .NET's reflection s
 
 VueJS does something similar, but it's a little bit less transparent; it looks at the model the component was initialized with and then wraps the existing fields in getters and setters that also notify it. These wrappers aren't directly visible to the user, which is why it is crucial to understand what the library does under the hood — adding a property to the model that wasn't present when the component was initialized means that property isn't observable.
 
+Directly from the VueJS documentation:
+
 ![diagram2](/images/reactivity/vue-reactivity.png){:class="img-responsive"}
 
 Mutations play a central role when it comes to observability in these libraries, but React works a little bit differently because it is much more functional in nature. 
 
 ## React
-Rendering in React is done by calling the <code class="code">setState()</code> method on a component, or that component receives new props from a parent and here's the important aspect: React always rerenders the whole subtree, unless we override the <code class="code">shouldComponentUpdate()</code> method in the class.
+Rendering in React is done by calling the <code class="code">setState()</code> method on a component, or that component receives new props from a parent and here's the important aspect: React always rerenders the whole subtree, unless we override the <code class="code">shouldComponentUpdate()</code> method in the class and tell it not to.
 
-Rembember: 
+If we wanted to only rerender if something is changed, we would have to deeply compare the new props and state to the old ones which can be time consuming. But by using a little functional trick called *immutability* in our code, we can avoid this and use a shallow compare instead.
 
-But by using a little functional trick called *immutability* in our code, we avoid even this diffing process.
-
-Let us use the customary task manager example and look at the following code:
+Let us use the typical task manager example and look at the following code:
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
@@ -68,7 +68,7 @@ console.log('This should be true.', taskA === taskC)
 </code></pre>
 </div>
 
-This of course is nothing new because JavaScript doesn't check the values of the fields, it checks the instances and in the case of person A and B we have two different instances of an object with fields of equal value. 
+This, of course, is nothing new because JavaScript doesn't check the values of the fields, it checks the instances and in the case of person A and B we have two different instances of an object with fields of equal value. 
 
 Let's say we now have a method that is called <code>removeLastName()</code>. In the case of mutable languages we could write something like this:
 
@@ -93,7 +93,7 @@ function completeTask(task) {
 </code></pre>
 </div>
 
-This not only encourages the use of function composition for calculating complicated things, but it also ensures that checking for equality is easy and fast. Since we are never mutating an existing object, checking for value equality reduces to instance equality checking.
+Since we are never mutating an existing object, checking for value equality reduces to instance equality checking. React also provides the concept of [pure components](https://reactjs.org/docs/react-api.html#reactpurecomponent) that automatically do a shallow compare on props and state, so we don't have to provide our own <code class="code">shouldComponentUpdate()</code> implementation.
 
 Quite often, beginner React developers write code like this:
 
@@ -115,22 +115,20 @@ updateTask = (id, newText, completed) => {
 </code></pre>
 </div>
 
-We can do something else insted.
+*Remember: never mutate the component state directly.*
+
+<code class="code">setState()</code> works asynchronously and it can be interpreted as a request to React to queue an update to the component at the next available moment in the rendering loop. Also internally, <code class="code">setState()</code> doesn't modify the state, it creates a new instance, just like our previous <code class="code">completeTask()</code> function did. So we need to do something else instead.
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-updateTask = (id, text, completed) => {
-  const existingTask = this.state.tasks.find(person => person.id === id)
-
-  if (existingTask) {
-    const existingTaskIndex = persons.indexOf(existingPerson)
-    persons[] = firstName
-    existingPerson.lastName = lastName
-    
-    this.setState({
-      persons: [...state.persons, 
+completeTask = (id, text, completed) => {
+  this.setState({
+    persons: [...state.persons, persons: state.persons.map(task => 
+      task.id ===  action.id 
+        ? { ...task, completed: true }
+        : task      
     })
-  }
+  })
 }
 </code></pre>
 </div>
@@ -154,36 +152,35 @@ Based on them we would write our reducer like this:
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
-const ADD_TODO = 'ADD_TODO'
-const TOGGLE_TODO = 'TOGGLE_TODO'
-const CLEAR_TODOS = 'CLEAR_TODOS'
+const ADD_TASK = 'ADD_TODO'
+const COMPLETE_TASK = 'COMPLETE_TASK'
+const CLEAR_TASKS = 'CLEAR_TASKS'
 
-const todosReducer = (state = [], action) => {
-    case ADD_TODO: {
-      return [
-        ...state,
-        {
-          text: action.text,
-          completed: false
-        }
-      ]
-    }
-    
-    case TOGGLE_TODO: {
-      return state.map(todo => 
-        todo.id ===  action.id 
-          ? { ...todo, { completed: !todo.completed} } 
-          : todo      
-      })
-    }
+const tasksReducer = (state = [], action) => {
+  case ADD_TASK: {
+    return [
+      ...state,
+      {
+        text: action.text,
+        completed: false
+      }
+    ]
+  }
+  
+  case COMPLETE_TASK: {
+    return state.map(task => 
+      task.id ===  action.id 
+        ? { ...task, { completed: true } } 
+        : task      
+    })
+  }
 
-    case CLEAR_TODOS: {
-      return []
-    }
-    
-    default: {
-      return state
-    }
+  case CLEAR_TASK: {
+    return []
+  }
+  
+  default: {
+    return state
   }
 }
 </code></pre>
@@ -201,18 +198,16 @@ Another thing worth mentioning is that Redux is a standalone datastore, so we do
 ## Reconciliation And The Virtual DOM
 Whenever <code class="code">setState()</code> is called in a component, or it receives props from a parent component (or Redux), rerendering takes place. Of course, just replacing elements DOM elements as we've done for the component state not only would be slow but would also cause issues with controls losing focus and other artifacts.
 
-Because React creates a virtual copy of the DOM in memory. setState and props only change the virtual DOM and then there's a diffing process. 
+Because of this, React creates a virtual copy of the DOM in memory. <code class="code">setState()</code> only triggers a process that marks the affected nodes in the VDOM as dirty, and then there's a *reconciliation process* that takes care of updating the actual DOM based on deltas.
 
-![react-dom](/images/reactivity/react-dom.png){:class="img-responsive"}
-
-In a nutshell, the reconciliation process works like this:
+In a nutshell, this process works like this:
 
 1. Diffing is recursive and starts at the root of the DOM / VDOM.
-2. If a node isn’t marked as dirty in the VDOM, nothing happens to the corresponding node in the DOM.
-3. If the node is marked as dirty, the diffing algorithm looks at whether the type has changed. If the node has gone from a <code class="code">BlogPost</code> to a <code class="code">WarningMessage</code> component, or from a button to a div, the whole subtree (including children) is recreated. React doesn’t try to reuse the existing DOM elements (by transplanting them as children them to the newly created element) because even if that were possible, it would be to slow to figure out which ones can be kept.
-4. If, however, the type hasn’t changed, only the properties (like text, width, etc.) and the children will be evaluated and updated if needed.
+2. If a node isn't marked as dirty in the VDOM, nothing happens to the corresponding node in the DOM, and React doesn't traverse the child nodes.
+3. If the node is marked as dirty, the diffing algorithm looks at whether the type has changed. If the node has gone from a <code class="code">BlogPost</code> to a <code class="code">WarningMessage</code> component, or from a button to a div, the whole subtree (including children) is recreated. React doesn't try to reuse the existing DOM elements (by transplanting them as children them to the newly created element) because even if that were possible, it would be to slow to figure out which ones can be kept.
+4. If, however, the type hasn't changed, only the properties (like text, width, etc.) and the children will be evaluated and updated if needed.
 5. When it comes to lists, React needs a little help in the form of keys. Because elements can move up and down in order, using the index is not reliable for comparison. It is recommended we set the key to a stable value, such as the UUID of the underlying data model.
 
 ## Summary
-React can be very fast, but a knowledge about how it works under the hood is important. Not understanding the inner workings of setState can lead to issues with updating and the same thing goes with setting bad keys on list items.
+React can be very fast, but knowledge about how it works under the hood is essential. Not understanding the inner workings of <code class= "code">setState()</code>, for example, can lead to issues with updating, and the same thing goes with setting inappropriate keys on list items. Understanding immutability, pure functions, and components can also provide a significant performance boost.
 

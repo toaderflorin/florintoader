@@ -287,18 +287,11 @@
   }
 }
 
-.list-content {
-  background-color: white;
-  margin-top: 100px;
-  padding: $spacing-unit 0;
-  padding-top: 20px;
-}
-
 .page-content {
   background-color: white;
   margin-top: 100px;
   padding: $spacing-unit 0;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .page-heading {
@@ -359,6 +352,10 @@
   color: #ddd;
 }
 
+.post {
+  margin-top: 20px;
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
   line-height: 160%;
@@ -369,12 +366,6 @@
     margin-bottom: 8px;
   }
 }
-
-// .img-left {
-//   float: right;
-//   margin-left: 20px;
-//   margin-bottom: 10px;
-// }
 
 .gradient {
   background-image: url(/images/iso2.jpg);
