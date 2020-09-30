@@ -204,3 +204,4 @@ function App(props) {
 </div>
 
 Since we are no longer merging the old state into the big state object, we no longer have the racing condition. This is a perfectly valid approach for fixing the problem, but unfortunately, it means we have lost the hierarchical nature of the state object (so we can no longer use it as a view model) - remember that when we are lifting state to the parent component, we would like the structure of the object to reflect the child component hierarchy.
+
