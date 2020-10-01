@@ -203,5 +203,17 @@ function App(props) {
 </code></pre>
 </div>
 
-Since we are no longer merging the old state into the big state object, we no longer have the racing condition. This is a perfectly valid approach for fixing the problem, but unfortunately, it means we have lost the hierarchical nature of the state object (so we can no longer use it as a view model) - remember that when we are lifting state to the parent component, we would like the structure of the object to reflect the child component hierarchy.
+Since we are no longer merging the old state into the big state object, we no longer have the racing condition. This is a perfectly valid approach for fixing the problem, but unfortunately, it means we have lost the hierarchical nature of the state object (so we can no longer use it as a view model) -- remember that when we are lifting state to the parent component, we would like the structure of the object to reflect the child component hierarchy.
 
+A fundamental difference between the old approach and the new one is the addition of the `useEffect` hook, which is called after the functional component has rendered, making it behave like the `componentWillReceiveProps` function. This approach is interesting because using this method to make API calls (and therefore changing the state) leads to rerendering. Reacting to state changes in the application is generally considered bad practice because it can also lead to complicated dependency chains, making the code hard to follow. Infinite loops are also a common problem in code written by newcomers.
+
+
+<div class="margin-bottom">
+<pre><code class="language-js line-numbers">
+useEffect(() => {
+  fetchTasks(currentUser)
+})
+</code></pre>
+</div>
+
+Calling the `fetchTask` method like this causes an infinite loop because it sets the `isLoading` field to `true,` which triggers rerendering, which calls the effect again. In some cases, the dependency cycles might be more complicated: a parent component might trigger an effect in a child component, making the problem harder to diagnose. To make matters slightly worse is the fact that React's strict mode triggers double rendering for debugging purposes (this is a consequence of strict mode), which can make things extra confusing. 
