@@ -3,7 +3,11 @@ layout: post
 title:  "React Hooks Considerations"
 date:   2020-09-18 09:39:37 +0300
 description: "
+<<<<<<< Updated upstream
 The React team quite quickly realized that if a component doesn’t need to maintain an internal state, there’s no need for it to be a class. Not long after, the container / presentational pattern appeared, where the state changes would be handled in a wrapping class component, and the inner child component would handle the presentation part. The functional syntax became popular with quite a few developers -- after all, languages like Elm are quite popular these days.
+=======
+React's development history is widely documented and was developed for internal use at Facebook, as it is the case with a lot of librarie, and for quite some time it was ES5 only - ES6 support of course followed, but the team quite quickly realized that if a component doesn't need to maintain an internal state, there's no need for it to be a class, and one of the major additions of v14.0 were stateless functional components.
+>>>>>>> Stashed changes
 "
 icon: "hooks/hook-icon.png"
 categories:
