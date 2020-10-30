@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "Execution Contexts, Closures And Lexical Evironoments"
-date:   2020-04-09 09:39:37 +0300
+title:  "Closures, Execution Contexts, And Lexical Evironoments"
+date:   2020-10-03 09:39:37 +0300
 description: "
-Lately, there’s been a push from the React team to move from class components to functional components and hooks. This makes sense because even though JS supports classes, it’s primarily a functional language, and the class syntax is merely syntactic sugar. The motivation for writing this article came from various frustrations regarding this new way of doing this. Even though classes in C# or Java look superficially similar to those in JS, they are fundamentally different under the hood.
-"
+It’s quite common for back-end developers to move from C# or Java to Javascript and assume that it works the same because the ES6 is similar. Since C#/Java are OOP languages, classes are world-class citizens. That’s not the case, however, with JavaScript, which is more functional in nature. With JS, functions can exist outside classes and are the first-class citizens, and before ES6, we didn’t even have classes."
 icon: "closures/js.png"
 categories:
 ---
-Lately, there’s been a push from the React team to move from class components to functional components and hooks, which makes sense because even though JS supports classes, it’s primarily a functional language, and the class syntax is merely syntactic sugar. The motivation for writing this article came from various frustrations regarding this new way of doing this. Even though classes in C# or Java look superficially similar to those in JS, they are fundamentally different under the hood.
+It's quite common for back-end developers to move from C# or Java to Javascript and assume that it works the same because the ES6 is similar. Since C#/Java are OOP languages, classes are world-class citizens. That's not the case, however, with JavaScript, which is more functional in nature. With JS, functions can exist outside classes and are the first-class citizens, and before ES6, we didn't even have classes. 
 
-Since C# is an OOP language, classes are world-class citizens. That’s not the case, however, with JavaScript, which is more functional. With JS, functions can exist outside classes and are the first-class citizens, and before ES6, we didn’t even have classes. A typical JS function would look like this:
+A typical JS function would look like this:
 
 <div class="margin-bottom">
 <pre><code class="language-js line-numbers">
@@ -115,6 +114,20 @@ console.log(employee2.getFullName())
 </code></pre>
 </div>
 
-Even though the employee function has finished executing, since the `getFirstName`, `setFirstName` and `setLastTIme` functions still have access to the `_firstName` and `_lastName` fields. But because we called it twice, we have two copies of those values just like we would have different values for different instances of the same class. The fields 
+Even though the employee function has finished executing, since the `getFirstName`, `setFirstName` and `setLastTIme` functions still have access to the `_firstName` and `_lastName` fields. But because we called it twice, we have two copies of those values just like we would have different values for different instances of the same class. The fields now behave as private properties in a class.
 
 Since React functional components are closures, and you're just starting out with hooks, understanding how closures work under the hood can prevent a lot of problems down the road.
+
+This is how it works under the hood: Javascript engines have two concepts:
+
+1. Execution contexts
+2. Lexical environments
+
+When the JS engine executes any code (a script, or function), there are two phases:
+
+1. The creation phase
+2. The execution phase
+
+The creation phase consists of creating the execution context in which the code will run.
+
+By default, there is a global execution context. The execution context contains a reference to the `window` object, and the `this` keyword is also bound by default to this object.
