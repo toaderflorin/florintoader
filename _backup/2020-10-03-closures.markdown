@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Execution Contexts, Closures And Lexical Evironoments"
+title:  "Closures, Execution Contexts, And Lexical Evironoments"
 date:   2020-10-03 09:39:37 +0300
 description: "
 It’s quite common for back-end developers to move from C# or Java to Javascript and assume that it works the same because the ES6 is similar. Since C#/Java are OOP languages, classes are world-class citizens. That’s not the case, however, with JavaScript, which is more functional in nature. With JS, functions can exist outside classes and are the first-class citizens, and before ES6, we didn’t even have classes."
@@ -117,3 +117,17 @@ console.log(employee2.getFullName())
 Even though the employee function has finished executing, since the `getFirstName`, `setFirstName` and `setLastTIme` functions still have access to the `_firstName` and `_lastName` fields. But because we called it twice, we have two copies of those values just like we would have different values for different instances of the same class. The fields now behave as private properties in a class.
 
 Since React functional components are closures, and you're just starting out with hooks, understanding how closures work under the hood can prevent a lot of problems down the road.
+
+This is how it works under the hood: Javascript engines have two concepts:
+
+1. Execution contexts
+2. Lexical environments
+
+When the JS engine executes any code (a script, or function), there are two phases:
+
+1. The creation phase
+2. The execution phase
+
+The creation phase consists of creating the execution context in which the code will run.
+
+By default, there is a global execution context. The execution context contains a reference to the `window` object, and the `this` keyword is also bound by default to this object.
