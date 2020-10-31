@@ -6,7 +6,7 @@ description: "
 If you have worked with another layout engine other than HTML, you probably think that HTML is really hacky and unpredictable. And you wouldn’t be mistaken to think that: sometimes things expand to fill the available spaces, sometimes they don’t. Sometimes you specify a margin and it is respected. Sometimes it’s not. Most developers would feel your pain.
 "
 icon: "weird-html/html2-icon.png"
-url: "/images/hooks/hooks.jpg"
+media: "/images/hooks/hooks.jpg"
 ---
 If you have worked with another layout engine other than HTML, you probably think that HTML is hacky and unpredictable. And you wouldn't be mistaken to think that: sometimes things expand to fill the available spaces, sometimes they don't. Sometimes you specify a margin and it is respected. Sometimes it's not. Most developers would feel your pain, but here's the thing:
 
