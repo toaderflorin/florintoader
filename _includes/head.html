@@ -17,26 +17,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta
-    property="og:title"
-    content="
-      {% if page.title %}
-        {{ page.title | strip_html | strip_newlines | truncate: 160 }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}"
-  />
-
-  <meta
-    property="og:description"
-    content="
-      {% if page.excerpt %}
-        {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
-      {% else %}
-        {{ site.description }}
-      {% endif %}"
-  />
-
+  <meta property="og:title" content="{{%page.title %}}" />
+  <meta property="og:description" content="{{% page.description %}}" />
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"  />
 
   <title>
