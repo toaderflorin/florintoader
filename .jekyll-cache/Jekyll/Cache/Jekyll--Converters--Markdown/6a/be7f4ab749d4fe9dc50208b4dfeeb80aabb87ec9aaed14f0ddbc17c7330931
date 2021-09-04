@@ -1,0 +1,2 @@
+I"5<p>CORS stands for <em>Cross-Origin Resource Sharing</em> and if you’ve built rich client applications that communicate with an API via REST, you have probably crossed paths with something known as <em>same-origin policy</em>. What this policy refers to is that an application cannot access resources via <a href="https://www.w3schools.com/xml/xml_http.asp">XMLHttpRequest</a> or the <a href="https://developers.google.com/web/updates/2015/03/introduction-to-fetch">Fetch API</a> that come from a different URL than where the page was originally served from.</p>
+:ET
