@@ -39,8 +39,7 @@ We'll need to create reducer actions for:
 2. Removing an existing note.
 3. Updating an existing note.
 
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```javascript
 import { NotesState, NotesAction, Note } from './types'
 import { ADD_NOTE, REMOVE_NOTE, UPDATE_NOTE } from './actions'
 import { v4 } from 'uuid'
@@ -93,14 +92,11 @@ export function notesReducer(state: NotesState, action: NotesAction) {
     }
   }
 }
-
-</code></pre>
-</div>
+```
 
 Now that we have defined a reducer, we'll want to create the equivalent of Redux's action creators.
 
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```csharp
 import { Dispatch } from 'react'
 import { NotesAction } from './types'
 import { AppState } from '../../types'
@@ -138,13 +134,11 @@ export function updateNote(noteId: string, title: string, description: string) {
     })
   }
 }
-</code></pre>
-</div>
+```
 
 And finally, let's have a look the *types.ts* file.
 
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```
 import { ADD_NOTE, REMOVE_NOTE, UPDATE_NOTE } from './actions'
 
 export type Note = {
@@ -161,13 +155,11 @@ export type NotesAction =
   | { type: typeof ADD_NOTE, title: string, description: string }
   | { type: typeof REMOVE_NOTE, noteId: string }
   | { type: typeof UPDATE_NOTE, noteId: string, title: string, description: string }
-</code></pre>
-</div>
+```
 
 Our application also has a *tasks* section which has the same structure -- actions, and a state reducer. Since the application uses a single data store, we need to combine both our reducers into a single one. We'll create an *appReducer.ts* file for this.
 
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```
 type Action =
   | NotesAction
   | TasksAction
@@ -183,8 +175,7 @@ function combinedReducer(state: AppState, action: Action) {
     tasks: tasksReducer(state.tasks, action as TasksAction)
   }
 }
-</code></pre>
-</div>
+```
 
 Let's try to put it all together now. 
 
@@ -193,8 +184,7 @@ We need a way for the UI to be able to call our actions and to react to changes 
 1. The global state of the app.
 2. An execute method, which will allow it to trigger actions.
 
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```javascript
 import React, { useReducer, Dispatch } from 'react'
 import { AppState, ChildrenProps } from './modules/types'
 import appReducer, { initialAppState, Action } from './appReducer'
@@ -229,13 +219,10 @@ export default function AppContextProvider(props: ChildrenProps) {
     &lt;/AppContext.Provider&gt;
   )
 }
-</code></pre>
-</div>
+```
 
 We'll need to add the <span class="code">AppContextProvider</span> as the root component of the application. Then in a component, we can access the application state and the <span class="code">execute</span> method using the <span class="code">useContext</span> hook.
-
-<div class="margin-bottom">
-<pre><code class="language-js line-numbers">
+```
 const { state, execute } = useContext(AppContext)
 
 function removeNoteClick(noteId: string) {
@@ -245,7 +232,6 @@ function removeNoteClick(noteId: string) {
 const notes = state.notes.notes
 
 // rendering the notes
-</code></pre>
-</div>
+```
 
 The source code can be found [here](https://github.com/toaderflorin/hooks-store).

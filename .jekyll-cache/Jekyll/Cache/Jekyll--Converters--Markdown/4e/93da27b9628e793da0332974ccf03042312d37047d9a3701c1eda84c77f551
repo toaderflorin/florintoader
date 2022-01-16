@@ -1,0 +1,228 @@
+I"�\<p>While the rumors about Redux’s demise are most likely mostly exaggerated, there is no doubt that there is no doubt we can achieve a lot of the functionality it provides with hooks. Also, as a rule of thumb, we should avoid using as many external libraries as possible because chances are they could become deprecated in the future. While using the <span class="code">useReducer</span> hook is relatively straightforward, React doesn’t provide a prescription on how to structure a relatively large application. To make matters worse, virtually every blog article on the internet recommends using a different approach.</p>
+
+<p>Let’s first take a look at the Redux data flow.</p>
+
+<p><img src="/images/hook-store/arch.png" alt="diagram2" class="img-responsive" /></p>
+
+<p>First of all, it’s worth pointing out that the data flow is unidirectional. The user can trigger actions from the UI, which act on the application state via a <em>reducer</em>, which in turn triggers rerendering of the UI. The is aim to replicate this flow using the built in React functionality.</p>
+
+<p>With hooks, React provides powerful features when writing functional components, and it’s not opinionated on how you use them. The problem is, choosing the right approach can be tricky because there are so many permutations. Developers moving from .NET WebAPI or Rails (which are very opinionated in how you name your controllers and routes) to NodeJS / Express (which imposes no restrictions on how to structure your code) will find this approach very familiar.</p>
+
+<p>Another relatively new addition to React is the Context API. If you’re not familiar with what it is, it’s a way for components to avoid having to pass down props through complex component trees – a technique known as <em>prop drilling</em>. React’s rendering engine knows to react to changes in the context state, just as it is able to respond to changes in component state or prop changes.</p>
+
+<ol>
+  <li>We could have different contexts per route with separate data stores for each of them.</li>
+  <li>We could use a single context per application, and each route can keep its state in a property of the single app state object.</li>
+</ol>
+
+<p>We’ll go with option number two because that’s what Redux does, and most developers are familiar with that approach. The aim is to create a personal organizer application that has two sections: notes and tasks. The note page and task page structure are similar, so we’ll present the code for notes as an example.</p>
+
+<p><img src="/images/hook-store/pic2.png" alt="diagram2" class="img-responsive" /></p>
+
+<p>Since we plan to lay the groundwork for a complex app, we’ll assume that this application has multiple <em>modules</em>. Each module will have a <em>components</em> folder, which contains the UI code, and a <em>store</em> folder which contains the action creators and the reducer logic.</p>
+
+<p><img src="/images/hook-store/proj.png" alt="diagram2" style="width: 230px" /></p>
+
+<p>The reducer created with the <span class="code">useReducer</span> hook works similar to a Redux reducer. It’s just a function that takes a <em>state</em> object and an <em>action</em> object, and based on that, it returns a new state object. One way of thinking about it is it’s a way of mutating state, but of course we’re not really mutate the existing state, but rather creating a new state object (immutability is one of the central tenets of functional programming).</p>
+
+<p>We’ll need to create reducer actions for:</p>
+
+<ol>
+  <li>Creating a new note.</li>
+  <li>Removing an existing note.</li>
+  <li>Updating an existing note.</li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">NotesState</span><span class="p">,</span> <span class="nx">NotesAction</span><span class="p">,</span> <span class="nx">Note</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./types</span><span class="dl">'</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">ADD_NOTE</span><span class="p">,</span> <span class="nx">REMOVE_NOTE</span><span class="p">,</span> <span class="nx">UPDATE_NOTE</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./actions</span><span class="dl">'</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">v4</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">uuid</span><span class="dl">'</span>
+
+<span class="k">export</span> <span class="kd">const</span> <span class="nx">initialNotesState</span><span class="p">:</span> <span class="nx">NotesState</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">notes</span><span class="p">:</span> <span class="p">[]</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="kd">function</span> <span class="nx">notesReducer</span><span class="p">(</span><span class="nx">state</span><span class="p">:</span> <span class="nx">NotesState</span><span class="p">,</span> <span class="nx">action</span><span class="p">:</span> <span class="nx">NotesAction</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">switch</span> <span class="p">(</span><span class="nx">action</span><span class="p">.</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="nx">ADD_NOTE</span><span class="p">:</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="nx">note</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">id</span><span class="p">:</span> <span class="nx">v4</span><span class="p">(),</span>
+        <span class="na">title</span><span class="p">:</span> <span class="nx">action</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span>
+        <span class="na">description</span><span class="p">:</span> <span class="nx">action</span><span class="p">.</span><span class="nx">description</span>
+      <span class="p">}</span>
+
+      <span class="k">return</span> <span class="p">{</span>
+        <span class="p">...</span><span class="nx">state</span><span class="p">,</span>
+        <span class="na">notes</span><span class="p">:</span> <span class="p">[...</span><span class="nx">state</span><span class="p">.</span><span class="nx">notes</span><span class="p">,</span> <span class="nx">note</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">case</span> <span class="nx">REMOVE_NOTE</span><span class="p">:</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">{</span>
+        <span class="p">...</span><span class="nx">state</span><span class="p">,</span>
+        <span class="na">notes</span><span class="p">:</span> <span class="nx">state</span><span class="p">.</span><span class="nx">notes</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="na">note</span><span class="p">:</span> <span class="nx">Note</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">note</span><span class="p">.</span><span class="nx">id</span> <span class="o">!==</span> <span class="nx">action</span><span class="p">.</span><span class="nx">noteId</span><span class="p">)</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">case</span> <span class="nx">UPDATE_NOTE</span><span class="p">:</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">{</span>
+        <span class="p">...</span><span class="nx">state</span><span class="p">,</span>
+        <span class="na">notes</span><span class="p">:</span> <span class="nx">state</span><span class="p">.</span><span class="nx">notes</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="na">note</span><span class="p">:</span> <span class="nx">Note</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+          <span class="k">if</span> <span class="p">(</span><span class="nx">note</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">action</span><span class="p">.</span><span class="nx">noteId</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">{</span>
+              <span class="p">...</span><span class="nx">note</span><span class="p">,</span>
+              <span class="na">title</span><span class="p">:</span> <span class="nx">action</span><span class="p">.</span><span class="nx">title</span><span class="p">,</span>
+              <span class="na">description</span><span class="p">:</span> <span class="nx">action</span><span class="p">.</span><span class="nx">description</span>
+            <span class="p">}</span>
+          <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">note</span>
+          <span class="p">}</span>
+        <span class="p">})</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="nl">default</span><span class="p">:</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">state</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Now that we have defined a reducer, we’ll want to create the equivalent of Redux’s action creators.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">import</span> <span class="p">{</span> <span class="n">Dispatch</span> <span class="p">}</span> <span class="k">from</span> <span class="err">'</span><span class="n">react</span><span class="err">'</span>
+<span class="n">import</span> <span class="p">{</span> <span class="n">NotesAction</span> <span class="p">}</span> <span class="k">from</span> <span class="err">'</span><span class="p">./</span><span class="n">types</span><span class="err">'</span>
+<span class="n">import</span> <span class="p">{</span> <span class="n">AppState</span> <span class="p">}</span> <span class="k">from</span> <span class="err">'</span><span class="p">../../</span><span class="n">types</span><span class="err">'</span>
+
+<span class="n">export</span> <span class="k">const</span> <span class="n">ADD_NOTE</span> <span class="p">=</span> <span class="err">'</span><span class="n">ADD_NOTE</span><span class="err">'</span>
+<span class="n">export</span> <span class="k">const</span> <span class="n">REMOVE_NOTE</span> <span class="p">=</span> <span class="err">'</span><span class="n">REMOVE_NOTE</span><span class="err">'</span>
+<span class="n">export</span> <span class="k">const</span> <span class="n">UPDATE_NOTE</span> <span class="p">=</span> <span class="err">'</span><span class="n">UPDATE_NOTE</span><span class="err">'</span>
+
+<span class="n">export</span> <span class="n">function</span> <span class="nf">addNote</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="kt">string</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="k">async</span> <span class="nf">function</span> <span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AppState</span><span class="p">,</span> <span class="n">dispatch</span><span class="p">:</span> <span class="n">Dispatch</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="n">NotesAction</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;)</span> <span class="p">{</span>
+    <span class="nf">dispatch</span><span class="p">({</span>
+      <span class="n">type</span><span class="p">:</span> <span class="n">ADD_NOTE</span><span class="p">,</span>
+      <span class="n">title</span><span class="p">,</span>
+      <span class="n">description</span>
+    <span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">export</span> <span class="n">function</span> <span class="nf">removeNote</span><span class="p">(</span><span class="n">noteId</span><span class="p">:</span> <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="k">async</span> <span class="nf">function</span> <span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AppState</span><span class="p">,</span> <span class="n">dispatch</span><span class="p">:</span> <span class="n">Dispatch</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="n">NotesAction</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;)</span> <span class="p">{</span>
+    <span class="nf">dispatch</span><span class="p">({</span>
+      <span class="n">type</span><span class="p">:</span> <span class="n">REMOVE_NOTE</span><span class="p">,</span>
+      <span class="n">noteId</span>
+    <span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">export</span> <span class="n">function</span> <span class="nf">updateNote</span><span class="p">(</span><span class="n">noteId</span><span class="p">:</span> <span class="kt">string</span><span class="p">,</span> <span class="n">title</span><span class="p">:</span> <span class="kt">string</span><span class="p">,</span> <span class="n">description</span><span class="p">:</span> <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="k">async</span> <span class="nf">function</span> <span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AppState</span><span class="p">,</span> <span class="n">dispatch</span><span class="p">:</span> <span class="n">Dispatch</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="n">NotesAction</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;)</span> <span class="p">{</span>
+    <span class="nf">dispatch</span><span class="p">({</span>
+      <span class="n">type</span><span class="p">:</span> <span class="n">UPDATE_NOTE</span><span class="p">,</span>
+      <span class="n">noteId</span><span class="p">,</span>
+      <span class="n">title</span><span class="p">,</span>
+      <span class="n">description</span>
+    <span class="p">})</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And finally, let’s have a look the <em>types.ts</em> file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import { ADD_NOTE, REMOVE_NOTE, UPDATE_NOTE } from './actions'
+
+export type Note = {
+  id: string
+  title: string
+  description: string
+}
+
+export type NotesState = {
+  notes: Note[]
+}
+
+export type NotesAction =
+  | { type: typeof ADD_NOTE, title: string, description: string }
+  | { type: typeof REMOVE_NOTE, noteId: string }
+  | { type: typeof UPDATE_NOTE, noteId: string, title: string, description: string }
+</code></pre></div></div>
+
+<p>Our application also has a <em>tasks</em> section which has the same structure – actions, and a state reducer. Since the application uses a single data store, we need to combine both our reducers into a single one. We’ll create an <em>appReducer.ts</em> file for this.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Action =
+  | NotesAction
+  | TasksAction
+
+const initialAppState = {
+  tasks: initialTasksState,
+  notes: initialNotesState
+}
+
+function combinedReducer(state: AppState, action: Action) {
+  return {
+    notes: notesReducer(state.notes, action as NotesAction),
+    tasks: tasksReducer(state.tasks, action as TasksAction)
+  }
+}
+</code></pre></div></div>
+
+<p>Let’s try to put it all together now.</p>
+
+<p>We need a way for the UI to be able to call our actions and to react to changes in the application state. We’ll use a global context that can be accessed from anywhere in the application via the useContext hook that will give the calling component access to the following:</p>
+
+<ol>
+  <li>The global state of the app.</li>
+  <li>An execute method, which will allow it to trigger actions.</li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useReducer</span><span class="p">,</span> <span class="nx">Dispatch</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">react</span><span class="dl">'</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">AppState</span><span class="p">,</span> <span class="nx">ChildrenProps</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./modules/types</span><span class="dl">'</span>
+<span class="k">import</span> <span class="nx">appReducer</span><span class="p">,</span> <span class="p">{</span> <span class="nx">initialAppState</span><span class="p">,</span> <span class="nx">Action</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./appReducer</span><span class="dl">'</span>
+
+<span class="k">export</span> <span class="nx">type</span> <span class="nx">ExecuteFunc</span> <span class="o">=</span> <span class="p">(</span><span class="nx">state</span><span class="p">:</span> <span class="nx">AppState</span><span class="p">,</span> <span class="nx">dispatch</span><span class="p">:</span> <span class="nx">Dispatch</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="nx">any</span><span class="o">&amp;</span><span class="nx">gt</span><span class="p">;)</span> 
+  <span class="o">=&gt;</span> <span class="nb">Promise</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="k">void</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="o">|</span> <span class="k">void</span>
+
+<span class="k">export</span> <span class="nx">type</span> <span class="nx">AppContextType</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">state</span><span class="p">:</span> <span class="nx">AppState</span>
+  <span class="na">execute</span><span class="p">:</span> <span class="p">(</span><span class="na">action</span><span class="p">:</span> <span class="nx">ExecuteFunc</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nb">Promise</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="k">void</span><span class="o">&amp;</span><span class="nx">gt</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// eslint-disable-next-line @typescript-eslint/no-explicit-any</span>
+<span class="k">export</span> <span class="kd">const</span> <span class="nx">AppContext</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createContext</span><span class="p">({}</span> <span class="k">as</span> <span class="nx">any</span> <span class="k">as</span> <span class="nx">AppContextType</span><span class="p">)</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="kd">function</span> <span class="nx">AppContextProvider</span><span class="p">(</span><span class="nx">props</span><span class="p">:</span> <span class="nx">ChildrenProps</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">state</span><span class="p">,</span> <span class="nx">dispatch</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useReducer</span><span class="p">(</span><span class="nx">combinedReducer</span><span class="p">,</span> <span class="nx">initialAppState</span><span class="p">)</span>
+
+  <span class="k">async</span> <span class="kd">function</span> <span class="nx">execute</span><span class="p">(</span><span class="nx">action</span><span class="p">:</span> <span class="p">(</span><span class="nx">state</span><span class="p">:</span> <span class="nx">AppState</span><span class="p">,</span> <span class="nx">dispatch</span><span class="p">:</span> <span class="nx">Dispatch</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="nx">Action</span><span class="o">&amp;</span><span class="nx">gt</span><span class="p">;)</span> 
+    <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="nb">Promise</span><span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="k">void</span><span class="o">&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="o">|</span> <span class="k">void</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="p">{</span>
+      <span class="k">await</span> <span class="nx">action</span><span class="p">(</span><span class="nx">state</span><span class="p">,</span> <span class="nx">dispatch</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+      <span class="c1">// take appropriate action and report the error</span>
+      <span class="nx">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">The application encountered an error.</span><span class="dl">'</span><span class="p">)</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="nx">AppContext</span><span class="p">.</span><span class="nx">Provider</span> <span class="nx">value</span><span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span>
+      <span class="p">{</span><span class="nx">props</span><span class="p">.</span><span class="nx">children</span><span class="p">}</span>
+    <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span><span class="sr">/AppContext.Provider&amp;gt</span><span class="err">;
+</span>  <span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>We’ll need to add the <span class="code">AppContextProvider</span> as the root component of the application. Then in a component, we can access the application state and the <span class="code">execute</span> method using the <span class="code">useContext</span> hook.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const { state, execute } = useContext(AppContext)
+
+function removeNoteClick(noteId: string) {
+  execute(noteActions.removeNote(noteId))
+}
+
+const notes = state.notes.notes
+
+// rendering the notes
+</code></pre></div></div>
+
+<p>The source code can be found <a href="https://github.com/toaderflorin/hooks-store">here</a>.</p>
+:ET
